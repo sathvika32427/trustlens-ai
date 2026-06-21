@@ -1,0 +1,6 @@
+{
+  "name": "TrustLens AI",
+  "description": "Transparent & Trustworthy AI Agent Interface for Enterprise IT Administrators offering full transparency, explainability, human feedback, and audit control over AI-generated recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
