@@ -1,0 +1,201 @@
+incident_id,recommendation_id,device_id,case_id,incident_title,cause,safeguard_failure,corrective_action,created_at
+INC-0001,REC-0940,DEV-0099,CASE-0706,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-07
+INC-0002,REC-0311,DEV-0214,CASE-0463,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-03-18
+INC-0003,REC-0741,DEV-0167,CASE-0996,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-02-23
+INC-0004,REC-0389,DEV-0185,CASE-0112,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-05-02
+INC-0005,REC-0911,DEV-0091,CASE-0272,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-13
+INC-0006,REC-0825,DEV-0228,CASE-0102,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-03-10
+INC-0007,REC-0210,DEV-0227,CASE-0793,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-23
+INC-0008,REC-0022,DEV-0248,CASE-0159,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-03-05
+INC-0009,REC-0891,DEV-0229,CASE-0930,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-03-30
+INC-0010,REC-0343,DEV-0144,CASE-0454,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-04-11
+INC-0011,REC-0699,DEV-0143,CASE-0850,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-02-26
+INC-0012,REC-0870,DEV-0141,CASE-0536,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-05-14
+INC-0013,REC-0141,DEV-0193,CASE-0240,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-30
+INC-0014,REC-0292,DEV-0049,CASE-0082,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-06
+INC-0015,REC-0560,DEV-0097,CASE-0870,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-06-04
+INC-0016,REC-0171,DEV-0006,CASE-0977,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-02-27
+INC-0017,REC-0580,DEV-0014,CASE-0542,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-07
+INC-0018,REC-0110,DEV-0212,CASE-0776,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-06-20
+INC-0019,REC-0438,DEV-0066,CASE-0997,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-06-16
+INC-0020,REC-0900,DEV-0202,CASE-0084,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-02-28
+INC-0021,REC-0956,DEV-0120,CASE-0053,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-05-02
+INC-0022,REC-0867,DEV-0240,CASE-0256,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-02-26
+INC-0023,REC-0586,DEV-0220,CASE-0655,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-27
+INC-0024,REC-0100,DEV-0129,CASE-0918,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-04-20
+INC-0025,REC-0219,DEV-0221,CASE-0783,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-01
+INC-0026,REC-0458,DEV-0212,CASE-0022,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-09
+INC-0027,REC-0690,DEV-0048,CASE-0629,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-04-23
+INC-0028,REC-0329,DEV-0120,CASE-0691,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-05
+INC-0029,REC-0480,DEV-0017,CASE-0874,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-05
+INC-0030,REC-0339,DEV-0104,CASE-0859,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-05-23
+INC-0031,REC-0179,DEV-0165,CASE-0482,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-15
+INC-0032,REC-0049,DEV-0059,CASE-0906,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-24
+INC-0033,REC-0767,DEV-0030,CASE-0085,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-03-08
+INC-0034,REC-0789,DEV-0246,CASE-0546,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-10
+INC-0035,REC-0329,DEV-0098,CASE-0434,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-21
+INC-0036,REC-0588,DEV-0175,CASE-0853,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-03-02
+INC-0037,REC-0249,DEV-0084,CASE-0134,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-05-08
+INC-0038,REC-0690,DEV-0109,CASE-0740,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-04-14
+INC-0039,REC-0575,DEV-0012,CASE-0425,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-06-06
+INC-0040,REC-0415,DEV-0002,CASE-0656,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-04-30
+INC-0041,REC-0512,DEV-0129,CASE-0388,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-17
+INC-0042,REC-0815,DEV-0244,CASE-0449,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-06-11
+INC-0043,REC-0564,DEV-0047,CASE-0099,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-05-16
+INC-0044,REC-0973,DEV-0050,CASE-0557,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-31
+INC-0045,REC-0042,DEV-0223,CASE-0468,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-06-08
+INC-0046,REC-0440,DEV-0071,CASE-0569,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-05-10
+INC-0047,REC-1000,DEV-0033,CASE-0412,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-30
+INC-0048,REC-0626,DEV-0044,CASE-0114,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-03-10
+INC-0049,REC-0508,DEV-0056,CASE-0556,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-24
+INC-0050,REC-0724,DEV-0096,CASE-0329,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-04-11
+INC-0051,REC-0546,DEV-0014,CASE-0196,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-03-03
+INC-0052,REC-0413,DEV-0125,CASE-0079,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-05-18
+INC-0053,REC-0767,DEV-0145,CASE-0083,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-06-18
+INC-0054,REC-0742,DEV-0137,CASE-0539,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-02-25
+INC-0055,REC-0689,DEV-0207,CASE-0933,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-21
+INC-0056,REC-0924,DEV-0050,CASE-0311,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-04-19
+INC-0057,REC-0388,DEV-0213,CASE-0866,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-06-06
+INC-0058,REC-0915,DEV-0037,CASE-0506,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-08
+INC-0059,REC-0388,DEV-0037,CASE-0179,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-04-09
+INC-0060,REC-0672,DEV-0173,CASE-0880,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-06-06
+INC-0061,REC-0524,DEV-0169,CASE-0312,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-06-02
+INC-0062,REC-0080,DEV-0014,CASE-0054,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-03-16
+INC-0063,REC-0447,DEV-0065,CASE-0372,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-06-13
+INC-0064,REC-0503,DEV-0058,CASE-0096,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-05
+INC-0065,REC-0533,DEV-0004,CASE-0585,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-17
+INC-0066,REC-0248,DEV-0127,CASE-0499,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-03-12
+INC-0067,REC-0046,DEV-0214,CASE-0268,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-15
+INC-0068,REC-0640,DEV-0030,CASE-0094,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-04-27
+INC-0069,REC-0736,DEV-0060,CASE-0612,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-05-11
+INC-0070,REC-0071,DEV-0081,CASE-0449,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-05-29
+INC-0071,REC-0910,DEV-0111,CASE-0812,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-10
+INC-0072,REC-0620,DEV-0102,CASE-0410,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-05-22
+INC-0073,REC-0091,DEV-0109,CASE-0528,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-05-17
+INC-0074,REC-0110,DEV-0007,CASE-0672,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-12
+INC-0075,REC-0765,DEV-0089,CASE-0607,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-03-06
+INC-0076,REC-0272,DEV-0247,CASE-0361,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-06-14
+INC-0077,REC-0378,DEV-0206,CASE-0345,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-04-27
+INC-0078,REC-0830,DEV-0030,CASE-0760,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-03-18
+INC-0079,REC-0455,DEV-0140,CASE-0067,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-14
+INC-0080,REC-0987,DEV-0046,CASE-0979,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-06-10
+INC-0081,REC-0043,DEV-0229,CASE-0951,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-05-09
+INC-0082,REC-0813,DEV-0188,CASE-0234,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-02-26
+INC-0083,REC-0199,DEV-0241,CASE-0848,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-11
+INC-0084,REC-0032,DEV-0008,CASE-0113,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-05-25
+INC-0085,REC-0973,DEV-0062,CASE-0459,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-02-28
+INC-0086,REC-0276,DEV-0146,CASE-0357,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-06-11
+INC-0087,REC-0006,DEV-0084,CASE-0992,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-03-22
+INC-0088,REC-0494,DEV-0108,CASE-0925,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-11
+INC-0089,REC-0772,DEV-0071,CASE-0939,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-19
+INC-0090,REC-0340,DEV-0162,CASE-0100,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-05-13
+INC-0091,REC-0327,DEV-0033,CASE-0143,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-21
+INC-0092,REC-0244,DEV-0224,CASE-0726,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-04-26
+INC-0093,REC-0632,DEV-0168,CASE-0861,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-03-07
+INC-0094,REC-0217,DEV-0133,CASE-0974,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-05-25
+INC-0095,REC-0434,DEV-0099,CASE-0834,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-22
+INC-0096,REC-0729,DEV-0054,CASE-0720,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-02-28
+INC-0097,REC-0942,DEV-0080,CASE-0907,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-18
+INC-0098,REC-0892,DEV-0177,CASE-0995,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-03-22
+INC-0099,REC-0151,DEV-0055,CASE-0517,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-04-01
+INC-0100,REC-0448,DEV-0035,CASE-0861,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-06-08
+INC-0101,REC-0119,DEV-0197,CASE-0566,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-02-21
+INC-0102,REC-0771,DEV-0006,CASE-0855,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-04-10
+INC-0103,REC-0878,DEV-0056,CASE-0514,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-29
+INC-0104,REC-0594,DEV-0094,CASE-0422,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-04-06
+INC-0105,REC-0952,DEV-0005,CASE-0686,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-04-21
+INC-0106,REC-0139,DEV-0193,CASE-0650,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-05-19
+INC-0107,REC-0809,DEV-0116,CASE-0044,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-30
+INC-0108,REC-0858,DEV-0033,CASE-0219,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-03-24
+INC-0109,REC-0568,DEV-0242,CASE-0908,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-05-17
+INC-0110,REC-0258,DEV-0001,CASE-0961,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-21
+INC-0111,REC-0377,DEV-0125,CASE-0289,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-03-19
+INC-0112,REC-0470,DEV-0204,CASE-0103,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-04-24
+INC-0113,REC-0804,DEV-0149,CASE-0084,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-29
+INC-0114,REC-0932,DEV-0026,CASE-0175,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-03-21
+INC-0115,REC-0735,DEV-0129,CASE-0422,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-04
+INC-0116,REC-0654,DEV-0090,CASE-0302,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-06-20
+INC-0117,REC-0298,DEV-0135,CASE-0055,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-04-30
+INC-0118,REC-0056,DEV-0247,CASE-0374,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-06-15
+INC-0119,REC-0588,DEV-0063,CASE-0920,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-28
+INC-0120,REC-0339,DEV-0201,CASE-0355,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-06-04
+INC-0121,REC-0132,DEV-0237,CASE-0554,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-13
+INC-0122,REC-0864,DEV-0110,CASE-0582,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-06-02
+INC-0123,REC-0796,DEV-0126,CASE-0860,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-06-10
+INC-0124,REC-0296,DEV-0179,CASE-0925,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-06-08
+INC-0125,REC-0810,DEV-0118,CASE-0197,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-24
+INC-0126,REC-0773,DEV-0101,CASE-0937,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-04-07
+INC-0127,REC-0573,DEV-0183,CASE-0924,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-05-02
+INC-0128,REC-0809,DEV-0111,CASE-0009,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-29
+INC-0129,REC-0413,DEV-0206,CASE-0934,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-05-28
+INC-0130,REC-0830,DEV-0054,CASE-0692,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-26
+INC-0131,REC-0104,DEV-0126,CASE-0546,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-21
+INC-0132,REC-0677,DEV-0177,CASE-0810,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-03-26
+INC-0133,REC-0270,DEV-0210,CASE-0801,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-06-19
+INC-0134,REC-0118,DEV-0098,CASE-0092,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-03-29
+INC-0135,REC-0612,DEV-0237,CASE-0485,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-04-03
+INC-0136,REC-0087,DEV-0234,CASE-0913,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-04-27
+INC-0137,REC-0124,DEV-0203,CASE-0032,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-23
+INC-0138,REC-0357,DEV-0207,CASE-0964,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-02-24
+INC-0139,REC-0551,DEV-0094,CASE-0522,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-24
+INC-0140,REC-0727,DEV-0152,CASE-0100,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-04-11
+INC-0141,REC-0244,DEV-0058,CASE-0965,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-02-26
+INC-0142,REC-0357,DEV-0235,CASE-0320,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-06-19
+INC-0143,REC-0019,DEV-0101,CASE-0117,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-04-09
+INC-0144,REC-0136,DEV-0071,CASE-0296,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-06-12
+INC-0145,REC-0525,DEV-0101,CASE-0380,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-05-29
+INC-0146,REC-0155,DEV-0082,CASE-0600,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-09
+INC-0147,REC-0105,DEV-0130,CASE-0784,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-05-14
+INC-0148,REC-0526,DEV-0128,CASE-0401,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-30
+INC-0149,REC-0572,DEV-0198,CASE-0739,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-06-18
+INC-0150,REC-0529,DEV-0045,CASE-0550,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-06-03
+INC-0151,REC-0124,DEV-0104,CASE-0064,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-21
+INC-0152,REC-0889,DEV-0006,CASE-0956,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-06
+INC-0153,REC-0624,DEV-0102,CASE-0561,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-04-17
+INC-0154,REC-0277,DEV-0227,CASE-0023,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-06-04
+INC-0155,REC-0844,DEV-0185,CASE-0064,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-04-17
+INC-0156,REC-0157,DEV-0027,CASE-0390,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-04-13
+INC-0157,REC-0149,DEV-0071,CASE-0363,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-19
+INC-0158,REC-0681,DEV-0208,CASE-0645,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-20
+INC-0159,REC-0399,DEV-0149,CASE-0826,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-04-10
+INC-0160,REC-0132,DEV-0197,CASE-0647,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-06-14
+INC-0161,REC-0035,DEV-0164,CASE-0377,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-06-09
+INC-0162,REC-0399,DEV-0220,CASE-0898,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-04-07
+INC-0163,REC-0888,DEV-0185,CASE-0517,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-23
+INC-0164,REC-0583,DEV-0086,CASE-0753,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-08
+INC-0165,REC-0863,DEV-0160,CASE-0456,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-04-29
+INC-0166,REC-0297,DEV-0170,CASE-0331,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-18
+INC-0167,REC-0705,DEV-0239,CASE-0680,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-04-08
+INC-0168,REC-0339,DEV-0236,CASE-0806,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-06-18
+INC-0169,REC-0298,DEV-0248,CASE-0677,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-08
+INC-0170,REC-0312,DEV-0071,CASE-0743,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-06-08
+INC-0171,REC-0055,DEV-0217,CASE-0694,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-06-08
+INC-0172,REC-0534,DEV-0027,CASE-0105,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-05-12
+INC-0173,REC-0175,DEV-0038,CASE-0880,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-05-20
+INC-0174,REC-0551,DEV-0143,CASE-0375,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-05-10
+INC-0175,REC-0450,DEV-0189,CASE-0060,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-25
+INC-0176,REC-0392,DEV-0044,CASE-0811,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-03-23
+INC-0177,REC-0390,DEV-0212,CASE-0667,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-05-23
+INC-0178,REC-0685,DEV-0023,CASE-0240,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-04-10
+INC-0179,REC-0488,DEV-0209,CASE-0122,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-04-26
+INC-0180,REC-0253,DEV-0141,CASE-0452,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-04-05
+INC-0181,REC-0852,DEV-0106,CASE-0832,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-04-07
+INC-0182,REC-0153,DEV-0125,CASE-0726,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-04-22
+INC-0183,REC-0308,DEV-0048,CASE-0317,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-02-21
+INC-0184,REC-0529,DEV-0040,CASE-0843,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-05-07
+INC-0185,REC-0345,DEV-0069,CASE-0597,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-23
+INC-0186,REC-0282,DEV-0208,CASE-0952,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-03-03
+INC-0187,REC-0552,DEV-0213,CASE-0096,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-13
+INC-0188,REC-0452,DEV-0230,CASE-0762,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-05-11
+INC-0189,REC-0373,DEV-0136,CASE-0073,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-05-14
+INC-0190,REC-0813,DEV-0017,CASE-0681,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-30
+INC-0191,REC-0333,DEV-0137,CASE-0710,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-04-09
+INC-0192,REC-0859,DEV-0106,CASE-0101,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-04-14
+INC-0193,REC-0359,DEV-0235,CASE-0792,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-03-04
+INC-0194,REC-0329,DEV-0121,CASE-0618,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-03-15
+INC-0195,REC-0395,DEV-0035,CASE-0157,False Quarantine on Linux Dev Box,Package manager activity misread,Linux behavioral model gap,Linux training data expanded,2026-04-12
+INC-0196,REC-0904,DEV-0017,CASE-0967,Delayed Patch on Critical Server,Low confidence led to dismissal,Impact preview not reviewed,Mandatory impact review for servers,2026-03-18
+INC-0197,REC-0396,DEV-0240,CASE-0207,Credential Reset on Valid User,Travel login flagged as compromise,Geo-velocity threshold too aggressive,Travel-aware auth baselines added,2026-03-10
+INC-0198,REC-0757,DEV-0093,CASE-0621,Wrong Device Quarantined,Software update mistaken for malware,Update verification missing,Update detection logic added,2026-05-04
+INC-0199,REC-0306,DEV-0114,CASE-0536,Executive Lockout During Negotiations,Off-hours backup flagged as exfiltration,Executive context not applied,Executive policy rules integrated,2026-05-09
+INC-0200,REC-0805,DEV-0206,CASE-0252,QA Environment Disrupted,Stress test traffic classified as attack,Staging scope boundary missing,Environment tagging enforced,2026-03-31

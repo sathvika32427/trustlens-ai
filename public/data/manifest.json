@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-21T09:08:53.020065Z",
+  "files": [
+    "recommendations",
+    "trust_ledger",
+    "impact_preview",
+    "adaptive_approval",
+    "counter_considerations",
+    "outcomes",
+    "incident_cards",
+    "trust_timeline",
+    "similar_cases",
+    "evidence_weights",
+    "trust_breakdown",
+    "feedback",
+    "recommendation_aging",
+    "ai_health",
+    "business_impact"
+  ],
+  "relationship_keys": [
+    "recommendation_id",
+    "device_id",
+    "case_id",
+    "incident_id"
+  ],
+  "current_employee": "Sarah Jenkins",
+  "current_employee_device": "DEV-0143"
+}

@@ -64,7 +64,7 @@ export default function Modal({
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.92, y: 20 }}
             transition={{ type: "spring", damping: 26, stiffness: 320 }}
-            className={`relative w-full ${sizeClass} overflow-hidden rounded-2xl bg-white shadow-2xl shadow-slate-900/30`}
+            className={`relative w-full ${sizeClass} overflow-hidden rounded-2xl border border-[var(--tl-border)] bg-[var(--tl-bg-card)] shadow-2xl`}
           >
             <div className={`bg-gradient-to-r ${accentMap[accent]} px-6 py-5 text-white`}>
               <div className="flex items-start justify-between gap-4">
@@ -89,9 +89,9 @@ export default function Modal({
                 </button>
               </div>
             </div>
-            <div className="max-h-[60vh] overflow-y-auto px-6 py-5">{children}</div>
+            <div className="max-h-[60vh] overflow-y-auto px-6 py-5 text-[var(--tl-text-secondary)]">{children}</div>
             {footer && (
-              <div className="border-t border-slate-100 bg-slate-50 px-6 py-4">{footer}</div>
+              <div className="border-t border-[var(--tl-border)] bg-[var(--tl-bg-elevated)] px-6 py-4">{footer}</div>
             )}
           </motion.div>
         </div>

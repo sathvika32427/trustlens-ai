@@ -1,0 +1,1001 @@
+recommendation_id,device_id,case_id,past_similar_cases,correct_recommendations,incorrect_recommendations,historical_reliability_score,known_weaknesses
+REC-0001,DEV-0103,CASE-0001,43,49,2,96.1,Limited visibility during VPN outages; Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0002,DEV-0038,CASE-0002,76,75,5,93.8,Reduced accuracy on staging environments
+REC-0003,DEV-0244,CASE-0003,100,41,0,100.0,Elevated false positives during patch windows
+REC-0004,DEV-0172,CASE-0004,78,68,2,97.1,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0005,DEV-0228,CASE-0005,95,66,3,95.7,Struggles with executive device context
+REC-0006,DEV-0089,CASE-0006,15,22,0,100.0,Elevated false positives during patch windows
+REC-0007,DEV-0162,CASE-0007,69,26,1,96.3,Limited visibility during VPN outages; Over-flags Linux devices; Struggles with executive device context
+REC-0008,DEV-0103,CASE-0008,48,33,0,100.0,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0009,DEV-0036,CASE-0009,42,78,3,96.3,Reduced accuracy on staging environments
+REC-0010,DEV-0225,CASE-0010,82,40,3,93.0,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0011,DEV-0113,CASE-0011,56,75,2,97.4,Elevated false positives during patch windows; Struggles with executive device context
+REC-0012,DEV-0147,CASE-0012,43,21,1,95.5,Struggles with executive device context
+REC-0013,DEV-0097,CASE-0013,31,55,1,98.2,Limited visibility during VPN outages; Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0014,DEV-0220,CASE-0014,105,21,1,95.5,Overweights failed login signals on shared kiosks
+REC-0015,DEV-0233,CASE-0015,64,26,1,96.3,Over-flags Linux devices; Limited visibility during VPN outages; Struggles with executive device context
+REC-0016,DEV-0093,CASE-0016,82,75,6,92.6,Struggles with executive device context
+REC-0017,DEV-0204,CASE-0017,108,50,2,96.2,Over-flags Linux devices; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0018,DEV-0061,CASE-0018,64,79,1,98.8,Over-flags Linux devices
+REC-0019,DEV-0225,CASE-0019,104,55,3,94.8,Less reliable on previously unseen device models
+REC-0020,DEV-0234,CASE-0020,79,39,0,100.0,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0021,DEV-0065,CASE-0021,86,41,1,97.6,Limited visibility during VPN outages; Over-flags Linux devices
+REC-0022,DEV-0170,CASE-0022,75,68,1,98.6,Struggles with executive device context
+REC-0023,DEV-0013,CASE-0023,114,67,5,93.1,Limited visibility during VPN outages; Struggles with executive device context
+REC-0024,DEV-0122,CASE-0024,16,40,0,100.0,Overweights failed login signals on shared kiosks
+REC-0025,DEV-0144,CASE-0025,103,28,0,100.0,Reduced accuracy on staging environments
+REC-0026,DEV-0222,CASE-0026,55,45,0,100.0,Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0027,DEV-0219,CASE-0027,79,54,1,98.2,Limited visibility during VPN outages; Over-flags Linux devices
+REC-0028,DEV-0012,CASE-0028,112,64,4,94.1,Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0029,DEV-0120,CASE-0029,33,30,0,100.0,Struggles with executive device context; Limited visibility during VPN outages
+REC-0030,DEV-0113,CASE-0030,67,53,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0031,DEV-0076,CASE-0031,70,71,0,100.0,Struggles with executive device context; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0032,DEV-0109,CASE-0032,98,30,1,96.8,Over-flags Linux devices; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0033,DEV-0170,CASE-0033,107,23,1,95.8,Overweights failed login signals on shared kiosks
+REC-0034,DEV-0070,CASE-0034,119,77,3,96.2,Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0035,DEV-0001,CASE-0035,48,36,2,94.7,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0036,DEV-0227,CASE-0036,66,37,1,97.4,Less reliable on previously unseen device models; Struggles with executive device context
+REC-0037,DEV-0122,CASE-0037,116,79,1,98.8,Overweights failed login signals on shared kiosks; Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0038,DEV-0046,CASE-0038,118,52,3,94.5,Limited visibility during VPN outages
+REC-0039,DEV-0011,CASE-0039,112,58,0,100.0,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0040,DEV-0181,CASE-0040,50,66,0,100.0,Struggles with executive device context; Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0041,DEV-0154,CASE-0041,83,24,0,100.0,Reduced accuracy on staging environments
+REC-0042,DEV-0103,CASE-0042,82,45,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0043,DEV-0029,CASE-0043,29,78,2,97.5,Over-flags Linux devices; Elevated false positives during patch windows
+REC-0044,DEV-0183,CASE-0044,36,65,0,100.0,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0045,DEV-0021,CASE-0045,56,65,0,100.0,Reduced accuracy on staging environments
+REC-0046,DEV-0121,CASE-0046,40,24,0,100.0,Elevated false positives during patch windows
+REC-0047,DEV-0215,CASE-0047,32,72,3,96.0,Less reliable on previously unseen device models; Struggles with executive device context; Over-flags Linux devices
+REC-0048,DEV-0202,CASE-0048,92,58,2,96.7,Reduced accuracy on staging environments
+REC-0049,DEV-0111,CASE-0049,106,40,2,95.2,Elevated false positives during patch windows
+REC-0050,DEV-0070,CASE-0050,79,65,2,97.0,Struggles with executive device context
+REC-0051,DEV-0079,CASE-0051,97,72,0,100.0,Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0052,DEV-0212,CASE-0052,60,69,5,93.2,Struggles with executive device context; Limited visibility during VPN outages
+REC-0053,DEV-0151,CASE-0053,21,38,1,97.4,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0054,DEV-0062,CASE-0054,81,28,1,96.6,Struggles with executive device context
+REC-0055,DEV-0060,CASE-0055,43,21,1,95.5,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0056,DEV-0097,CASE-0056,33,21,1,95.5,Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0057,DEV-0192,CASE-0057,86,46,0,100.0,Struggles with executive device context
+REC-0058,DEV-0123,CASE-0058,24,38,0,100.0,Over-flags Linux devices; Struggles with executive device context
+REC-0059,DEV-0155,CASE-0059,33,64,0,100.0,Over-flags Linux devices; Struggles with executive device context; Limited visibility during VPN outages
+REC-0060,DEV-0218,CASE-0060,53,31,1,96.9,Struggles with executive device context
+REC-0061,DEV-0246,CASE-0061,20,49,0,100.0,Over-flags Linux devices
+REC-0062,DEV-0201,CASE-0062,101,69,1,98.6,Reduced accuracy on staging environments; Struggles with executive device context; Limited visibility during VPN outages
+REC-0063,DEV-0108,CASE-0063,93,20,0,100.0,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0064,DEV-0148,CASE-0064,42,41,0,100.0,Limited visibility during VPN outages; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0065,DEV-0001,CASE-0065,85,75,1,98.7,Reduced accuracy on staging environments
+REC-0066,DEV-0124,CASE-0066,65,36,1,97.3,Over-flags Linux devices; Struggles with executive device context; Less reliable on previously unseen device models
+REC-0067,DEV-0051,CASE-0067,81,74,2,97.4,Over-flags Linux devices; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0068,DEV-0161,CASE-0068,96,21,1,95.5,Over-flags Linux devices; Elevated false positives during patch windows
+REC-0069,DEV-0166,CASE-0069,58,21,0,100.0,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0070,DEV-0009,CASE-0070,89,22,1,95.7,Struggles with executive device context; Elevated false positives during patch windows
+REC-0071,DEV-0100,CASE-0071,118,54,3,94.7,Struggles with executive device context
+REC-0072,DEV-0237,CASE-0072,35,27,0,100.0,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0073,DEV-0011,CASE-0073,73,22,1,95.7,Less reliable on previously unseen device models; Struggles with executive device context
+REC-0074,DEV-0109,CASE-0074,74,69,4,94.5,Less reliable on previously unseen device models
+REC-0075,DEV-0222,CASE-0075,85,71,5,93.4,Limited visibility during VPN outages; Struggles with executive device context; Reduced accuracy on staging environments
+REC-0076,DEV-0200,CASE-0076,109,26,1,96.3,Limited visibility during VPN outages; Struggles with executive device context
+REC-0077,DEV-0137,CASE-0077,25,67,3,95.7,Reduced accuracy on staging environments
+REC-0078,DEV-0098,CASE-0078,94,48,0,100.0,Over-flags Linux devices; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0079,DEV-0108,CASE-0079,62,38,1,97.4,Overweights failed login signals on shared kiosks
+REC-0080,DEV-0245,CASE-0080,109,28,1,96.6,Limited visibility during VPN outages
+REC-0081,DEV-0146,CASE-0081,58,62,0,100.0,Elevated false positives during patch windows; Over-flags Linux devices
+REC-0082,DEV-0077,CASE-0082,85,53,1,98.1,Elevated false positives during patch windows; Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0083,DEV-0047,CASE-0083,104,26,0,100.0,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows; Struggles with executive device context
+REC-0084,DEV-0142,CASE-0084,95,77,3,96.2,Struggles with executive device context
+REC-0085,DEV-0226,CASE-0085,102,53,2,96.4,Over-flags Linux devices; Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0086,DEV-0067,CASE-0086,61,48,3,94.1,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0087,DEV-0155,CASE-0087,93,65,5,92.9,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0088,DEV-0039,CASE-0088,54,34,2,94.4,Overweights failed login signals on shared kiosks
+REC-0089,DEV-0156,CASE-0089,73,21,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0090,DEV-0014,CASE-0090,22,65,3,95.6,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0091,DEV-0226,CASE-0091,59,78,2,97.5,Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0092,DEV-0092,CASE-0092,60,73,3,96.1,Less reliable on previously unseen device models
+REC-0093,DEV-0015,CASE-0093,89,70,5,93.3,Reduced accuracy on staging environments; Elevated false positives during patch windows; Struggles with executive device context
+REC-0094,DEV-0148,CASE-0094,111,66,5,93.0,Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0095,DEV-0205,CASE-0095,42,26,1,96.3,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0096,DEV-0145,CASE-0096,56,51,2,96.2,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0097,DEV-0150,CASE-0097,29,50,1,98.0,Struggles with executive device context; Limited visibility during VPN outages
+REC-0098,DEV-0041,CASE-0098,45,52,4,92.9,Struggles with executive device context
+REC-0099,DEV-0188,CASE-0099,64,24,1,96.0,Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0100,DEV-0082,CASE-0100,46,61,2,96.8,Limited visibility during VPN outages
+REC-0101,DEV-0186,CASE-0101,68,39,2,95.1,Over-flags Linux devices
+REC-0102,DEV-0079,CASE-0102,41,37,1,97.4,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0103,DEV-0172,CASE-0103,29,20,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages; Struggles with executive device context
+REC-0104,DEV-0066,CASE-0104,115,47,0,100.0,Elevated false positives during patch windows; Over-flags Linux devices
+REC-0105,DEV-0133,CASE-0105,107,44,3,93.6,Struggles with executive device context; Limited visibility during VPN outages
+REC-0106,DEV-0148,CASE-0106,119,72,2,97.3,Over-flags Linux devices; Limited visibility during VPN outages
+REC-0107,DEV-0242,CASE-0107,32,35,2,94.6,Struggles with executive device context; Over-flags Linux devices
+REC-0108,DEV-0234,CASE-0108,80,66,5,93.0,Limited visibility during VPN outages
+REC-0109,DEV-0114,CASE-0109,47,79,2,97.5,Struggles with executive device context; Over-flags Linux devices
+REC-0110,DEV-0220,CASE-0110,41,42,3,93.3,Elevated false positives during patch windows
+REC-0111,DEV-0198,CASE-0111,31,44,3,93.6,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0112,DEV-0060,CASE-0112,85,69,2,97.2,Limited visibility during VPN outages; Over-flags Linux devices; Elevated false positives during patch windows
+REC-0113,DEV-0156,CASE-0113,47,56,2,96.6,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0114,DEV-0151,CASE-0114,77,59,2,96.7,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0115,DEV-0239,CASE-0115,73,48,3,94.1,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0116,DEV-0189,CASE-0116,67,31,2,93.9,Elevated false positives during patch windows
+REC-0117,DEV-0009,CASE-0117,20,71,0,100.0,Over-flags Linux devices; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0118,DEV-0147,CASE-0118,88,47,2,95.9,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0119,DEV-0201,CASE-0119,94,39,1,97.5,Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0120,DEV-0218,CASE-0120,119,55,1,98.2,Limited visibility during VPN outages
+REC-0121,DEV-0130,CASE-0121,81,63,4,94.0,Reduced accuracy on staging environments; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0122,DEV-0098,CASE-0122,59,21,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0123,DEV-0212,CASE-0123,67,74,3,96.1,Overweights failed login signals on shared kiosks
+REC-0124,DEV-0204,CASE-0124,24,40,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0125,DEV-0210,CASE-0125,101,57,4,93.4,Over-flags Linux devices; Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0126,DEV-0206,CASE-0126,54,35,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0127,DEV-0033,CASE-0127,25,62,0,100.0,Reduced accuracy on staging environments
+REC-0128,DEV-0079,CASE-0128,64,20,0,100.0,Over-flags Linux devices; Limited visibility during VPN outages
+REC-0129,DEV-0243,CASE-0129,107,26,1,96.3,Less reliable on previously unseen device models
+REC-0130,DEV-0080,CASE-0130,56,27,0,100.0,Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0131,DEV-0062,CASE-0131,82,75,6,92.6,Elevated false positives during patch windows; Limited visibility during VPN outages; Struggles with executive device context
+REC-0132,DEV-0215,CASE-0132,100,34,2,94.4,Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0133,DEV-0196,CASE-0133,111,53,3,94.6,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0134,DEV-0129,CASE-0134,86,62,5,92.5,Struggles with executive device context; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0135,DEV-0160,CASE-0135,67,51,1,98.1,Less reliable on previously unseen device models; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0136,DEV-0180,CASE-0136,82,47,1,97.9,Over-flags Linux devices; Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0137,DEV-0195,CASE-0137,73,24,1,96.0,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0138,DEV-0160,CASE-0138,101,22,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0139,DEV-0032,CASE-0139,15,50,4,92.6,Struggles with executive device context
+REC-0140,DEV-0235,CASE-0140,40,57,0,100.0,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0141,DEV-0189,CASE-0141,52,49,1,98.0,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0142,DEV-0003,CASE-0142,47,47,1,97.9,Struggles with executive device context
+REC-0143,DEV-0143,CASE-0143,15,61,2,96.8,Limited visibility during VPN outages
+REC-0144,DEV-0024,CASE-0144,39,57,0,100.0,Reduced accuracy on staging environments
+REC-0145,DEV-0055,CASE-0145,29,61,4,93.8,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0146,DEV-0100,CASE-0146,51,23,0,100.0,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0147,DEV-0145,CASE-0147,103,75,4,94.9,Reduced accuracy on staging environments
+REC-0148,DEV-0081,CASE-0148,21,36,1,97.3,Struggles with executive device context; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0149,DEV-0126,CASE-0149,110,59,4,93.7,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0150,DEV-0086,CASE-0150,23,59,4,93.7,Reduced accuracy on staging environments; Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0151,DEV-0021,CASE-0151,108,54,3,94.7,Overweights failed login signals on shared kiosks; Struggles with executive device context; Elevated false positives during patch windows
+REC-0152,DEV-0057,CASE-0152,111,45,1,97.8,Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0153,DEV-0127,CASE-0153,22,24,1,96.0,Limited visibility during VPN outages
+REC-0154,DEV-0074,CASE-0154,82,20,0,100.0,Elevated false positives during patch windows; Over-flags Linux devices
+REC-0155,DEV-0049,CASE-0155,35,25,0,100.0,Over-flags Linux devices
+REC-0156,DEV-0058,CASE-0156,88,79,2,97.5,Overweights failed login signals on shared kiosks
+REC-0157,DEV-0147,CASE-0157,61,30,0,100.0,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0158,DEV-0060,CASE-0158,18,66,3,95.7,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0159,DEV-0107,CASE-0159,108,41,0,100.0,Struggles with executive device context; Elevated false positives during patch windows
+REC-0160,DEV-0004,CASE-0160,96,41,3,93.2,Over-flags Linux devices; Struggles with executive device context
+REC-0161,DEV-0116,CASE-0161,97,25,1,96.2,Limited visibility during VPN outages
+REC-0162,DEV-0156,CASE-0162,72,62,4,93.9,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0163,DEV-0033,CASE-0163,77,28,0,100.0,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0164,DEV-0047,CASE-0164,95,38,0,100.0,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0165,DEV-0219,CASE-0165,90,21,0,100.0,Overweights failed login signals on shared kiosks
+REC-0166,DEV-0176,CASE-0166,70,55,2,96.5,Elevated false positives during patch windows
+REC-0167,DEV-0244,CASE-0167,44,26,0,100.0,Struggles with executive device context; Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0168,DEV-0196,CASE-0168,34,29,1,96.7,Over-flags Linux devices; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0169,DEV-0064,CASE-0169,113,68,2,97.1,Overweights failed login signals on shared kiosks; Struggles with executive device context; Elevated false positives during patch windows
+REC-0170,DEV-0045,CASE-0170,102,62,2,96.9,Overweights failed login signals on shared kiosks
+REC-0171,DEV-0179,CASE-0171,65,34,2,94.4,Over-flags Linux devices
+REC-0172,DEV-0061,CASE-0172,58,32,0,100.0,Struggles with executive device context; Over-flags Linux devices
+REC-0173,DEV-0189,CASE-0173,70,38,1,97.4,Less reliable on previously unseen device models; Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0174,DEV-0088,CASE-0174,81,36,0,100.0,Less reliable on previously unseen device models; Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0175,DEV-0189,CASE-0175,41,53,1,98.1,Less reliable on previously unseen device models
+REC-0176,DEV-0068,CASE-0176,54,56,1,98.2,Struggles with executive device context; Limited visibility during VPN outages
+REC-0177,DEV-0142,CASE-0177,87,73,4,94.8,Over-flags Linux devices; Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0178,DEV-0163,CASE-0178,72,54,3,94.7,Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0179,DEV-0099,CASE-0179,39,44,0,100.0,Over-flags Linux devices; Elevated false positives during patch windows; Struggles with executive device context
+REC-0180,DEV-0118,CASE-0180,21,26,1,96.3,Limited visibility during VPN outages; Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0181,DEV-0220,CASE-0181,26,46,0,100.0,Elevated false positives during patch windows; Struggles with executive device context; Limited visibility during VPN outages
+REC-0182,DEV-0158,CASE-0182,72,26,0,100.0,Over-flags Linux devices
+REC-0183,DEV-0170,CASE-0183,102,60,0,100.0,Reduced accuracy on staging environments; Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0184,DEV-0233,CASE-0184,37,78,5,94.0,Less reliable on previously unseen device models; Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0185,DEV-0243,CASE-0185,88,73,6,92.4,Struggles with executive device context; Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0186,DEV-0028,CASE-0186,71,20,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0187,DEV-0209,CASE-0187,68,41,1,97.6,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0188,DEV-0216,CASE-0188,32,29,0,100.0,Elevated false positives during patch windows
+REC-0189,DEV-0048,CASE-0189,38,49,3,94.2,Over-flags Linux devices; Struggles with executive device context; Less reliable on previously unseen device models
+REC-0190,DEV-0093,CASE-0190,108,32,0,100.0,Limited visibility during VPN outages; Over-flags Linux devices
+REC-0191,DEV-0026,CASE-0191,15,36,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0192,DEV-0191,CASE-0192,104,34,2,94.4,Struggles with executive device context; Elevated false positives during patch windows
+REC-0193,DEV-0061,CASE-0193,64,34,1,97.1,Struggles with executive device context; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0194,DEV-0215,CASE-0194,46,53,3,94.6,Over-flags Linux devices; Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0195,DEV-0081,CASE-0195,72,62,2,96.9,Limited visibility during VPN outages
+REC-0196,DEV-0215,CASE-0196,46,38,2,95.0,Overweights failed login signals on shared kiosks
+REC-0197,DEV-0008,CASE-0197,115,54,3,94.7,Over-flags Linux devices
+REC-0198,DEV-0083,CASE-0198,116,58,1,98.3,Overweights failed login signals on shared kiosks
+REC-0199,DEV-0235,CASE-0199,25,68,2,97.1,Limited visibility during VPN outages; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0200,DEV-0103,CASE-0200,85,28,0,100.0,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0201,DEV-0137,CASE-0201,75,39,0,100.0,Over-flags Linux devices
+REC-0202,DEV-0236,CASE-0202,57,31,0,100.0,Elevated false positives during patch windows
+REC-0203,DEV-0002,CASE-0203,99,37,0,100.0,Less reliable on previously unseen device models; Elevated false positives during patch windows; Struggles with executive device context
+REC-0204,DEV-0084,CASE-0204,24,35,0,100.0,Elevated false positives during patch windows; Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0205,DEV-0033,CASE-0205,101,26,0,100.0,Elevated false positives during patch windows
+REC-0206,DEV-0214,CASE-0206,80,63,3,95.5,Overweights failed login signals on shared kiosks
+REC-0207,DEV-0096,CASE-0207,97,73,6,92.4,Struggles with executive device context; Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0208,DEV-0200,CASE-0208,114,50,2,96.2,Struggles with executive device context; Limited visibility during VPN outages
+REC-0209,DEV-0084,CASE-0209,60,61,4,93.8,Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0210,DEV-0141,CASE-0210,26,34,0,100.0,Less reliable on previously unseen device models
+REC-0211,DEV-0068,CASE-0211,77,40,3,93.0,Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0212,DEV-0004,CASE-0212,99,41,3,93.2,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0213,DEV-0171,CASE-0213,71,24,0,100.0,Over-flags Linux devices
+REC-0214,DEV-0055,CASE-0214,59,38,2,95.0,Over-flags Linux devices; Struggles with executive device context
+REC-0215,DEV-0160,CASE-0215,110,69,1,98.6,Elevated false positives during patch windows; Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0216,DEV-0091,CASE-0216,111,69,3,95.8,Less reliable on previously unseen device models; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0217,DEV-0221,CASE-0217,112,44,1,97.8,Over-flags Linux devices
+REC-0218,DEV-0106,CASE-0218,114,38,2,95.0,Limited visibility during VPN outages
+REC-0219,DEV-0027,CASE-0219,22,67,1,98.5,Less reliable on previously unseen device models
+REC-0220,DEV-0169,CASE-0220,63,20,1,95.2,Less reliable on previously unseen device models; Struggles with executive device context; Reduced accuracy on staging environments
+REC-0221,DEV-0243,CASE-0221,111,30,1,96.8,Over-flags Linux devices
+REC-0222,DEV-0016,CASE-0222,100,30,2,93.8,Over-flags Linux devices
+REC-0223,DEV-0048,CASE-0223,25,60,4,93.8,Overweights failed login signals on shared kiosks
+REC-0224,DEV-0122,CASE-0224,48,30,0,100.0,Less reliable on previously unseen device models
+REC-0225,DEV-0192,CASE-0225,21,28,0,100.0,Reduced accuracy on staging environments
+REC-0226,DEV-0216,CASE-0226,84,33,1,97.1,Struggles with executive device context; Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0227,DEV-0202,CASE-0227,90,27,1,96.4,Struggles with executive device context; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0228,DEV-0210,CASE-0228,109,29,1,96.7,Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0229,DEV-0062,CASE-0229,119,66,1,98.5,Struggles with executive device context
+REC-0230,DEV-0221,CASE-0230,106,59,0,100.0,Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0231,DEV-0082,CASE-0231,100,41,2,95.3,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0232,DEV-0183,CASE-0232,28,33,2,94.3,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0233,DEV-0073,CASE-0233,118,61,0,100.0,Overweights failed login signals on shared kiosks
+REC-0234,DEV-0149,CASE-0234,107,29,0,100.0,Struggles with executive device context; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0235,DEV-0106,CASE-0235,31,43,1,97.7,Less reliable on previously unseen device models; Elevated false positives during patch windows; Struggles with executive device context
+REC-0236,DEV-0154,CASE-0236,26,78,6,92.9,Over-flags Linux devices; Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0237,DEV-0176,CASE-0237,94,79,3,96.3,Limited visibility during VPN outages
+REC-0238,DEV-0131,CASE-0238,47,48,2,96.0,Limited visibility during VPN outages
+REC-0239,DEV-0037,CASE-0239,52,27,1,96.4,Limited visibility during VPN outages
+REC-0240,DEV-0098,CASE-0240,37,47,2,95.9,Less reliable on previously unseen device models; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0241,DEV-0102,CASE-0241,77,69,5,93.2,Elevated false positives during patch windows; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0242,DEV-0056,CASE-0242,27,53,2,96.4,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0243,DEV-0039,CASE-0243,92,35,1,97.2,Less reliable on previously unseen device models; Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0244,DEV-0057,CASE-0244,58,35,2,94.6,Struggles with executive device context; Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0245,DEV-0108,CASE-0245,94,39,0,100.0,Struggles with executive device context; Over-flags Linux devices; Elevated false positives during patch windows
+REC-0246,DEV-0011,CASE-0246,94,55,2,96.5,Struggles with executive device context; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0247,DEV-0175,CASE-0247,104,64,1,98.5,Overweights failed login signals on shared kiosks; Struggles with executive device context; Elevated false positives during patch windows
+REC-0248,DEV-0195,CASE-0248,37,30,1,96.8,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0249,DEV-0156,CASE-0249,81,62,5,92.5,Over-flags Linux devices; Reduced accuracy on staging environments; Struggles with executive device context
+REC-0250,DEV-0015,CASE-0250,88,66,4,94.3,Over-flags Linux devices; Elevated false positives during patch windows
+REC-0251,DEV-0049,CASE-0251,34,33,0,100.0,Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0252,DEV-0116,CASE-0252,86,68,2,97.1,Less reliable on previously unseen device models; Struggles with executive device context
+REC-0253,DEV-0101,CASE-0253,102,48,1,98.0,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0254,DEV-0215,CASE-0254,86,74,4,94.9,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0255,DEV-0130,CASE-0255,48,48,3,94.1,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0256,DEV-0166,CASE-0256,83,51,4,92.7,Struggles with executive device context
+REC-0257,DEV-0028,CASE-0257,30,27,1,96.4,Struggles with executive device context; Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0258,DEV-0104,CASE-0258,69,40,1,97.6,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0259,DEV-0095,CASE-0259,82,38,2,95.0,Less reliable on previously unseen device models; Struggles with executive device context; Elevated false positives during patch windows
+REC-0260,DEV-0183,CASE-0260,61,25,1,96.2,Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0261,DEV-0153,CASE-0261,53,36,0,100.0,Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0262,DEV-0153,CASE-0262,28,54,4,93.1,Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0263,DEV-0202,CASE-0263,16,28,1,96.6,Elevated false positives during patch windows; Limited visibility during VPN outages; Struggles with executive device context
+REC-0264,DEV-0119,CASE-0264,38,36,2,94.7,Overweights failed login signals on shared kiosks
+REC-0265,DEV-0043,CASE-0265,57,27,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0266,DEV-0179,CASE-0266,57,24,0,100.0,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0267,DEV-0042,CASE-0267,83,74,3,96.1,Struggles with executive device context
+REC-0268,DEV-0126,CASE-0268,24,25,0,100.0,Struggles with executive device context
+REC-0269,DEV-0101,CASE-0269,74,26,0,100.0,Over-flags Linux devices
+REC-0270,DEV-0128,CASE-0270,26,59,4,93.7,Limited visibility during VPN outages; Struggles with executive device context; Over-flags Linux devices
+REC-0271,DEV-0018,CASE-0271,87,35,0,100.0,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0272,DEV-0076,CASE-0272,114,24,0,100.0,Limited visibility during VPN outages
+REC-0273,DEV-0211,CASE-0273,17,32,1,97.0,Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0274,DEV-0096,CASE-0274,30,75,6,92.6,Elevated false positives during patch windows
+REC-0275,DEV-0031,CASE-0275,55,56,2,96.6,Reduced accuracy on staging environments; Struggles with executive device context; Less reliable on previously unseen device models
+REC-0276,DEV-0174,CASE-0276,55,27,1,96.4,Elevated false positives during patch windows; Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0277,DEV-0171,CASE-0277,24,47,2,95.9,Less reliable on previously unseen device models
+REC-0278,DEV-0137,CASE-0278,95,37,2,94.9,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0279,DEV-0115,CASE-0279,34,40,1,97.6,Less reliable on previously unseen device models
+REC-0280,DEV-0200,CASE-0280,18,39,2,95.1,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0281,DEV-0038,CASE-0281,46,23,0,100.0,Over-flags Linux devices; Limited visibility during VPN outages; Struggles with executive device context
+REC-0282,DEV-0099,CASE-0282,30,28,1,96.6,Struggles with executive device context
+REC-0283,DEV-0111,CASE-0283,74,31,1,96.9,Over-flags Linux devices; Elevated false positives during patch windows
+REC-0284,DEV-0005,CASE-0284,62,79,4,95.2,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0285,DEV-0158,CASE-0285,85,52,3,94.5,Elevated false positives during patch windows; Over-flags Linux devices
+REC-0286,DEV-0216,CASE-0286,31,26,1,96.3,Limited visibility during VPN outages
+REC-0287,DEV-0089,CASE-0287,82,39,0,100.0,Over-flags Linux devices
+REC-0288,DEV-0104,CASE-0288,43,40,0,100.0,Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0289,DEV-0052,CASE-0289,68,44,1,97.8,Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0290,DEV-0246,CASE-0290,78,55,4,93.2,Less reliable on previously unseen device models
+REC-0291,DEV-0060,CASE-0291,83,20,1,95.2,Elevated false positives during patch windows; Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0292,DEV-0206,CASE-0292,77,77,6,92.8,Less reliable on previously unseen device models
+REC-0293,DEV-0061,CASE-0293,26,40,1,97.6,Over-flags Linux devices; Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0294,DEV-0190,CASE-0294,81,75,6,92.6,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0295,DEV-0208,CASE-0295,31,56,0,100.0,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0296,DEV-0006,CASE-0296,115,48,3,94.1,Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0297,DEV-0196,CASE-0297,89,32,1,97.0,Over-flags Linux devices
+REC-0298,DEV-0225,CASE-0298,111,23,0,100.0,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0299,DEV-0094,CASE-0299,105,44,0,100.0,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0300,DEV-0210,CASE-0300,36,57,2,96.6,Over-flags Linux devices; Struggles with executive device context
+REC-0301,DEV-0231,CASE-0301,71,64,4,94.1,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0302,DEV-0209,CASE-0302,29,20,0,100.0,Overweights failed login signals on shared kiosks
+REC-0303,DEV-0124,CASE-0303,70,55,0,100.0,Less reliable on previously unseen device models; Reduced accuracy on staging environments; Struggles with executive device context
+REC-0304,DEV-0063,CASE-0304,56,48,2,96.0,Reduced accuracy on staging environments
+REC-0305,DEV-0038,CASE-0305,113,49,3,94.2,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0306,DEV-0137,CASE-0306,117,46,3,93.9,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0307,DEV-0194,CASE-0307,75,52,0,100.0,Reduced accuracy on staging environments; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0308,DEV-0047,CASE-0308,57,22,1,95.7,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0309,DEV-0113,CASE-0309,49,74,5,93.7,Struggles with executive device context; Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0310,DEV-0047,CASE-0310,21,55,1,98.2,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments; Struggles with executive device context
+REC-0311,DEV-0096,CASE-0311,88,43,0,100.0,Struggles with executive device context
+REC-0312,DEV-0084,CASE-0312,58,28,0,100.0,Struggles with executive device context
+REC-0313,DEV-0217,CASE-0313,119,35,1,97.2,Over-flags Linux devices; Elevated false positives during patch windows; Struggles with executive device context
+REC-0314,DEV-0081,CASE-0314,32,56,0,100.0,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0315,DEV-0099,CASE-0315,20,23,1,95.8,Struggles with executive device context; Over-flags Linux devices
+REC-0316,DEV-0212,CASE-0316,85,73,1,98.6,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0317,DEV-0084,CASE-0317,27,41,2,95.3,Reduced accuracy on staging environments; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0318,DEV-0171,CASE-0318,52,45,2,95.7,Elevated false positives during patch windows
+REC-0319,DEV-0137,CASE-0319,68,73,1,98.6,Overweights failed login signals on shared kiosks
+REC-0320,DEV-0220,CASE-0320,24,48,0,100.0,Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0321,DEV-0117,CASE-0321,49,57,2,96.6,Struggles with executive device context; Elevated false positives during patch windows
+REC-0322,DEV-0233,CASE-0322,85,58,0,100.0,Overweights failed login signals on shared kiosks; Struggles with executive device context; Elevated false positives during patch windows
+REC-0323,DEV-0208,CASE-0323,112,32,1,97.0,Over-flags Linux devices
+REC-0324,DEV-0074,CASE-0324,32,63,0,100.0,Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0325,DEV-0071,CASE-0325,90,45,2,95.7,Elevated false positives during patch windows
+REC-0326,DEV-0099,CASE-0326,45,60,5,92.3,Elevated false positives during patch windows
+REC-0327,DEV-0222,CASE-0327,91,27,1,96.4,Limited visibility during VPN outages
+REC-0328,DEV-0095,CASE-0328,82,70,3,95.9,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0329,DEV-0002,CASE-0329,19,75,6,92.6,Over-flags Linux devices; Struggles with executive device context; Elevated false positives during patch windows
+REC-0330,DEV-0113,CASE-0330,95,66,3,95.7,Limited visibility during VPN outages
+REC-0331,DEV-0150,CASE-0331,17,21,1,95.5,Limited visibility during VPN outages; Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0332,DEV-0006,CASE-0332,44,40,1,97.6,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0333,DEV-0078,CASE-0333,45,43,3,93.5,Struggles with executive device context
+REC-0334,DEV-0012,CASE-0334,103,48,2,96.0,Less reliable on previously unseen device models
+REC-0335,DEV-0059,CASE-0335,28,31,0,100.0,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0336,DEV-0197,CASE-0336,76,35,1,97.2,Elevated false positives during patch windows; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0337,DEV-0026,CASE-0337,30,28,0,100.0,Over-flags Linux devices
+REC-0338,DEV-0033,CASE-0338,34,48,3,94.1,Less reliable on previously unseen device models; Over-flags Linux devices; Struggles with executive device context
+REC-0339,DEV-0188,CASE-0339,30,70,3,95.9,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0340,DEV-0087,CASE-0340,28,24,0,100.0,Limited visibility during VPN outages
+REC-0341,DEV-0031,CASE-0341,67,58,4,93.5,Limited visibility during VPN outages
+REC-0342,DEV-0134,CASE-0342,73,42,0,100.0,Reduced accuracy on staging environments
+REC-0343,DEV-0126,CASE-0343,94,69,0,100.0,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0344,DEV-0089,CASE-0344,116,44,3,93.6,Struggles with executive device context
+REC-0345,DEV-0004,CASE-0345,42,61,3,95.3,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments; Struggles with executive device context
+REC-0346,DEV-0170,CASE-0346,107,69,3,95.8,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0347,DEV-0037,CASE-0347,76,62,2,96.9,Reduced accuracy on staging environments; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0348,DEV-0178,CASE-0348,77,42,0,100.0,Limited visibility during VPN outages
+REC-0349,DEV-0188,CASE-0349,79,34,0,100.0,Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0350,DEV-0217,CASE-0350,94,24,0,100.0,Over-flags Linux devices
+REC-0351,DEV-0152,CASE-0351,82,48,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0352,DEV-0021,CASE-0352,50,70,0,100.0,Less reliable on previously unseen device models
+REC-0353,DEV-0246,CASE-0353,26,29,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0354,DEV-0133,CASE-0354,101,60,1,98.4,Limited visibility during VPN outages; Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0355,DEV-0027,CASE-0355,107,28,1,96.6,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0356,DEV-0190,CASE-0356,61,63,1,98.4,Struggles with executive device context; Over-flags Linux devices
+REC-0357,DEV-0094,CASE-0357,27,58,1,98.3,Struggles with executive device context; Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0358,DEV-0226,CASE-0358,88,61,3,95.3,Less reliable on previously unseen device models; Struggles with executive device context
+REC-0359,DEV-0214,CASE-0359,86,76,5,93.8,Limited visibility during VPN outages; Struggles with executive device context; Less reliable on previously unseen device models
+REC-0360,DEV-0161,CASE-0360,118,22,1,95.7,Reduced accuracy on staging environments
+REC-0361,DEV-0039,CASE-0361,115,48,2,96.0,Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0362,DEV-0068,CASE-0362,94,69,2,97.2,Less reliable on previously unseen device models; Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0363,DEV-0128,CASE-0363,62,28,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0364,DEV-0031,CASE-0364,61,56,4,93.3,Overweights failed login signals on shared kiosks
+REC-0365,DEV-0052,CASE-0365,41,71,4,94.7,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0366,DEV-0121,CASE-0366,47,74,2,97.4,Over-flags Linux devices
+REC-0367,DEV-0070,CASE-0367,15,77,6,92.8,Reduced accuracy on staging environments; Over-flags Linux devices; Struggles with executive device context
+REC-0368,DEV-0109,CASE-0368,50,29,0,100.0,Less reliable on previously unseen device models; Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0369,DEV-0097,CASE-0369,91,25,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0370,DEV-0228,CASE-0370,28,58,3,95.1,Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0371,DEV-0238,CASE-0371,95,36,0,100.0,Elevated false positives during patch windows; Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0372,DEV-0041,CASE-0372,52,35,2,94.6,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows; Struggles with executive device context
+REC-0373,DEV-0146,CASE-0373,98,39,0,100.0,Reduced accuracy on staging environments; Limited visibility during VPN outages; Struggles with executive device context
+REC-0374,DEV-0107,CASE-0374,32,21,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0375,DEV-0194,CASE-0375,58,28,1,96.6,Elevated false positives during patch windows
+REC-0376,DEV-0152,CASE-0376,51,42,0,100.0,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0377,DEV-0090,CASE-0377,112,71,4,94.7,Over-flags Linux devices; Struggles with executive device context
+REC-0378,DEV-0013,CASE-0378,64,70,3,95.9,Struggles with executive device context; Less reliable on previously unseen device models
+REC-0379,DEV-0084,CASE-0379,23,59,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0380,DEV-0018,CASE-0380,103,79,1,98.8,Less reliable on previously unseen device models; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0381,DEV-0192,CASE-0381,77,71,3,95.9,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0382,DEV-0119,CASE-0382,24,50,0,100.0,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0383,DEV-0082,CASE-0383,102,68,4,94.4,Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0384,DEV-0228,CASE-0384,42,44,2,95.7,Struggles with executive device context
+REC-0385,DEV-0137,CASE-0385,119,27,1,96.4,Limited visibility during VPN outages
+REC-0386,DEV-0085,CASE-0386,77,79,2,97.5,Struggles with executive device context
+REC-0387,DEV-0226,CASE-0387,16,34,2,94.4,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0388,DEV-0110,CASE-0388,60,41,3,93.2,Elevated false positives during patch windows
+REC-0389,DEV-0042,CASE-0389,77,39,2,95.1,Reduced accuracy on staging environments; Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0390,DEV-0003,CASE-0390,88,21,1,95.5,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0391,DEV-0151,CASE-0391,58,20,1,95.2,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0392,DEV-0240,CASE-0392,18,32,0,100.0,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0393,DEV-0222,CASE-0393,118,22,0,100.0,Reduced accuracy on staging environments; Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0394,DEV-0226,CASE-0394,42,56,2,96.6,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0395,DEV-0121,CASE-0395,91,33,2,94.3,Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0396,DEV-0009,CASE-0396,58,73,6,92.4,Elevated false positives during patch windows
+REC-0397,DEV-0098,CASE-0397,94,78,1,98.7,Elevated false positives during patch windows; Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0398,DEV-0201,CASE-0398,65,62,3,95.4,Overweights failed login signals on shared kiosks
+REC-0399,DEV-0027,CASE-0399,73,29,0,100.0,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0400,DEV-0084,CASE-0400,84,58,3,95.1,Reduced accuracy on staging environments
+REC-0401,DEV-0109,CASE-0401,72,37,0,100.0,Reduced accuracy on staging environments; Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0402,DEV-0128,CASE-0402,34,47,3,94.0,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0403,DEV-0147,CASE-0403,82,32,2,94.1,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0404,DEV-0238,CASE-0404,114,76,5,93.8,Over-flags Linux devices
+REC-0405,DEV-0021,CASE-0405,32,63,5,92.6,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0406,DEV-0019,CASE-0406,79,68,2,97.1,Limited visibility during VPN outages; Struggles with executive device context; Reduced accuracy on staging environments
+REC-0407,DEV-0081,CASE-0407,19,24,0,100.0,Reduced accuracy on staging environments; Over-flags Linux devices; Limited visibility during VPN outages
+REC-0408,DEV-0211,CASE-0408,86,74,3,96.1,Reduced accuracy on staging environments
+REC-0409,DEV-0065,CASE-0409,73,75,1,98.7,Elevated false positives during patch windows
+REC-0410,DEV-0072,CASE-0410,38,61,2,96.8,Less reliable on previously unseen device models; Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0411,DEV-0004,CASE-0411,45,58,2,96.7,Struggles with executive device context
+REC-0412,DEV-0106,CASE-0412,49,30,1,96.8,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0413,DEV-0198,CASE-0413,25,57,0,100.0,Over-flags Linux devices
+REC-0414,DEV-0076,CASE-0414,48,67,2,97.1,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0415,DEV-0187,CASE-0415,33,75,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0416,DEV-0249,CASE-0416,42,41,2,95.3,Less reliable on previously unseen device models; Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0417,DEV-0237,CASE-0417,57,65,3,95.6,Overweights failed login signals on shared kiosks
+REC-0418,DEV-0067,CASE-0418,119,29,1,96.7,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0419,DEV-0125,CASE-0419,92,26,0,100.0,Over-flags Linux devices
+REC-0420,DEV-0231,CASE-0420,59,27,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context; Limited visibility during VPN outages
+REC-0421,DEV-0002,CASE-0421,29,69,1,98.6,Over-flags Linux devices
+REC-0422,DEV-0053,CASE-0422,93,33,2,94.3,Limited visibility during VPN outages
+REC-0423,DEV-0029,CASE-0423,119,43,0,100.0,Less reliable on previously unseen device models
+REC-0424,DEV-0159,CASE-0424,69,22,1,95.7,Over-flags Linux devices
+REC-0425,DEV-0010,CASE-0425,28,73,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0426,DEV-0123,CASE-0426,44,30,1,96.8,Limited visibility during VPN outages
+REC-0427,DEV-0217,CASE-0427,28,43,2,95.6,Over-flags Linux devices
+REC-0428,DEV-0094,CASE-0428,42,67,4,94.4,Struggles with executive device context; Limited visibility during VPN outages
+REC-0429,DEV-0179,CASE-0429,71,28,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0430,DEV-0180,CASE-0430,109,71,1,98.6,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0431,DEV-0117,CASE-0431,20,70,0,100.0,Elevated false positives during patch windows
+REC-0432,DEV-0059,CASE-0432,105,62,1,98.4,Struggles with executive device context; Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0433,DEV-0234,CASE-0433,100,43,3,93.5,Overweights failed login signals on shared kiosks
+REC-0434,DEV-0032,CASE-0434,48,37,1,97.4,Struggles with executive device context
+REC-0435,DEV-0100,CASE-0435,50,43,1,97.7,Over-flags Linux devices; Limited visibility during VPN outages
+REC-0436,DEV-0159,CASE-0436,79,24,0,100.0,Over-flags Linux devices; Elevated false positives during patch windows
+REC-0437,DEV-0132,CASE-0437,91,40,3,93.0,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0438,DEV-0009,CASE-0438,38,66,2,97.1,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0439,DEV-0106,CASE-0439,72,74,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context; Over-flags Linux devices
+REC-0440,DEV-0044,CASE-0440,112,32,1,97.0,Struggles with executive device context
+REC-0441,DEV-0068,CASE-0441,88,38,1,97.4,Limited visibility during VPN outages
+REC-0442,DEV-0106,CASE-0442,19,70,1,98.6,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0443,DEV-0049,CASE-0443,104,61,5,92.4,Over-flags Linux devices; Struggles with executive device context; Elevated false positives during patch windows
+REC-0444,DEV-0008,CASE-0444,31,31,1,96.9,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0445,DEV-0188,CASE-0445,107,58,3,95.1,Limited visibility during VPN outages
+REC-0446,DEV-0022,CASE-0446,60,53,2,96.4,Less reliable on previously unseen device models; Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0447,DEV-0046,CASE-0447,109,43,1,97.7,Reduced accuracy on staging environments; Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0448,DEV-0022,CASE-0448,22,49,3,94.2,Over-flags Linux devices
+REC-0449,DEV-0186,CASE-0449,47,37,1,97.4,Reduced accuracy on staging environments
+REC-0450,DEV-0139,CASE-0450,116,69,3,95.8,Less reliable on previously unseen device models; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0451,DEV-0247,CASE-0451,51,47,2,95.9,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0452,DEV-0029,CASE-0452,49,64,2,97.0,Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0453,DEV-0247,CASE-0453,81,74,0,100.0,Over-flags Linux devices; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0454,DEV-0099,CASE-0454,112,36,0,100.0,Limited visibility during VPN outages
+REC-0455,DEV-0103,CASE-0455,52,70,3,95.9,Over-flags Linux devices; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0456,DEV-0051,CASE-0456,117,25,1,96.2,Elevated false positives during patch windows; Struggles with executive device context
+REC-0457,DEV-0212,CASE-0457,40,32,2,94.1,Struggles with executive device context
+REC-0458,DEV-0232,CASE-0458,16,73,1,98.6,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0459,DEV-0004,CASE-0459,16,61,1,98.4,Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0460,DEV-0142,CASE-0460,37,46,3,93.9,Elevated false positives during patch windows; Over-flags Linux devices; Struggles with executive device context
+REC-0461,DEV-0219,CASE-0461,37,61,4,93.8,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0462,DEV-0241,CASE-0462,30,68,4,94.4,Elevated false positives during patch windows
+REC-0463,DEV-0001,CASE-0463,37,22,0,100.0,Over-flags Linux devices; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0464,DEV-0240,CASE-0464,69,22,0,100.0,Less reliable on previously unseen device models; Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0465,DEV-0053,CASE-0465,61,23,0,100.0,Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0466,DEV-0108,CASE-0466,72,62,5,92.5,Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0467,DEV-0118,CASE-0467,28,74,4,94.9,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0468,DEV-0086,CASE-0468,81,64,4,94.1,Elevated false positives during patch windows; Over-flags Linux devices; Struggles with executive device context
+REC-0469,DEV-0095,CASE-0469,68,37,1,97.4,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0470,DEV-0238,CASE-0470,117,53,3,94.6,Over-flags Linux devices
+REC-0471,DEV-0107,CASE-0471,29,53,2,96.4,Limited visibility during VPN outages
+REC-0472,DEV-0200,CASE-0472,52,78,2,97.5,Over-flags Linux devices; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0473,DEV-0242,CASE-0473,74,44,3,93.6,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0474,DEV-0151,CASE-0474,40,44,2,95.7,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0475,DEV-0068,CASE-0475,45,61,1,98.4,Limited visibility during VPN outages
+REC-0476,DEV-0006,CASE-0476,16,42,3,93.3,Over-flags Linux devices; Struggles with executive device context
+REC-0477,DEV-0236,CASE-0477,50,30,0,100.0,Reduced accuracy on staging environments; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0478,DEV-0207,CASE-0478,77,28,1,96.6,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0479,DEV-0038,CASE-0479,45,56,4,93.3,Elevated false positives during patch windows
+REC-0480,DEV-0186,CASE-0480,41,75,5,93.8,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0481,DEV-0153,CASE-0481,79,78,5,94.0,Over-flags Linux devices; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0482,DEV-0077,CASE-0482,65,48,0,100.0,Over-flags Linux devices; Struggles with executive device context; Reduced accuracy on staging environments
+REC-0483,DEV-0240,CASE-0483,95,55,1,98.2,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0484,DEV-0223,CASE-0484,118,42,0,100.0,Overweights failed login signals on shared kiosks
+REC-0485,DEV-0156,CASE-0485,37,39,0,100.0,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0486,DEV-0204,CASE-0486,45,70,0,100.0,Over-flags Linux devices
+REC-0487,DEV-0166,CASE-0487,110,58,1,98.3,Reduced accuracy on staging environments
+REC-0488,DEV-0122,CASE-0488,48,22,1,95.7,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0489,DEV-0148,CASE-0489,41,60,1,98.4,Reduced accuracy on staging environments; Over-flags Linux devices; Elevated false positives during patch windows
+REC-0490,DEV-0123,CASE-0490,58,70,4,94.6,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0491,DEV-0128,CASE-0491,72,34,1,97.1,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0492,DEV-0175,CASE-0492,87,45,3,93.8,Elevated false positives during patch windows
+REC-0493,DEV-0177,CASE-0493,26,47,1,97.9,Struggles with executive device context; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0494,DEV-0122,CASE-0494,17,41,2,95.3,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0495,DEV-0075,CASE-0495,115,53,1,98.1,Struggles with executive device context; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0496,DEV-0172,CASE-0496,60,46,0,100.0,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0497,DEV-0019,CASE-0497,54,78,2,97.5,Struggles with executive device context
+REC-0498,DEV-0052,CASE-0498,71,61,2,96.8,Elevated false positives during patch windows; Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0499,DEV-0006,CASE-0499,101,57,2,96.6,Elevated false positives during patch windows; Over-flags Linux devices
+REC-0500,DEV-0220,CASE-0500,31,24,0,100.0,Elevated false positives during patch windows; Struggles with executive device context
+REC-0501,DEV-0067,CASE-0501,16,33,1,97.1,Over-flags Linux devices; Struggles with executive device context
+REC-0502,DEV-0203,CASE-0502,40,41,2,95.3,Struggles with executive device context
+REC-0503,DEV-0178,CASE-0503,111,55,1,98.2,Struggles with executive device context
+REC-0504,DEV-0011,CASE-0504,59,24,0,100.0,Less reliable on previously unseen device models; Struggles with executive device context
+REC-0505,DEV-0130,CASE-0505,31,77,3,96.2,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0506,DEV-0104,CASE-0506,87,23,1,95.8,Less reliable on previously unseen device models; Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0507,DEV-0127,CASE-0507,118,42,2,95.5,Reduced accuracy on staging environments; Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0508,DEV-0080,CASE-0508,116,56,1,98.2,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0509,DEV-0234,CASE-0509,108,57,1,98.3,Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0510,DEV-0034,CASE-0510,63,59,3,95.2,Elevated false positives during patch windows; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0511,DEV-0211,CASE-0511,51,77,1,98.7,Struggles with executive device context; Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0512,DEV-0030,CASE-0512,23,51,3,94.4,Limited visibility during VPN outages
+REC-0513,DEV-0035,CASE-0513,58,53,2,96.4,Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0514,DEV-0119,CASE-0514,42,54,1,98.2,Limited visibility during VPN outages; Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0515,DEV-0048,CASE-0515,64,38,0,100.0,Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0516,DEV-0015,CASE-0516,80,70,3,95.9,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0517,DEV-0223,CASE-0517,36,48,2,96.0,Limited visibility during VPN outages; Over-flags Linux devices
+REC-0518,DEV-0178,CASE-0518,77,28,1,96.6,Limited visibility during VPN outages; Elevated false positives during patch windows; Struggles with executive device context
+REC-0519,DEV-0074,CASE-0519,102,41,3,93.2,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0520,DEV-0239,CASE-0520,79,23,0,100.0,Elevated false positives during patch windows; Struggles with executive device context
+REC-0521,DEV-0078,CASE-0521,44,21,0,100.0,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0522,DEV-0022,CASE-0522,63,39,1,97.5,Struggles with executive device context; Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0523,DEV-0182,CASE-0523,94,50,1,98.0,Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0524,DEV-0075,CASE-0524,75,73,2,97.3,Overweights failed login signals on shared kiosks
+REC-0525,DEV-0186,CASE-0525,80,45,0,100.0,Less reliable on previously unseen device models; Struggles with executive device context
+REC-0526,DEV-0094,CASE-0526,70,32,2,94.1,Struggles with executive device context; Elevated false positives during patch windows
+REC-0527,DEV-0139,CASE-0527,88,61,3,95.3,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0528,DEV-0028,CASE-0528,35,46,1,97.9,Reduced accuracy on staging environments; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0529,DEV-0008,CASE-0529,98,79,5,94.0,Over-flags Linux devices; Elevated false positives during patch windows
+REC-0530,DEV-0206,CASE-0530,31,41,0,100.0,Over-flags Linux devices; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0531,DEV-0150,CASE-0531,111,57,0,100.0,Reduced accuracy on staging environments; Over-flags Linux devices; Elevated false positives during patch windows
+REC-0532,DEV-0131,CASE-0532,45,69,4,94.5,Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0533,DEV-0227,CASE-0533,111,25,0,100.0,Elevated false positives during patch windows
+REC-0534,DEV-0051,CASE-0534,23,46,0,100.0,Less reliable on previously unseen device models; Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0535,DEV-0100,CASE-0535,74,64,3,95.5,Limited visibility during VPN outages
+REC-0536,DEV-0190,CASE-0536,103,41,2,95.3,Over-flags Linux devices; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0537,DEV-0014,CASE-0537,89,72,3,96.0,Over-flags Linux devices
+REC-0538,DEV-0068,CASE-0538,31,57,0,100.0,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0539,DEV-0152,CASE-0539,118,53,3,94.6,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0540,DEV-0104,CASE-0540,90,24,1,96.0,Struggles with executive device context; Less reliable on previously unseen device models
+REC-0541,DEV-0101,CASE-0541,82,34,2,94.4,Over-flags Linux devices; Elevated false positives during patch windows; Struggles with executive device context
+REC-0542,DEV-0242,CASE-0542,104,74,2,97.4,Over-flags Linux devices
+REC-0543,DEV-0095,CASE-0543,62,63,2,96.9,Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0544,DEV-0134,CASE-0544,99,46,1,97.9,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0545,DEV-0149,CASE-0545,81,27,0,100.0,Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0546,DEV-0074,CASE-0546,59,40,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0547,DEV-0165,CASE-0547,58,23,1,95.8,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0548,DEV-0048,CASE-0548,102,52,3,94.5,Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0549,DEV-0221,CASE-0549,58,40,0,100.0,Struggles with executive device context; Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0550,DEV-0002,CASE-0550,49,35,1,97.2,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0551,DEV-0062,CASE-0551,97,73,1,98.6,Over-flags Linux devices
+REC-0552,DEV-0186,CASE-0552,44,34,2,94.4,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0553,DEV-0220,CASE-0553,53,39,1,97.5,Elevated false positives during patch windows
+REC-0554,DEV-0049,CASE-0554,22,76,2,97.4,Over-flags Linux devices
+REC-0555,DEV-0209,CASE-0555,74,75,0,100.0,Struggles with executive device context; Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0556,DEV-0126,CASE-0556,57,51,1,98.1,Struggles with executive device context; Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0557,DEV-0061,CASE-0557,55,59,2,96.7,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0558,DEV-0117,CASE-0558,60,58,0,100.0,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0559,DEV-0248,CASE-0559,112,78,5,94.0,Reduced accuracy on staging environments; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0560,DEV-0126,CASE-0560,75,78,5,94.0,Reduced accuracy on staging environments; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0561,DEV-0242,CASE-0561,33,55,4,93.2,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0562,DEV-0107,CASE-0562,39,76,4,95.0,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0563,DEV-0055,CASE-0563,111,36,2,94.7,Over-flags Linux devices
+REC-0564,DEV-0181,CASE-0564,119,36,0,100.0,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0565,DEV-0211,CASE-0565,81,51,1,98.1,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0566,DEV-0229,CASE-0566,114,31,2,93.9,Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0567,DEV-0078,CASE-0567,50,55,2,96.5,Struggles with executive device context
+REC-0568,DEV-0138,CASE-0568,36,73,0,100.0,Limited visibility during VPN outages
+REC-0569,DEV-0061,CASE-0569,30,61,0,100.0,Less reliable on previously unseen device models
+REC-0570,DEV-0161,CASE-0570,85,36,2,94.7,Reduced accuracy on staging environments
+REC-0571,DEV-0031,CASE-0571,96,29,0,100.0,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0572,DEV-0130,CASE-0572,37,77,2,97.5,Over-flags Linux devices; Struggles with executive device context
+REC-0573,DEV-0017,CASE-0573,46,34,1,97.1,Struggles with executive device context; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0574,DEV-0224,CASE-0574,85,42,1,97.7,Struggles with executive device context; Limited visibility during VPN outages
+REC-0575,DEV-0080,CASE-0575,60,37,0,100.0,Less reliable on previously unseen device models
+REC-0576,DEV-0204,CASE-0576,105,36,1,97.3,Over-flags Linux devices; Limited visibility during VPN outages
+REC-0577,DEV-0111,CASE-0577,114,41,1,97.6,Elevated false positives during patch windows
+REC-0578,DEV-0144,CASE-0578,108,55,0,100.0,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0579,DEV-0029,CASE-0579,44,31,1,96.9,Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0580,DEV-0041,CASE-0580,50,54,0,100.0,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0581,DEV-0059,CASE-0581,39,69,1,98.6,Over-flags Linux devices
+REC-0582,DEV-0010,CASE-0582,41,79,1,98.8,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0583,DEV-0215,CASE-0583,29,73,6,92.4,Elevated false positives during patch windows
+REC-0584,DEV-0003,CASE-0584,103,34,1,97.1,Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0585,DEV-0054,CASE-0585,116,30,1,96.8,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0586,DEV-0077,CASE-0586,37,25,0,100.0,Struggles with executive device context; Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0587,DEV-0090,CASE-0587,52,59,4,93.7,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0588,DEV-0116,CASE-0588,15,59,4,93.7,Elevated false positives during patch windows
+REC-0589,DEV-0070,CASE-0589,24,72,1,98.6,Overweights failed login signals on shared kiosks; Over-flags Linux devices; Struggles with executive device context
+REC-0590,DEV-0065,CASE-0590,17,47,1,97.9,Over-flags Linux devices; Struggles with executive device context; Reduced accuracy on staging environments
+REC-0591,DEV-0175,CASE-0591,84,42,0,100.0,Over-flags Linux devices; Limited visibility during VPN outages; Struggles with executive device context
+REC-0592,DEV-0070,CASE-0592,66,50,4,92.6,Struggles with executive device context
+REC-0593,DEV-0121,CASE-0593,53,67,4,94.4,Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0594,DEV-0071,CASE-0594,95,74,3,96.1,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0595,DEV-0175,CASE-0595,65,55,3,94.8,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0596,DEV-0045,CASE-0596,115,27,1,96.4,Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0597,DEV-0172,CASE-0597,63,31,0,100.0,Struggles with executive device context
+REC-0598,DEV-0150,CASE-0598,29,73,4,94.8,Over-flags Linux devices; Elevated false positives during patch windows
+REC-0599,DEV-0112,CASE-0599,55,23,1,95.8,Over-flags Linux devices; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0600,DEV-0083,CASE-0600,62,28,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0601,DEV-0001,CASE-0601,86,24,1,96.0,Over-flags Linux devices; Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0602,DEV-0245,CASE-0602,16,36,1,97.3,Reduced accuracy on staging environments
+REC-0603,DEV-0177,CASE-0603,24,44,1,97.8,Less reliable on previously unseen device models; Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0604,DEV-0222,CASE-0604,70,25,0,100.0,Reduced accuracy on staging environments
+REC-0605,DEV-0158,CASE-0605,61,46,1,97.9,Less reliable on previously unseen device models; Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0606,DEV-0191,CASE-0606,29,34,2,94.4,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0607,DEV-0158,CASE-0607,63,35,0,100.0,Less reliable on previously unseen device models; Struggles with executive device context; Over-flags Linux devices
+REC-0608,DEV-0236,CASE-0608,88,22,1,95.7,Over-flags Linux devices
+REC-0609,DEV-0162,CASE-0609,112,24,0,100.0,Struggles with executive device context; Less reliable on previously unseen device models
+REC-0610,DEV-0012,CASE-0610,59,68,5,93.2,Less reliable on previously unseen device models
+REC-0611,DEV-0077,CASE-0611,107,37,1,97.4,Less reliable on previously unseen device models
+REC-0612,DEV-0187,CASE-0612,73,40,3,93.0,Over-flags Linux devices; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0613,DEV-0042,CASE-0613,49,51,1,98.1,Over-flags Linux devices; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0614,DEV-0154,CASE-0614,22,67,2,97.1,Struggles with executive device context; Elevated false positives during patch windows
+REC-0615,DEV-0250,CASE-0615,31,78,1,98.7,Struggles with executive device context; Over-flags Linux devices; Limited visibility during VPN outages
+REC-0616,DEV-0054,CASE-0616,16,28,1,96.6,Struggles with executive device context; Elevated false positives during patch windows
+REC-0617,DEV-0230,CASE-0617,58,40,1,97.6,Elevated false positives during patch windows; Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0618,DEV-0062,CASE-0618,85,61,0,100.0,Less reliable on previously unseen device models
+REC-0619,DEV-0164,CASE-0619,116,55,4,93.2,Struggles with executive device context; Limited visibility during VPN outages
+REC-0620,DEV-0065,CASE-0620,49,33,2,94.3,Less reliable on previously unseen device models; Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0621,DEV-0056,CASE-0621,46,64,1,98.5,Over-flags Linux devices; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0622,DEV-0160,CASE-0622,105,50,2,96.2,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0623,DEV-0056,CASE-0623,24,28,0,100.0,Over-flags Linux devices; Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0624,DEV-0015,CASE-0624,116,39,1,97.5,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0625,DEV-0132,CASE-0625,66,26,0,100.0,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0626,DEV-0122,CASE-0626,69,69,4,94.5,Limited visibility during VPN outages
+REC-0627,DEV-0204,CASE-0627,67,62,1,98.4,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0628,DEV-0237,CASE-0628,47,53,0,100.0,Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0629,DEV-0164,CASE-0629,41,26,1,96.3,Over-flags Linux devices; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0630,DEV-0044,CASE-0630,22,41,1,97.6,Elevated false positives during patch windows
+REC-0631,DEV-0236,CASE-0631,21,69,4,94.5,Over-flags Linux devices
+REC-0632,DEV-0245,CASE-0632,68,31,1,96.9,Overweights failed login signals on shared kiosks
+REC-0633,DEV-0112,CASE-0633,85,37,2,94.9,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0634,DEV-0157,CASE-0634,111,41,2,95.3,Less reliable on previously unseen device models; Over-flags Linux devices; Elevated false positives during patch windows
+REC-0635,DEV-0221,CASE-0635,106,20,1,95.2,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0636,DEV-0177,CASE-0636,54,60,3,95.2,Elevated false positives during patch windows
+REC-0637,DEV-0102,CASE-0637,71,58,4,93.5,Elevated false positives during patch windows
+REC-0638,DEV-0187,CASE-0638,98,50,3,94.3,Elevated false positives during patch windows; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0639,DEV-0111,CASE-0639,107,26,0,100.0,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0640,DEV-0228,CASE-0640,91,54,3,94.7,Elevated false positives during patch windows
+REC-0641,DEV-0207,CASE-0641,17,67,5,93.1,Less reliable on previously unseen device models
+REC-0642,DEV-0247,CASE-0642,64,56,2,96.6,Reduced accuracy on staging environments; Struggles with executive device context; Elevated false positives during patch windows
+REC-0643,DEV-0097,CASE-0643,45,28,0,100.0,Limited visibility during VPN outages; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0644,DEV-0116,CASE-0644,30,47,2,95.9,Over-flags Linux devices; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0645,DEV-0208,CASE-0645,33,53,1,98.1,Struggles with executive device context; Over-flags Linux devices
+REC-0646,DEV-0125,CASE-0646,20,39,0,100.0,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0647,DEV-0159,CASE-0647,50,71,0,100.0,Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0648,DEV-0148,CASE-0648,111,39,2,95.1,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0649,DEV-0021,CASE-0649,41,39,1,97.5,Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0650,DEV-0133,CASE-0650,17,57,2,96.6,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0651,DEV-0212,CASE-0651,16,68,4,94.4,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0652,DEV-0102,CASE-0652,31,59,2,96.7,Struggles with executive device context
+REC-0653,DEV-0150,CASE-0653,80,45,0,100.0,Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0654,DEV-0029,CASE-0654,85,57,2,96.6,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0655,DEV-0221,CASE-0655,116,25,1,96.2,Limited visibility during VPN outages
+REC-0656,DEV-0241,CASE-0656,71,21,0,100.0,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0657,DEV-0192,CASE-0657,85,73,1,98.6,Reduced accuracy on staging environments
+REC-0658,DEV-0211,CASE-0658,109,24,1,96.0,Elevated false positives during patch windows; Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0659,DEV-0077,CASE-0659,53,69,1,98.6,Overweights failed login signals on shared kiosks
+REC-0660,DEV-0130,CASE-0660,27,20,1,95.2,Elevated false positives during patch windows
+REC-0661,DEV-0205,CASE-0661,114,65,0,100.0,Struggles with executive device context; Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0662,DEV-0081,CASE-0662,80,45,2,95.7,Struggles with executive device context; Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0663,DEV-0078,CASE-0663,115,27,1,96.4,Over-flags Linux devices
+REC-0664,DEV-0069,CASE-0664,100,62,4,93.9,Less reliable on previously unseen device models; Limited visibility during VPN outages; Struggles with executive device context
+REC-0665,DEV-0092,CASE-0665,44,42,3,93.3,Elevated false positives during patch windows; Reduced accuracy on staging environments; Struggles with executive device context
+REC-0666,DEV-0090,CASE-0666,53,76,5,93.8,Struggles with executive device context; Over-flags Linux devices
+REC-0667,DEV-0227,CASE-0667,78,56,3,94.9,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0668,DEV-0232,CASE-0668,89,58,1,98.3,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0669,DEV-0033,CASE-0669,37,69,0,100.0,Over-flags Linux devices; Struggles with executive device context; Elevated false positives during patch windows
+REC-0670,DEV-0045,CASE-0670,47,66,2,97.1,Limited visibility during VPN outages; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0671,DEV-0162,CASE-0671,71,61,1,98.4,Less reliable on previously unseen device models; Over-flags Linux devices; Struggles with executive device context
+REC-0672,DEV-0145,CASE-0672,98,61,0,100.0,Overweights failed login signals on shared kiosks
+REC-0673,DEV-0203,CASE-0673,32,73,5,93.6,Over-flags Linux devices; Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0674,DEV-0095,CASE-0674,64,37,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0675,DEV-0219,CASE-0675,49,32,0,100.0,Elevated false positives during patch windows; Struggles with executive device context; Over-flags Linux devices
+REC-0676,DEV-0123,CASE-0676,58,41,3,93.2,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0677,DEV-0224,CASE-0677,68,31,2,93.9,Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0678,DEV-0126,CASE-0678,112,22,0,100.0,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0679,DEV-0057,CASE-0679,102,27,1,96.4,Struggles with executive device context; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0680,DEV-0226,CASE-0680,103,29,1,96.7,Limited visibility during VPN outages; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0681,DEV-0068,CASE-0681,26,65,0,100.0,Reduced accuracy on staging environments
+REC-0682,DEV-0172,CASE-0682,24,24,1,96.0,Limited visibility during VPN outages
+REC-0683,DEV-0242,CASE-0683,20,65,3,95.6,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0684,DEV-0013,CASE-0684,35,77,4,95.1,Elevated false positives during patch windows; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0685,DEV-0178,CASE-0685,114,61,0,100.0,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0686,DEV-0018,CASE-0686,18,53,4,93.0,Limited visibility during VPN outages; Struggles with executive device context
+REC-0687,DEV-0096,CASE-0687,42,58,1,98.3,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0688,DEV-0009,CASE-0688,95,47,2,95.9,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0689,DEV-0047,CASE-0689,92,54,3,94.7,Less reliable on previously unseen device models; Struggles with executive device context
+REC-0690,DEV-0057,CASE-0690,118,21,0,100.0,Reduced accuracy on staging environments; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0691,DEV-0247,CASE-0691,65,43,3,93.5,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0692,DEV-0173,CASE-0692,22,43,1,97.7,Reduced accuracy on staging environments; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0693,DEV-0156,CASE-0693,62,24,0,100.0,Limited visibility during VPN outages; Struggles with executive device context
+REC-0694,DEV-0066,CASE-0694,32,72,6,92.3,Over-flags Linux devices
+REC-0695,DEV-0017,CASE-0695,19,31,2,93.9,Elevated false positives during patch windows
+REC-0696,DEV-0165,CASE-0696,105,53,2,96.4,Struggles with executive device context; Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0697,DEV-0069,CASE-0697,32,62,3,95.4,Struggles with executive device context; Less reliable on previously unseen device models
+REC-0698,DEV-0225,CASE-0698,75,31,0,100.0,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows; Struggles with executive device context
+REC-0699,DEV-0233,CASE-0699,67,39,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0700,DEV-0164,CASE-0700,62,65,5,92.9,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0701,DEV-0134,CASE-0701,75,39,2,95.1,Over-flags Linux devices; Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0702,DEV-0014,CASE-0702,67,75,1,98.7,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0703,DEV-0187,CASE-0703,64,33,0,100.0,Struggles with executive device context
+REC-0704,DEV-0228,CASE-0704,116,52,0,100.0,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0705,DEV-0174,CASE-0705,111,71,1,98.6,Over-flags Linux devices; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0706,DEV-0096,CASE-0706,72,37,2,94.9,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0707,DEV-0027,CASE-0707,26,77,5,93.9,Over-flags Linux devices
+REC-0708,DEV-0128,CASE-0708,44,27,1,96.4,Overweights failed login signals on shared kiosks
+REC-0709,DEV-0057,CASE-0709,64,72,1,98.6,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0710,DEV-0042,CASE-0710,74,33,1,97.1,Struggles with executive device context; Over-flags Linux devices
+REC-0711,DEV-0207,CASE-0711,18,29,0,100.0,Reduced accuracy on staging environments
+REC-0712,DEV-0242,CASE-0712,47,60,2,96.8,Less reliable on previously unseen device models
+REC-0713,DEV-0156,CASE-0713,46,38,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0714,DEV-0029,CASE-0714,105,32,1,97.0,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0715,DEV-0059,CASE-0715,66,24,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context; Over-flags Linux devices
+REC-0716,DEV-0078,CASE-0716,71,30,1,96.8,Struggles with executive device context
+REC-0717,DEV-0060,CASE-0717,87,61,4,93.8,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0718,DEV-0004,CASE-0718,15,22,0,100.0,Overweights failed login signals on shared kiosks
+REC-0719,DEV-0122,CASE-0719,32,71,2,97.3,Over-flags Linux devices; Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0720,DEV-0045,CASE-0720,99,43,0,100.0,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0721,DEV-0110,CASE-0721,103,34,1,97.1,Less reliable on previously unseen device models
+REC-0722,DEV-0029,CASE-0722,19,41,3,93.2,Elevated false positives during patch windows
+REC-0723,DEV-0215,CASE-0723,49,58,0,100.0,Elevated false positives during patch windows; Over-flags Linux devices
+REC-0724,DEV-0191,CASE-0724,71,44,3,93.6,Elevated false positives during patch windows
+REC-0725,DEV-0178,CASE-0725,103,52,3,94.5,Less reliable on previously unseen device models; Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0726,DEV-0011,CASE-0726,105,64,1,98.5,Over-flags Linux devices
+REC-0727,DEV-0213,CASE-0727,53,61,3,95.3,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0728,DEV-0062,CASE-0728,84,30,0,100.0,Struggles with executive device context; Limited visibility during VPN outages
+REC-0729,DEV-0113,CASE-0729,24,48,3,94.1,Over-flags Linux devices
+REC-0730,DEV-0121,CASE-0730,92,31,1,96.9,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0731,DEV-0197,CASE-0731,108,64,4,94.1,Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0732,DEV-0007,CASE-0732,39,26,0,100.0,Elevated false positives during patch windows
+REC-0733,DEV-0021,CASE-0733,118,33,1,97.1,Limited visibility during VPN outages; Over-flags Linux devices
+REC-0734,DEV-0214,CASE-0734,31,73,6,92.4,Elevated false positives during patch windows
+REC-0735,DEV-0218,CASE-0735,45,76,2,97.4,Limited visibility during VPN outages
+REC-0736,DEV-0104,CASE-0736,43,72,0,100.0,Struggles with executive device context
+REC-0737,DEV-0145,CASE-0737,98,22,1,95.7,Over-flags Linux devices
+REC-0738,DEV-0200,CASE-0738,103,71,3,95.9,Limited visibility during VPN outages; Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0739,DEV-0229,CASE-0739,117,29,0,100.0,Over-flags Linux devices; Elevated false positives during patch windows
+REC-0740,DEV-0242,CASE-0740,21,57,2,96.6,Limited visibility during VPN outages
+REC-0741,DEV-0119,CASE-0741,64,72,6,92.3,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0742,DEV-0172,CASE-0742,82,34,2,94.4,Limited visibility during VPN outages; Struggles with executive device context; Reduced accuracy on staging environments
+REC-0743,DEV-0045,CASE-0743,24,55,2,96.5,Limited visibility during VPN outages
+REC-0744,DEV-0025,CASE-0744,89,69,4,94.5,Limited visibility during VPN outages; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0745,DEV-0106,CASE-0745,28,64,3,95.5,Reduced accuracy on staging environments
+REC-0746,DEV-0005,CASE-0746,42,42,3,93.3,Elevated false positives during patch windows; Over-flags Linux devices
+REC-0747,DEV-0243,CASE-0747,60,69,5,93.2,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0748,DEV-0233,CASE-0748,109,47,0,100.0,Less reliable on previously unseen device models
+REC-0749,DEV-0220,CASE-0749,26,41,0,100.0,Struggles with executive device context
+REC-0750,DEV-0063,CASE-0750,23,55,1,98.2,Less reliable on previously unseen device models; Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0751,DEV-0175,CASE-0751,49,54,1,98.2,Limited visibility during VPN outages; Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0752,DEV-0249,CASE-0752,97,69,4,94.5,Limited visibility during VPN outages
+REC-0753,DEV-0048,CASE-0753,92,72,3,96.0,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0754,DEV-0093,CASE-0754,67,26,1,96.3,Overweights failed login signals on shared kiosks
+REC-0755,DEV-0151,CASE-0755,60,78,1,98.7,Limited visibility during VPN outages; Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0756,DEV-0059,CASE-0756,76,21,1,95.5,Elevated false positives during patch windows
+REC-0757,DEV-0175,CASE-0757,46,73,3,96.1,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0758,DEV-0155,CASE-0758,95,64,0,100.0,Elevated false positives during patch windows
+REC-0759,DEV-0139,CASE-0759,50,22,0,100.0,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0760,DEV-0224,CASE-0760,28,36,2,94.7,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0761,DEV-0067,CASE-0761,96,51,2,96.2,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0762,DEV-0152,CASE-0762,86,48,1,98.0,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0763,DEV-0066,CASE-0763,107,30,0,100.0,Overweights failed login signals on shared kiosks
+REC-0764,DEV-0234,CASE-0764,104,55,0,100.0,Over-flags Linux devices; Struggles with executive device context
+REC-0765,DEV-0110,CASE-0765,43,70,2,97.2,Over-flags Linux devices
+REC-0766,DEV-0105,CASE-0766,103,40,2,95.2,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0767,DEV-0220,CASE-0767,115,29,1,96.7,Limited visibility during VPN outages; Struggles with executive device context
+REC-0768,DEV-0184,CASE-0768,106,54,4,93.1,Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0769,DEV-0078,CASE-0769,102,30,1,96.8,Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0770,DEV-0201,CASE-0770,61,34,2,94.4,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0771,DEV-0094,CASE-0771,48,29,0,100.0,Over-flags Linux devices; Limited visibility during VPN outages
+REC-0772,DEV-0036,CASE-0772,83,40,2,95.2,Elevated false positives during patch windows
+REC-0773,DEV-0023,CASE-0773,34,72,5,93.5,Limited visibility during VPN outages; Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0774,DEV-0049,CASE-0774,70,31,0,100.0,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0775,DEV-0008,CASE-0775,45,34,0,100.0,Less reliable on previously unseen device models; Struggles with executive device context; Reduced accuracy on staging environments
+REC-0776,DEV-0083,CASE-0776,40,36,2,94.7,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0777,DEV-0013,CASE-0777,108,53,2,96.4,Struggles with executive device context; Less reliable on previously unseen device models
+REC-0778,DEV-0016,CASE-0778,117,24,0,100.0,Over-flags Linux devices
+REC-0779,DEV-0219,CASE-0779,96,38,2,95.0,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0780,DEV-0023,CASE-0780,99,55,4,93.2,Limited visibility during VPN outages
+REC-0781,DEV-0195,CASE-0781,114,42,3,93.3,Struggles with executive device context
+REC-0782,DEV-0184,CASE-0782,106,63,0,100.0,Limited visibility during VPN outages
+REC-0783,DEV-0121,CASE-0783,94,40,1,97.6,Less reliable on previously unseen device models; Struggles with executive device context; Reduced accuracy on staging environments
+REC-0784,DEV-0094,CASE-0784,102,42,2,95.5,Struggles with executive device context
+REC-0785,DEV-0131,CASE-0785,39,69,2,97.2,Limited visibility during VPN outages; Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0786,DEV-0028,CASE-0786,30,46,3,93.9,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0787,DEV-0154,CASE-0787,39,54,2,96.4,Limited visibility during VPN outages; Struggles with executive device context; Elevated false positives during patch windows
+REC-0788,DEV-0149,CASE-0788,43,48,3,94.1,Limited visibility during VPN outages
+REC-0789,DEV-0124,CASE-0789,88,70,0,100.0,Elevated false positives during patch windows; Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0790,DEV-0207,CASE-0790,66,33,1,97.1,Struggles with executive device context; Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0791,DEV-0228,CASE-0791,39,49,0,100.0,Limited visibility during VPN outages
+REC-0792,DEV-0098,CASE-0792,33,78,1,98.7,Limited visibility during VPN outages; Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0793,DEV-0157,CASE-0793,50,47,2,95.9,Over-flags Linux devices
+REC-0794,DEV-0206,CASE-0794,117,79,0,100.0,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0795,DEV-0007,CASE-0795,90,23,1,95.8,Struggles with executive device context
+REC-0796,DEV-0101,CASE-0796,75,38,0,100.0,Struggles with executive device context; Over-flags Linux devices
+REC-0797,DEV-0117,CASE-0797,22,40,1,97.6,Limited visibility during VPN outages; Over-flags Linux devices
+REC-0798,DEV-0028,CASE-0798,64,48,2,96.0,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0799,DEV-0104,CASE-0799,36,59,3,95.2,Less reliable on previously unseen device models
+REC-0800,DEV-0058,CASE-0800,51,34,2,94.4,Struggles with executive device context; Limited visibility during VPN outages
+REC-0801,DEV-0034,CASE-0801,119,21,0,100.0,Struggles with executive device context
+REC-0802,DEV-0038,CASE-0802,35,25,1,96.2,Less reliable on previously unseen device models; Struggles with executive device context; Limited visibility during VPN outages
+REC-0803,DEV-0045,CASE-0803,38,56,4,93.3,Less reliable on previously unseen device models
+REC-0804,DEV-0244,CASE-0804,93,44,2,95.7,Over-flags Linux devices
+REC-0805,DEV-0063,CASE-0805,101,64,3,95.5,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0806,DEV-0216,CASE-0806,80,45,0,100.0,Over-flags Linux devices
+REC-0807,DEV-0155,CASE-0807,118,79,2,97.5,Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0808,DEV-0069,CASE-0808,37,49,3,94.2,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0809,DEV-0245,CASE-0809,118,47,3,94.0,Elevated false positives during patch windows
+REC-0810,DEV-0092,CASE-0810,64,52,2,96.3,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Elevated false positives during patch windows
+REC-0811,DEV-0146,CASE-0811,87,63,5,92.6,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0812,DEV-0218,CASE-0812,37,64,4,94.1,Overweights failed login signals on shared kiosks
+REC-0813,DEV-0089,CASE-0813,27,75,5,93.8,Reduced accuracy on staging environments; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0814,DEV-0193,CASE-0814,92,63,5,92.6,Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0815,DEV-0190,CASE-0815,66,37,0,100.0,Limited visibility during VPN outages; Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0816,DEV-0145,CASE-0816,87,59,0,100.0,Over-flags Linux devices
+REC-0817,DEV-0037,CASE-0817,61,35,2,94.6,Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0818,DEV-0170,CASE-0818,42,20,0,100.0,Reduced accuracy on staging environments; Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0819,DEV-0073,CASE-0819,25,58,4,93.5,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0820,DEV-0239,CASE-0820,72,65,4,94.2,Limited visibility during VPN outages
+REC-0821,DEV-0020,CASE-0821,49,55,3,94.8,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0822,DEV-0127,CASE-0822,64,48,0,100.0,Limited visibility during VPN outages
+REC-0823,DEV-0222,CASE-0823,84,55,1,98.2,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0824,DEV-0113,CASE-0824,99,73,6,92.4,Reduced accuracy on staging environments
+REC-0825,DEV-0076,CASE-0825,106,40,3,93.0,Limited visibility during VPN outages; Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0826,DEV-0051,CASE-0826,17,56,4,93.3,Struggles with executive device context; Less reliable on previously unseen device models
+REC-0827,DEV-0071,CASE-0827,107,51,3,94.4,Over-flags Linux devices
+REC-0828,DEV-0075,CASE-0828,32,28,0,100.0,Elevated false positives during patch windows; Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0829,DEV-0236,CASE-0829,25,70,6,92.1,Less reliable on previously unseen device models; Reduced accuracy on staging environments; Struggles with executive device context
+REC-0830,DEV-0002,CASE-0830,83,78,1,98.7,Reduced accuracy on staging environments; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0831,DEV-0122,CASE-0831,25,45,2,95.7,Elevated false positives during patch windows
+REC-0832,DEV-0018,CASE-0832,84,51,3,94.4,Struggles with executive device context; Reduced accuracy on staging environments
+REC-0833,DEV-0171,CASE-0833,49,24,1,96.0,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0834,DEV-0184,CASE-0834,67,38,2,95.0,Elevated false positives during patch windows; Struggles with executive device context
+REC-0835,DEV-0134,CASE-0835,93,65,2,97.0,Less reliable on previously unseen device models; Struggles with executive device context
+REC-0836,DEV-0186,CASE-0836,102,64,5,92.8,Less reliable on previously unseen device models; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0837,DEV-0085,CASE-0837,33,50,4,92.6,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0838,DEV-0086,CASE-0838,109,60,1,98.4,Struggles with executive device context; Over-flags Linux devices
+REC-0839,DEV-0173,CASE-0839,85,44,1,97.8,Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0840,DEV-0015,CASE-0840,76,69,0,100.0,Elevated false positives during patch windows; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0841,DEV-0164,CASE-0841,59,44,0,100.0,Reduced accuracy on staging environments; Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0842,DEV-0156,CASE-0842,78,48,0,100.0,Struggles with executive device context; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0843,DEV-0068,CASE-0843,78,31,2,93.9,Less reliable on previously unseen device models
+REC-0844,DEV-0140,CASE-0844,23,74,6,92.5,Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0845,DEV-0073,CASE-0845,36,46,3,93.9,Reduced accuracy on staging environments
+REC-0846,DEV-0128,CASE-0846,84,54,0,100.0,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0847,DEV-0207,CASE-0847,54,22,1,95.7,Less reliable on previously unseen device models; Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0848,DEV-0247,CASE-0848,89,56,3,94.9,Elevated false positives during patch windows
+REC-0849,DEV-0152,CASE-0849,61,44,2,95.7,Struggles with executive device context; Elevated false positives during patch windows
+REC-0850,DEV-0178,CASE-0850,93,71,3,95.9,Limited visibility during VPN outages
+REC-0851,DEV-0082,CASE-0851,67,30,0,100.0,Elevated false positives during patch windows; Struggles with executive device context; Limited visibility during VPN outages
+REC-0852,DEV-0186,CASE-0852,68,45,1,97.8,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0853,DEV-0067,CASE-0853,15,37,0,100.0,Over-flags Linux devices
+REC-0854,DEV-0071,CASE-0854,95,50,3,94.3,Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0855,DEV-0176,CASE-0855,16,63,2,96.9,Over-flags Linux devices; Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0856,DEV-0020,CASE-0856,19,23,0,100.0,Elevated false positives during patch windows
+REC-0857,DEV-0205,CASE-0857,54,73,3,96.1,Elevated false positives during patch windows; Struggles with executive device context
+REC-0858,DEV-0136,CASE-0858,106,51,3,94.4,Reduced accuracy on staging environments; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0859,DEV-0113,CASE-0859,67,36,0,100.0,Over-flags Linux devices
+REC-0860,DEV-0061,CASE-0860,85,69,0,100.0,Overweights failed login signals on shared kiosks
+REC-0861,DEV-0129,CASE-0861,37,44,1,97.8,Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0862,DEV-0103,CASE-0862,82,72,4,94.7,Over-flags Linux devices
+REC-0863,DEV-0136,CASE-0863,33,24,0,100.0,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0864,DEV-0018,CASE-0864,97,72,2,97.3,Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0865,DEV-0154,CASE-0865,87,72,2,97.3,Elevated false positives during patch windows
+REC-0866,DEV-0190,CASE-0866,29,28,1,96.6,Elevated false positives during patch windows; Overweights failed login signals on shared kiosks; Less reliable on previously unseen device models
+REC-0867,DEV-0033,CASE-0867,59,76,5,93.8,Less reliable on previously unseen device models; Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0868,DEV-0246,CASE-0868,59,78,1,98.7,Limited visibility during VPN outages
+REC-0869,DEV-0079,CASE-0869,68,64,5,92.8,Over-flags Linux devices
+REC-0870,DEV-0028,CASE-0870,81,29,0,100.0,Struggles with executive device context
+REC-0871,DEV-0079,CASE-0871,77,48,3,94.1,Less reliable on previously unseen device models
+REC-0872,DEV-0219,CASE-0872,31,39,1,97.5,Less reliable on previously unseen device models; Elevated false positives during patch windows
+REC-0873,DEV-0241,CASE-0873,100,66,5,93.0,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0874,DEV-0244,CASE-0874,50,64,5,92.8,Reduced accuracy on staging environments
+REC-0875,DEV-0248,CASE-0875,47,46,3,93.9,Less reliable on previously unseen device models
+REC-0876,DEV-0036,CASE-0876,61,75,2,97.4,Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0877,DEV-0112,CASE-0877,28,54,4,93.1,Over-flags Linux devices; Less reliable on previously unseen device models; Struggles with executive device context
+REC-0878,DEV-0003,CASE-0878,67,37,2,94.9,Struggles with executive device context; Elevated false positives during patch windows
+REC-0879,DEV-0186,CASE-0879,24,26,1,96.3,Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0880,DEV-0072,CASE-0880,76,22,1,95.7,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0881,DEV-0228,CASE-0881,66,53,0,100.0,Less reliable on previously unseen device models; Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0882,DEV-0087,CASE-0882,112,72,3,96.0,Overweights failed login signals on shared kiosks
+REC-0883,DEV-0001,CASE-0883,100,58,2,96.7,Overweights failed login signals on shared kiosks
+REC-0884,DEV-0074,CASE-0884,119,47,0,100.0,Less reliable on previously unseen device models
+REC-0885,DEV-0058,CASE-0885,66,37,0,100.0,Elevated false positives during patch windows; Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0886,DEV-0246,CASE-0886,85,59,2,96.7,Over-flags Linux devices; Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0887,DEV-0057,CASE-0887,90,66,2,97.1,Elevated false positives during patch windows; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0888,DEV-0150,CASE-0888,83,74,4,94.9,Struggles with executive device context; Limited visibility during VPN outages
+REC-0889,DEV-0205,CASE-0889,112,43,0,100.0,Less reliable on previously unseen device models; Limited visibility during VPN outages; Struggles with executive device context
+REC-0890,DEV-0031,CASE-0890,100,66,4,94.3,Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0891,DEV-0077,CASE-0891,119,21,0,100.0,Less reliable on previously unseen device models
+REC-0892,DEV-0032,CASE-0892,81,51,1,98.1,Reduced accuracy on staging environments; Struggles with executive device context; Limited visibility during VPN outages
+REC-0893,DEV-0051,CASE-0893,60,55,1,98.2,Elevated false positives during patch windows
+REC-0894,DEV-0239,CASE-0894,54,59,2,96.7,Elevated false positives during patch windows; Over-flags Linux devices
+REC-0895,DEV-0148,CASE-0895,49,22,1,95.7,Less reliable on previously unseen device models; Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0896,DEV-0145,CASE-0896,65,34,0,100.0,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0897,DEV-0180,CASE-0897,15,67,2,97.1,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0898,DEV-0090,CASE-0898,67,67,0,100.0,Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0899,DEV-0153,CASE-0899,27,76,1,98.7,Reduced accuracy on staging environments; Struggles with executive device context; Less reliable on previously unseen device models
+REC-0900,DEV-0024,CASE-0900,61,58,2,96.7,Elevated false positives during patch windows; Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0901,DEV-0090,CASE-0901,79,65,4,94.2,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0902,DEV-0205,CASE-0902,85,42,2,95.5,Struggles with executive device context; Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0903,DEV-0137,CASE-0903,44,52,4,92.9,Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks; Limited visibility during VPN outages
+REC-0904,DEV-0019,CASE-0904,42,41,3,93.2,Limited visibility during VPN outages
+REC-0905,DEV-0102,CASE-0905,48,44,0,100.0,Reduced accuracy on staging environments
+REC-0906,DEV-0100,CASE-0906,92,78,4,95.1,Less reliable on previously unseen device models
+REC-0907,DEV-0093,CASE-0907,16,29,0,100.0,Reduced accuracy on staging environments; Over-flags Linux devices; Elevated false positives during patch windows
+REC-0908,DEV-0187,CASE-0908,117,68,5,93.2,Reduced accuracy on staging environments
+REC-0909,DEV-0198,CASE-0909,94,55,2,96.5,Elevated false positives during patch windows; Struggles with executive device context
+REC-0910,DEV-0188,CASE-0910,34,73,6,92.4,Overweights failed login signals on shared kiosks
+REC-0911,DEV-0195,CASE-0911,63,36,0,100.0,Limited visibility during VPN outages
+REC-0912,DEV-0048,CASE-0912,52,61,3,95.3,Overweights failed login signals on shared kiosks
+REC-0913,DEV-0003,CASE-0913,102,63,1,98.4,Reduced accuracy on staging environments; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0914,DEV-0030,CASE-0914,75,64,4,94.1,Struggles with executive device context
+REC-0915,DEV-0111,CASE-0915,62,44,1,97.8,Reduced accuracy on staging environments
+REC-0916,DEV-0194,CASE-0916,77,56,3,94.9,Over-flags Linux devices; Less reliable on previously unseen device models; Reduced accuracy on staging environments
+REC-0917,DEV-0012,CASE-0917,109,71,6,92.2,Less reliable on previously unseen device models; Limited visibility during VPN outages
+REC-0918,DEV-0046,CASE-0918,50,46,1,97.9,Limited visibility during VPN outages; Struggles with executive device context
+REC-0919,DEV-0142,CASE-0919,22,21,1,95.5,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows; Limited visibility during VPN outages
+REC-0920,DEV-0045,CASE-0920,65,37,0,100.0,Over-flags Linux devices; Elevated false positives during patch windows
+REC-0921,DEV-0152,CASE-0921,38,29,0,100.0,Struggles with executive device context; Over-flags Linux devices
+REC-0922,DEV-0106,CASE-0922,85,73,5,93.6,Overweights failed login signals on shared kiosks; Elevated false positives during patch windows; Over-flags Linux devices
+REC-0923,DEV-0007,CASE-0923,107,23,1,95.8,Overweights failed login signals on shared kiosks; Struggles with executive device context; Less reliable on previously unseen device models
+REC-0924,DEV-0013,CASE-0924,28,79,0,100.0,Struggles with executive device context; Less reliable on previously unseen device models
+REC-0925,DEV-0055,CASE-0925,31,74,4,94.9,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0926,DEV-0185,CASE-0926,68,60,3,95.2,Overweights failed login signals on shared kiosks
+REC-0927,DEV-0156,CASE-0927,60,20,1,95.2,Over-flags Linux devices
+REC-0928,DEV-0218,CASE-0928,26,64,4,94.1,Struggles with executive device context; Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0929,DEV-0089,CASE-0929,25,48,0,100.0,Reduced accuracy on staging environments; Struggles with executive device context; Limited visibility during VPN outages
+REC-0930,DEV-0127,CASE-0930,67,49,0,100.0,Limited visibility during VPN outages; Struggles with executive device context; Over-flags Linux devices
+REC-0931,DEV-0172,CASE-0931,118,31,1,96.9,Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0932,DEV-0149,CASE-0932,87,38,1,97.4,Overweights failed login signals on shared kiosks; Struggles with executive device context; Limited visibility during VPN outages
+REC-0933,DEV-0236,CASE-0933,101,54,1,98.2,Struggles with executive device context; Over-flags Linux devices
+REC-0934,DEV-0115,CASE-0934,100,65,4,94.2,Reduced accuracy on staging environments; Elevated false positives during patch windows
+REC-0935,DEV-0022,CASE-0935,15,77,5,93.9,Reduced accuracy on staging environments; Struggles with executive device context
+REC-0936,DEV-0022,CASE-0936,93,33,2,94.3,Struggles with executive device context; Less reliable on previously unseen device models
+REC-0937,DEV-0115,CASE-0937,59,20,0,100.0,Limited visibility during VPN outages; Struggles with executive device context
+REC-0938,DEV-0012,CASE-0938,104,58,1,98.3,Struggles with executive device context; Overweights failed login signals on shared kiosks
+REC-0939,DEV-0148,CASE-0939,105,70,2,97.2,Over-flags Linux devices; Less reliable on previously unseen device models
+REC-0940,DEV-0116,CASE-0940,64,28,1,96.6,Reduced accuracy on staging environments; Limited visibility during VPN outages
+REC-0941,DEV-0176,CASE-0941,85,74,2,97.4,Elevated false positives during patch windows
+REC-0942,DEV-0119,CASE-0942,103,34,1,97.1,Struggles with executive device context; Over-flags Linux devices
+REC-0943,DEV-0240,CASE-0943,101,55,0,100.0,Struggles with executive device context; Less reliable on previously unseen device models
+REC-0944,DEV-0024,CASE-0944,34,21,1,95.5,Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0945,DEV-0023,CASE-0945,77,52,1,98.1,Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0946,DEV-0178,CASE-0946,99,40,3,93.0,Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0947,DEV-0211,CASE-0947,100,63,3,95.5,Limited visibility during VPN outages
+REC-0948,DEV-0036,CASE-0948,78,27,1,96.4,Over-flags Linux devices; Struggles with executive device context; Elevated false positives during patch windows
+REC-0949,DEV-0053,CASE-0949,48,74,1,98.7,Less reliable on previously unseen device models; Elevated false positives during patch windows; Overweights failed login signals on shared kiosks
+REC-0950,DEV-0115,CASE-0950,112,42,0,100.0,Struggles with executive device context; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0951,DEV-0100,CASE-0951,54,67,4,94.4,Reduced accuracy on staging environments
+REC-0952,DEV-0245,CASE-0952,49,30,1,96.8,Limited visibility during VPN outages
+REC-0953,DEV-0141,CASE-0953,18,61,3,95.3,Limited visibility during VPN outages
+REC-0954,DEV-0038,CASE-0954,32,42,1,97.7,Struggles with executive device context
+REC-0955,DEV-0072,CASE-0955,18,78,4,95.1,Struggles with executive device context
+REC-0956,DEV-0136,CASE-0956,73,39,0,100.0,Overweights failed login signals on shared kiosks; Struggles with executive device context; Limited visibility during VPN outages
+REC-0957,DEV-0248,CASE-0957,111,55,4,93.2,Elevated false positives during patch windows; Limited visibility during VPN outages; Over-flags Linux devices
+REC-0958,DEV-0113,CASE-0958,19,75,1,98.7,Over-flags Linux devices
+REC-0959,DEV-0001,CASE-0959,19,68,5,93.2,Elevated false positives during patch windows
+REC-0960,DEV-0042,CASE-0960,95,48,2,96.0,Struggles with executive device context; Elevated false positives during patch windows
+REC-0961,DEV-0052,CASE-0961,67,22,1,95.7,Struggles with executive device context; Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0962,DEV-0189,CASE-0962,113,67,5,93.1,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks
+REC-0963,DEV-0163,CASE-0963,88,58,1,98.3,Reduced accuracy on staging environments; Struggles with executive device context; Less reliable on previously unseen device models
+REC-0964,DEV-0034,CASE-0964,92,31,0,100.0,Over-flags Linux devices
+REC-0965,DEV-0003,CASE-0965,60,69,5,93.2,Limited visibility during VPN outages; Elevated false positives during patch windows
+REC-0966,DEV-0128,CASE-0966,39,23,1,95.8,Reduced accuracy on staging environments; Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks
+REC-0967,DEV-0099,CASE-0967,94,61,4,93.8,Less reliable on previously unseen device models
+REC-0968,DEV-0177,CASE-0968,48,31,1,96.9,Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0969,DEV-0181,CASE-0969,57,32,1,97.0,Less reliable on previously unseen device models; Over-flags Linux devices
+REC-0970,DEV-0145,CASE-0970,56,59,2,96.7,Elevated false positives during patch windows; Over-flags Linux devices; Reduced accuracy on staging environments
+REC-0971,DEV-0149,CASE-0971,43,50,4,92.6,Over-flags Linux devices; Struggles with executive device context
+REC-0972,DEV-0097,CASE-0972,25,36,1,97.3,Elevated false positives during patch windows; Reduced accuracy on staging environments
+REC-0973,DEV-0027,CASE-0973,33,33,1,97.1,Limited visibility during VPN outages; Reduced accuracy on staging environments; Overweights failed login signals on shared kiosks
+REC-0974,DEV-0118,CASE-0974,58,31,2,93.9,Elevated false positives during patch windows
+REC-0975,DEV-0180,CASE-0975,29,78,0,100.0,Overweights failed login signals on shared kiosks; Struggles with executive device context; Over-flags Linux devices
+REC-0976,DEV-0053,CASE-0976,101,30,2,93.8,Struggles with executive device context
+REC-0977,DEV-0150,CASE-0977,45,62,1,98.4,Reduced accuracy on staging environments; Limited visibility during VPN outages; Less reliable on previously unseen device models
+REC-0978,DEV-0090,CASE-0978,18,28,1,96.6,Less reliable on previously unseen device models; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-0979,DEV-0058,CASE-0979,92,55,2,96.5,Elevated false positives during patch windows
+REC-0980,DEV-0207,CASE-0980,22,26,1,96.3,Reduced accuracy on staging environments; Less reliable on previously unseen device models
+REC-0981,DEV-0138,CASE-0981,36,26,0,100.0,Elevated false positives during patch windows; Struggles with executive device context; Limited visibility during VPN outages
+REC-0982,DEV-0023,CASE-0982,37,46,1,97.9,Less reliable on previously unseen device models
+REC-0983,DEV-0200,CASE-0983,57,38,1,97.4,Reduced accuracy on staging environments; Over-flags Linux devices
+REC-0984,DEV-0230,CASE-0984,82,54,4,93.1,Overweights failed login signals on shared kiosks; Over-flags Linux devices
+REC-0985,DEV-0002,CASE-0985,117,66,5,93.0,Less reliable on previously unseen device models; Overweights failed login signals on shared kiosks; Struggles with executive device context
+REC-0986,DEV-0249,CASE-0986,19,63,2,96.9,Over-flags Linux devices; Overweights failed login signals on shared kiosks
+REC-0987,DEV-0236,CASE-0987,24,60,5,92.3,Limited visibility during VPN outages
+REC-0988,DEV-0116,CASE-0988,18,25,1,96.2,Limited visibility during VPN outages
+REC-0989,DEV-0041,CASE-0989,84,63,1,98.4,Limited visibility during VPN outages; Elevated false positives during patch windows; Struggles with executive device context
+REC-0990,DEV-0082,CASE-0990,58,79,6,92.9,Struggles with executive device context; Elevated false positives during patch windows; Less reliable on previously unseen device models
+REC-0991,DEV-0033,CASE-0991,29,38,0,100.0,Struggles with executive device context; Limited visibility during VPN outages
+REC-0992,DEV-0182,CASE-0992,79,31,0,100.0,Limited visibility during VPN outages
+REC-0993,DEV-0015,CASE-0993,23,79,1,98.8,Overweights failed login signals on shared kiosks
+REC-0994,DEV-0135,CASE-0994,103,22,1,95.7,Limited visibility during VPN outages
+REC-0995,DEV-0099,CASE-0995,17,39,0,100.0,Struggles with executive device context; Limited visibility during VPN outages
+REC-0996,DEV-0129,CASE-0996,70,62,0,100.0,Over-flags Linux devices; Limited visibility during VPN outages
+REC-0997,DEV-0100,CASE-0997,20,25,0,100.0,Limited visibility during VPN outages; Overweights failed login signals on shared kiosks; Reduced accuracy on staging environments
+REC-0998,DEV-0021,CASE-0998,41,46,2,95.8,Less reliable on previously unseen device models
+REC-0999,DEV-0134,CASE-0999,85,49,1,98.0,Overweights failed login signals on shared kiosks; Limited visibility during VPN outages; Reduced accuracy on staging environments
+REC-1000,DEV-0242,CASE-1000,47,46,0,100.0,Reduced accuracy on staging environments

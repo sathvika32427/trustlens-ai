@@ -1,14 +1,7 @@
 import { useState, useRef, useEffect } from "react";
-import {
-  Shield,
-  User,
-  CheckCircle2,
-  ChevronDown,
-  ShieldCheck,
-  Briefcase,
-} from "lucide-react";
-import { Role } from "../types";
-import { getRoleConfig, roleConfigs } from "../roleConfig";
+import { Shield, User, CheckCircle2, ChevronDown } from "lucide-react";
+import { Role } from "../types/datasets";
+import { getRoleConfig, roleConfigs, personaIcons } from "../roleConfig";
 
 interface SidebarProps {
   currentTab: string;
@@ -16,12 +9,6 @@ interface SidebarProps {
   activeRole: Role;
   setActiveRole: (role: Role) => void;
 }
-
-const personaIcons: Record<Role, typeof ShieldCheck> = {
-  [Role.IT_ADMIN]: ShieldCheck,
-  [Role.SECURITY_ANALYST]: Shield,
-  [Role.EMPLOYEE]: Briefcase,
-};
 
 export default function Sidebar({
   currentTab,
@@ -51,12 +38,11 @@ export default function Sidebar({
   };
 
   return (
-    <aside className="relative flex w-64 shrink-0 flex-col bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC.02Ij48cGF0aCBkPSJNMzYgMzRoLTJ2LTRoMnY0em0wLTZoLTJWNDBoMnYtMTJ6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-50" />
+    <aside className="relative flex w-64 shrink-0 flex-col border-r border-[var(--tl-border)] bg-[var(--tl-bg-sidebar)] text-white">
 
       <div className="relative border-b border-white/10 p-6">
         <div className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 shadow-lg shadow-blue-500/30">
+          <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[var(--tl-dell-blue)]">
             <Shield className="h-5 w-5" />
           </div>
           <div>
@@ -137,12 +123,13 @@ export default function Sidebar({
           return (
             <button
               key={item.id}
+              id={`tour-nav-${item.id}`}
               type="button"
               onClick={() => setCurrentTab(item.id)}
               className={`relative flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-semibold transition-all ${
                 isActive
-                  ? "bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg shadow-blue-500/25"
-                  : "text-slate-400 hover:bg-white/5 hover:text-white"
+                  ? "bg-[var(--tl-dell-blue)] text-white"
+                  : "text-[var(--tl-text-muted)] hover:bg-[var(--tl-bg-elevated)] hover:text-white"
               }`}
             >
               <Icon className="h-4 w-4" />

@@ -1,113 +1,114 @@
+import { useState } from "react";
 import { motion } from "motion/react";
-import {
-  CheckCircle2,
-  XCircle,
-  ArrowUpRight,
-  ArrowLeft,
-  ClipboardList,
-  Sparkles,
-} from "lucide-react";
-import { ConfirmationState, DecisionType, Role } from "../types";
+import { CheckCircle2, XCircle, ArrowUpRight, ArrowLeft, ClipboardList, Star } from "lucide-react";
+import { ConfirmationState, RecommendationRow, Role } from "../types/datasets";
 import { getRoleConfig } from "../roleConfig";
+import Modal from "./Modal";
 
-interface ConfirmationProps {
+interface Props {
   confirmation: ConfirmationState;
+  recommendation: RecommendationRow;
   activeRole: Role;
+  onSubmitFeedback: (rating: number, comment: string) => void;
   onBackToDashboard: () => void;
   onViewActivityLog: () => void;
 }
 
-const decisionConfig: Record<
-  DecisionType,
-  { icon: typeof CheckCircle2; gradient: string; title: string; message: string }
-> = {
-  Approved: {
-    icon: CheckCircle2,
-    gradient: "from-emerald-500 to-teal-600",
-    title: "Action Approved ✓",
-    message: "Your decision has been recorded and the recommended action will proceed.",
-  },
-  Overridden: {
-    icon: XCircle,
-    gradient: "from-amber-500 to-orange-600",
-    title: "Recommendation Overridden",
-    message: "Your override has been recorded. The AI recommendation was not executed.",
-  },
-  Escalated: {
-    icon: ArrowUpRight,
-    gradient: "from-purple-600 to-violet-600",
-    title: "Escalated to Human Review",
-    message: "This case has been forwarded to a senior admin or analyst for manual review.",
-  },
+const CFG = {
+  Approved: { icon: CheckCircle2, color: "var(--tl-success)", title: "Action Approved" },
+  Overridden: { icon: XCircle, color: "var(--tl-warning)", title: "Recommendation Overridden" },
+  Escalated: { icon: ArrowUpRight, color: "#1DA1F2", title: "Escalated for Review" },
 };
 
 export default function Confirmation({
   confirmation,
+  recommendation,
   activeRole,
+  onSubmitFeedback,
   onBackToDashboard,
   onViewActivityLog,
-}: ConfirmationProps) {
-  const { decision, notes } = confirmation;
-  const config = decisionConfig[decision];
-  const Icon = config.icon;
-  const roleConfig = getRoleConfig(activeRole);
-  const auditLabel = roleConfig.canAccessAuditCenter ? "Audit Center" : "Activity Log";
+}: Props) {
+  const cfg = CFG[confirmation.decision];
+  const Icon = cfg.icon;
+  const auditLabel = getRoleConfig(activeRole).canAccessAuditCenter ? "Audit Center" : "Activity Log";
+  
+  const [showFeedbackModal, setShowFeedbackModal] = useState(true);
+  const [rating, setRating] = useState(0);
+  const [comment, setComment] = useState("");
+
+  const handleFeedbackSubmit = () => {
+    onSubmitFeedback(rating, comment);
+    setShowFeedbackModal(false);
+  };
 
   return (
-    <div className="mesh-bg flex flex-1 items-center justify-center overflow-y-auto p-6">
-      <motion.div
-        initial={{ opacity: 0, scale: 0.9, y: 20 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{ type: "spring", damping: 22 }}
-        className="w-full max-w-lg overflow-hidden rounded-3xl bg-white shadow-2xl shadow-slate-300/50"
-      >
-        <div className={`bg-gradient-to-r ${config.gradient} px-8 py-10 text-center text-white`}>
-          <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 0.15, type: "spring" }}
-            className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-white/20 backdrop-blur-sm"
-          >
-            <Icon className="h-10 w-10" />
-          </motion.div>
-          <h1 className="mt-5 font-display text-2xl font-bold">{config.title}</h1>
-          <p className="mt-2 text-sm text-white/80">{config.message}</p>
+    <div className="flex flex-1 items-center justify-center overflow-y-auto p-6">
+      <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="tl-panel w-full max-w-lg text-center">
+        <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full" style={{ background: `${cfg.color}22`, color: cfg.color }}>
+          <Icon className="h-8 w-8" />
         </div>
+        <h1 className="mt-4 font-display text-2xl font-bold text-white">{cfg.title}</h1>
+        <p className="mt-2 text-sm text-[var(--tl-text-muted)]">Decision recorded for {recommendation.recommendation_id}</p>
+        <p className="mt-4 text-xs text-[var(--tl-text-muted)] border border-[var(--tl-border)] bg-[var(--tl-bg-elevated)] p-3 rounded-lg leading-relaxed">
+          The Trust Ledger has been adjusted dynamically based on this outcome. Compliance audit trails have been generated.
+        </p>
 
-        <div className="space-y-3 px-8 py-6">
-          <div className="flex justify-between text-sm">
-            <span className="text-slate-500">Decision recorded</span>
-            <span className="font-semibold text-slate-900">{decision}</span>
-          </div>
-          {notes && (
-            <div className="rounded-xl bg-slate-50 p-3 text-sm">
-              <span className="text-slate-500">Notes</span>
-              <p className="mt-1 text-slate-800">{notes}</p>
-            </div>
-          )}
-          <p className="flex items-center justify-center gap-1.5 pt-2 text-xs text-slate-400">
-            <Sparkles className="h-3 w-3" />
-            Recorded · Added to Activity Log
-          </p>
-        </div>
-
-        <div className="flex gap-3 border-t border-slate-100 bg-slate-50 px-8 py-5">
-          <button
-            onClick={onBackToDashboard}
-            className="flex flex-1 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-50"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Dashboard
+        <div className="mt-6 flex gap-3">
+          <button type="button" onClick={onBackToDashboard} className="tl-btn-secondary flex flex-1 items-center justify-center gap-2 py-3">
+            <ArrowLeft className="h-4 w-4" /> Dashboard
           </button>
-          <button
-            onClick={onViewActivityLog}
-            className={`flex flex-1 items-center justify-center gap-2 rounded-xl bg-gradient-to-r ${config.gradient} px-4 py-3 text-sm font-bold text-white shadow-lg`}
-          >
-            <ClipboardList className="h-4 w-4" />
-            {auditLabel}
+          <button type="button" onClick={onViewActivityLog} className="tl-btn-primary flex flex-1 items-center justify-center gap-2 py-3">
+            <ClipboardList className="h-4 w-4" /> {auditLabel}
           </button>
         </div>
       </motion.div>
+
+      {/* 8. Human Feedback Popup Modal */}
+      <Modal
+        open={showFeedbackModal}
+        onClose={() => setShowFeedbackModal(false)}
+        title="Decision Feedback"
+        subtitle="How useful was this recommendation?"
+        icon={<Star className="h-6 w-6 text-yellow-400" />}
+        accent="blue"
+        footer={
+          <button
+            type="button"
+            disabled={rating === 0}
+            onClick={handleFeedbackSubmit}
+            className="tl-btn-primary w-full disabled:opacity-40"
+          >
+            Submit Feedback
+          </button>
+        }
+      >
+        <div className="space-y-4">
+          <p className="text-xs text-[var(--tl-text-secondary)] text-center">
+            Your feedback directly helps calibrate AI confidence scores for similar hardware profiles.
+          </p>
+          <div className="flex justify-center gap-2 py-2">
+            {[1, 2, 3, 4, 5].map((r) => (
+              <button
+                key={r}
+                type="button"
+                onClick={() => setRating(r)}
+                className={`rounded-lg p-2 transition hover:scale-110 ${
+                  rating >= r ? "text-yellow-400" : "text-[var(--tl-text-muted)]"
+                }`}
+              >
+                <Star className={`h-8 w-8 ${rating >= r ? "fill-current" : ""}`} />
+              </button>
+            ))}
+          </div>
+          <textarea
+            value={comment}
+            onChange={(e) => setComment(e.target.value)}
+            rows={3}
+            placeholder="Optional comments on decision support accuracy..."
+            className="tl-input w-full"
+          />
+        </div>
+      </Modal>
     </div>
   );
 }

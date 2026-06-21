@@ -1,0 +1,1001 @@
+recommendation_id,device_id,case_id,counter_consideration
+REC-0001,DEV-0103,CASE-0001,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0002,DEV-0038,CASE-0002,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0003,DEV-0244,CASE-0003,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0004,DEV-0172,CASE-0004,Internal pen-test activity can mimic external scanning patterns.
+REC-0005,DEV-0228,CASE-0005,Similar behavior has previously occurred during software updates.
+REC-0006,DEV-0089,CASE-0006,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0007,DEV-0162,CASE-0007,This device model often triggers benign network scans during backup jobs.
+REC-0008,DEV-0103,CASE-0008,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0009,DEV-0036,CASE-0009,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0010,DEV-0225,CASE-0010,Similar behavior has previously occurred during software updates.
+REC-0011,DEV-0113,CASE-0011,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0012,DEV-0147,CASE-0012,Executive devices frequently show off-hours file activity before travel.
+REC-0013,DEV-0097,CASE-0013,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0014,DEV-0220,CASE-0014,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0015,DEV-0233,CASE-0015,Executive devices frequently show off-hours file activity before travel.
+REC-0016,DEV-0093,CASE-0016,This device model often triggers benign network scans during backup jobs.
+REC-0017,DEV-0204,CASE-0017,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0018,DEV-0061,CASE-0018,Historical false positives were linked to scheduled QA stress tests.
+REC-0019,DEV-0225,CASE-0019,Similar behavior has previously occurred during software updates.
+REC-0020,DEV-0234,CASE-0020,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0021,DEV-0065,CASE-0021,Internal pen-test activity can mimic external scanning patterns.
+REC-0022,DEV-0170,CASE-0022,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0023,DEV-0013,CASE-0023,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0024,DEV-0122,CASE-0024,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0025,DEV-0144,CASE-0025,Similar behavior has previously occurred during software updates.
+REC-0026,DEV-0222,CASE-0026,Historical false positives were linked to scheduled QA stress tests.
+REC-0027,DEV-0219,CASE-0027,Similar behavior has previously occurred during software updates.
+REC-0028,DEV-0012,CASE-0028,Historical false positives were linked to scheduled QA stress tests.
+REC-0029,DEV-0120,CASE-0029,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0030,DEV-0113,CASE-0030,This device model often triggers benign network scans during backup jobs.
+REC-0031,DEV-0076,CASE-0031,Historical false positives were linked to scheduled QA stress tests.
+REC-0032,DEV-0109,CASE-0032,Internal pen-test activity can mimic external scanning patterns.
+REC-0033,DEV-0170,CASE-0033,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0034,DEV-0070,CASE-0034,This device model often triggers benign network scans during backup jobs.
+REC-0035,DEV-0001,CASE-0035,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0036,DEV-0227,CASE-0036,Executive devices frequently show off-hours file activity before travel.
+REC-0037,DEV-0122,CASE-0037,This device model often triggers benign network scans during backup jobs.
+REC-0038,DEV-0046,CASE-0038,Historical false positives were linked to scheduled QA stress tests.
+REC-0039,DEV-0011,CASE-0039,Internal pen-test activity can mimic external scanning patterns.
+REC-0040,DEV-0181,CASE-0040,This device model often triggers benign network scans during backup jobs.
+REC-0041,DEV-0154,CASE-0041,Internal pen-test activity can mimic external scanning patterns.
+REC-0042,DEV-0103,CASE-0042,Internal pen-test activity can mimic external scanning patterns.
+REC-0043,DEV-0029,CASE-0043,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0044,DEV-0183,CASE-0044,This device model often triggers benign network scans during backup jobs.
+REC-0045,DEV-0021,CASE-0045,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0046,DEV-0121,CASE-0046,Executive devices frequently show off-hours file activity before travel.
+REC-0047,DEV-0215,CASE-0047,Historical false positives were linked to scheduled QA stress tests.
+REC-0048,DEV-0202,CASE-0048,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0049,DEV-0111,CASE-0049,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0050,DEV-0070,CASE-0050,This device model often triggers benign network scans during backup jobs.
+REC-0051,DEV-0079,CASE-0051,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0052,DEV-0212,CASE-0052,Similar behavior has previously occurred during software updates.
+REC-0053,DEV-0151,CASE-0053,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0054,DEV-0062,CASE-0054,This device model often triggers benign network scans during backup jobs.
+REC-0055,DEV-0060,CASE-0055,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0056,DEV-0097,CASE-0056,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0057,DEV-0192,CASE-0057,Similar behavior has previously occurred during software updates.
+REC-0058,DEV-0123,CASE-0058,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0059,DEV-0155,CASE-0059,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0060,DEV-0218,CASE-0060,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0061,DEV-0246,CASE-0061,Similar behavior has previously occurred during software updates.
+REC-0062,DEV-0201,CASE-0062,Internal pen-test activity can mimic external scanning patterns.
+REC-0063,DEV-0108,CASE-0063,Similar behavior has previously occurred during software updates.
+REC-0064,DEV-0148,CASE-0064,Similar behavior has previously occurred during software updates.
+REC-0065,DEV-0001,CASE-0065,Internal pen-test activity can mimic external scanning patterns.
+REC-0066,DEV-0124,CASE-0066,Internal pen-test activity can mimic external scanning patterns.
+REC-0067,DEV-0051,CASE-0067,Executive devices frequently show off-hours file activity before travel.
+REC-0068,DEV-0161,CASE-0068,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0069,DEV-0166,CASE-0069,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0070,DEV-0009,CASE-0070,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0071,DEV-0100,CASE-0071,Similar behavior has previously occurred during software updates.
+REC-0072,DEV-0237,CASE-0072,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0073,DEV-0011,CASE-0073,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0074,DEV-0109,CASE-0074,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0075,DEV-0222,CASE-0075,Similar behavior has previously occurred during software updates.
+REC-0076,DEV-0200,CASE-0076,Internal pen-test activity can mimic external scanning patterns.
+REC-0077,DEV-0137,CASE-0077,This device model often triggers benign network scans during backup jobs.
+REC-0078,DEV-0098,CASE-0078,Similar behavior has previously occurred during software updates.
+REC-0079,DEV-0108,CASE-0079,Internal pen-test activity can mimic external scanning patterns.
+REC-0080,DEV-0245,CASE-0080,Similar behavior has previously occurred during software updates.
+REC-0081,DEV-0146,CASE-0081,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0082,DEV-0077,CASE-0082,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0083,DEV-0047,CASE-0083,Historical false positives were linked to scheduled QA stress tests.
+REC-0084,DEV-0142,CASE-0084,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0085,DEV-0226,CASE-0085,Internal pen-test activity can mimic external scanning patterns.
+REC-0086,DEV-0067,CASE-0086,Internal pen-test activity can mimic external scanning patterns.
+REC-0087,DEV-0155,CASE-0087,Internal pen-test activity can mimic external scanning patterns.
+REC-0088,DEV-0039,CASE-0088,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0089,DEV-0156,CASE-0089,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0090,DEV-0014,CASE-0090,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0091,DEV-0226,CASE-0091,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0092,DEV-0092,CASE-0092,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0093,DEV-0015,CASE-0093,Internal pen-test activity can mimic external scanning patterns.
+REC-0094,DEV-0148,CASE-0094,This device model often triggers benign network scans during backup jobs.
+REC-0095,DEV-0205,CASE-0095,Internal pen-test activity can mimic external scanning patterns.
+REC-0096,DEV-0145,CASE-0096,Executive devices frequently show off-hours file activity before travel.
+REC-0097,DEV-0150,CASE-0097,Historical false positives were linked to scheduled QA stress tests.
+REC-0098,DEV-0041,CASE-0098,This device model often triggers benign network scans during backup jobs.
+REC-0099,DEV-0188,CASE-0099,This device model often triggers benign network scans during backup jobs.
+REC-0100,DEV-0082,CASE-0100,Internal pen-test activity can mimic external scanning patterns.
+REC-0101,DEV-0186,CASE-0101,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0102,DEV-0079,CASE-0102,Historical false positives were linked to scheduled QA stress tests.
+REC-0103,DEV-0172,CASE-0103,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0104,DEV-0066,CASE-0104,Executive devices frequently show off-hours file activity before travel.
+REC-0105,DEV-0133,CASE-0105,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0106,DEV-0148,CASE-0106,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0107,DEV-0242,CASE-0107,Similar behavior has previously occurred during software updates.
+REC-0108,DEV-0234,CASE-0108,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0109,DEV-0114,CASE-0109,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0110,DEV-0220,CASE-0110,Similar behavior has previously occurred during software updates.
+REC-0111,DEV-0198,CASE-0111,This device model often triggers benign network scans during backup jobs.
+REC-0112,DEV-0060,CASE-0112,Executive devices frequently show off-hours file activity before travel.
+REC-0113,DEV-0156,CASE-0113,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0114,DEV-0151,CASE-0114,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0115,DEV-0239,CASE-0115,Similar behavior has previously occurred during software updates.
+REC-0116,DEV-0189,CASE-0116,Executive devices frequently show off-hours file activity before travel.
+REC-0117,DEV-0009,CASE-0117,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0118,DEV-0147,CASE-0118,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0119,DEV-0201,CASE-0119,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0120,DEV-0218,CASE-0120,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0121,DEV-0130,CASE-0121,This device model often triggers benign network scans during backup jobs.
+REC-0122,DEV-0098,CASE-0122,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0123,DEV-0212,CASE-0123,Internal pen-test activity can mimic external scanning patterns.
+REC-0124,DEV-0204,CASE-0124,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0125,DEV-0210,CASE-0125,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0126,DEV-0206,CASE-0126,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0127,DEV-0033,CASE-0127,Similar behavior has previously occurred during software updates.
+REC-0128,DEV-0079,CASE-0128,This device model often triggers benign network scans during backup jobs.
+REC-0129,DEV-0243,CASE-0129,Executive devices frequently show off-hours file activity before travel.
+REC-0130,DEV-0080,CASE-0130,This device model often triggers benign network scans during backup jobs.
+REC-0131,DEV-0062,CASE-0131,Internal pen-test activity can mimic external scanning patterns.
+REC-0132,DEV-0215,CASE-0132,Executive devices frequently show off-hours file activity before travel.
+REC-0133,DEV-0196,CASE-0133,Historical false positives were linked to scheduled QA stress tests.
+REC-0134,DEV-0129,CASE-0134,Similar behavior has previously occurred during software updates.
+REC-0135,DEV-0160,CASE-0135,Internal pen-test activity can mimic external scanning patterns.
+REC-0136,DEV-0180,CASE-0136,Similar behavior has previously occurred during software updates.
+REC-0137,DEV-0195,CASE-0137,Executive devices frequently show off-hours file activity before travel.
+REC-0138,DEV-0160,CASE-0138,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0139,DEV-0032,CASE-0139,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0140,DEV-0235,CASE-0140,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0141,DEV-0189,CASE-0141,Historical false positives were linked to scheduled QA stress tests.
+REC-0142,DEV-0003,CASE-0142,Executive devices frequently show off-hours file activity before travel.
+REC-0143,DEV-0143,CASE-0143,Historical false positives were linked to scheduled QA stress tests.
+REC-0144,DEV-0024,CASE-0144,Executive devices frequently show off-hours file activity before travel.
+REC-0145,DEV-0055,CASE-0145,Historical false positives were linked to scheduled QA stress tests.
+REC-0146,DEV-0100,CASE-0146,Executive devices frequently show off-hours file activity before travel.
+REC-0147,DEV-0145,CASE-0147,Similar behavior has previously occurred during software updates.
+REC-0148,DEV-0081,CASE-0148,Internal pen-test activity can mimic external scanning patterns.
+REC-0149,DEV-0126,CASE-0149,Historical false positives were linked to scheduled QA stress tests.
+REC-0150,DEV-0086,CASE-0150,Historical false positives were linked to scheduled QA stress tests.
+REC-0151,DEV-0021,CASE-0151,Internal pen-test activity can mimic external scanning patterns.
+REC-0152,DEV-0057,CASE-0152,Executive devices frequently show off-hours file activity before travel.
+REC-0153,DEV-0127,CASE-0153,This device model often triggers benign network scans during backup jobs.
+REC-0154,DEV-0074,CASE-0154,This device model often triggers benign network scans during backup jobs.
+REC-0155,DEV-0049,CASE-0155,Similar behavior has previously occurred during software updates.
+REC-0156,DEV-0058,CASE-0156,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0157,DEV-0147,CASE-0157,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0158,DEV-0060,CASE-0158,Similar behavior has previously occurred during software updates.
+REC-0159,DEV-0107,CASE-0159,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0160,DEV-0004,CASE-0160,Internal pen-test activity can mimic external scanning patterns.
+REC-0161,DEV-0116,CASE-0161,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0162,DEV-0156,CASE-0162,Internal pen-test activity can mimic external scanning patterns.
+REC-0163,DEV-0033,CASE-0163,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0164,DEV-0047,CASE-0164,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0165,DEV-0219,CASE-0165,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0166,DEV-0176,CASE-0166,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0167,DEV-0244,CASE-0167,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0168,DEV-0196,CASE-0168,Executive devices frequently show off-hours file activity before travel.
+REC-0169,DEV-0064,CASE-0169,This device model often triggers benign network scans during backup jobs.
+REC-0170,DEV-0045,CASE-0170,Similar behavior has previously occurred during software updates.
+REC-0171,DEV-0179,CASE-0171,Internal pen-test activity can mimic external scanning patterns.
+REC-0172,DEV-0061,CASE-0172,Executive devices frequently show off-hours file activity before travel.
+REC-0173,DEV-0189,CASE-0173,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0174,DEV-0088,CASE-0174,Similar behavior has previously occurred during software updates.
+REC-0175,DEV-0189,CASE-0175,This device model often triggers benign network scans during backup jobs.
+REC-0176,DEV-0068,CASE-0176,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0177,DEV-0142,CASE-0177,Executive devices frequently show off-hours file activity before travel.
+REC-0178,DEV-0163,CASE-0178,This device model often triggers benign network scans during backup jobs.
+REC-0179,DEV-0099,CASE-0179,Similar behavior has previously occurred during software updates.
+REC-0180,DEV-0118,CASE-0180,Historical false positives were linked to scheduled QA stress tests.
+REC-0181,DEV-0220,CASE-0181,Executive devices frequently show off-hours file activity before travel.
+REC-0182,DEV-0158,CASE-0182,Internal pen-test activity can mimic external scanning patterns.
+REC-0183,DEV-0170,CASE-0183,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0184,DEV-0233,CASE-0184,Similar behavior has previously occurred during software updates.
+REC-0185,DEV-0243,CASE-0185,Internal pen-test activity can mimic external scanning patterns.
+REC-0186,DEV-0028,CASE-0186,Similar behavior has previously occurred during software updates.
+REC-0187,DEV-0209,CASE-0187,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0188,DEV-0216,CASE-0188,This device model often triggers benign network scans during backup jobs.
+REC-0189,DEV-0048,CASE-0189,Internal pen-test activity can mimic external scanning patterns.
+REC-0190,DEV-0093,CASE-0190,Internal pen-test activity can mimic external scanning patterns.
+REC-0191,DEV-0026,CASE-0191,Similar behavior has previously occurred during software updates.
+REC-0192,DEV-0191,CASE-0192,Executive devices frequently show off-hours file activity before travel.
+REC-0193,DEV-0061,CASE-0193,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0194,DEV-0215,CASE-0194,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0195,DEV-0081,CASE-0195,Executive devices frequently show off-hours file activity before travel.
+REC-0196,DEV-0215,CASE-0196,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0197,DEV-0008,CASE-0197,Similar behavior has previously occurred during software updates.
+REC-0198,DEV-0083,CASE-0198,This device model often triggers benign network scans during backup jobs.
+REC-0199,DEV-0235,CASE-0199,Executive devices frequently show off-hours file activity before travel.
+REC-0200,DEV-0103,CASE-0200,Historical false positives were linked to scheduled QA stress tests.
+REC-0201,DEV-0137,CASE-0201,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0202,DEV-0236,CASE-0202,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0203,DEV-0002,CASE-0203,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0204,DEV-0084,CASE-0204,This device model often triggers benign network scans during backup jobs.
+REC-0205,DEV-0033,CASE-0205,This device model often triggers benign network scans during backup jobs.
+REC-0206,DEV-0214,CASE-0206,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0207,DEV-0096,CASE-0207,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0208,DEV-0200,CASE-0208,Executive devices frequently show off-hours file activity before travel.
+REC-0209,DEV-0084,CASE-0209,Similar behavior has previously occurred during software updates.
+REC-0210,DEV-0141,CASE-0210,Similar behavior has previously occurred during software updates.
+REC-0211,DEV-0068,CASE-0211,Historical false positives were linked to scheduled QA stress tests.
+REC-0212,DEV-0004,CASE-0212,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0213,DEV-0171,CASE-0213,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0214,DEV-0055,CASE-0214,Similar behavior has previously occurred during software updates.
+REC-0215,DEV-0160,CASE-0215,Internal pen-test activity can mimic external scanning patterns.
+REC-0216,DEV-0091,CASE-0216,Historical false positives were linked to scheduled QA stress tests.
+REC-0217,DEV-0221,CASE-0217,Historical false positives were linked to scheduled QA stress tests.
+REC-0218,DEV-0106,CASE-0218,This device model often triggers benign network scans during backup jobs.
+REC-0219,DEV-0027,CASE-0219,This device model often triggers benign network scans during backup jobs.
+REC-0220,DEV-0169,CASE-0220,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0221,DEV-0243,CASE-0221,Executive devices frequently show off-hours file activity before travel.
+REC-0222,DEV-0016,CASE-0222,Internal pen-test activity can mimic external scanning patterns.
+REC-0223,DEV-0048,CASE-0223,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0224,DEV-0122,CASE-0224,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0225,DEV-0192,CASE-0225,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0226,DEV-0216,CASE-0226,Historical false positives were linked to scheduled QA stress tests.
+REC-0227,DEV-0202,CASE-0227,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0228,DEV-0210,CASE-0228,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0229,DEV-0062,CASE-0229,Historical false positives were linked to scheduled QA stress tests.
+REC-0230,DEV-0221,CASE-0230,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0231,DEV-0082,CASE-0231,Executive devices frequently show off-hours file activity before travel.
+REC-0232,DEV-0183,CASE-0232,This device model often triggers benign network scans during backup jobs.
+REC-0233,DEV-0073,CASE-0233,This device model often triggers benign network scans during backup jobs.
+REC-0234,DEV-0149,CASE-0234,Historical false positives were linked to scheduled QA stress tests.
+REC-0235,DEV-0106,CASE-0235,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0236,DEV-0154,CASE-0236,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0237,DEV-0176,CASE-0237,Similar behavior has previously occurred during software updates.
+REC-0238,DEV-0131,CASE-0238,Executive devices frequently show off-hours file activity before travel.
+REC-0239,DEV-0037,CASE-0239,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0240,DEV-0098,CASE-0240,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0241,DEV-0102,CASE-0241,Similar behavior has previously occurred during software updates.
+REC-0242,DEV-0056,CASE-0242,Executive devices frequently show off-hours file activity before travel.
+REC-0243,DEV-0039,CASE-0243,Executive devices frequently show off-hours file activity before travel.
+REC-0244,DEV-0057,CASE-0244,This device model often triggers benign network scans during backup jobs.
+REC-0245,DEV-0108,CASE-0245,Historical false positives were linked to scheduled QA stress tests.
+REC-0246,DEV-0011,CASE-0246,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0247,DEV-0175,CASE-0247,Executive devices frequently show off-hours file activity before travel.
+REC-0248,DEV-0195,CASE-0248,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0249,DEV-0156,CASE-0249,Executive devices frequently show off-hours file activity before travel.
+REC-0250,DEV-0015,CASE-0250,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0251,DEV-0049,CASE-0251,Internal pen-test activity can mimic external scanning patterns.
+REC-0252,DEV-0116,CASE-0252,This device model often triggers benign network scans during backup jobs.
+REC-0253,DEV-0101,CASE-0253,Historical false positives were linked to scheduled QA stress tests.
+REC-0254,DEV-0215,CASE-0254,Similar behavior has previously occurred during software updates.
+REC-0255,DEV-0130,CASE-0255,Similar behavior has previously occurred during software updates.
+REC-0256,DEV-0166,CASE-0256,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0257,DEV-0028,CASE-0257,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0258,DEV-0104,CASE-0258,This device model often triggers benign network scans during backup jobs.
+REC-0259,DEV-0095,CASE-0259,Executive devices frequently show off-hours file activity before travel.
+REC-0260,DEV-0183,CASE-0260,This device model often triggers benign network scans during backup jobs.
+REC-0261,DEV-0153,CASE-0261,Historical false positives were linked to scheduled QA stress tests.
+REC-0262,DEV-0153,CASE-0262,Internal pen-test activity can mimic external scanning patterns.
+REC-0263,DEV-0202,CASE-0263,Similar behavior has previously occurred during software updates.
+REC-0264,DEV-0119,CASE-0264,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0265,DEV-0043,CASE-0265,Similar behavior has previously occurred during software updates.
+REC-0266,DEV-0179,CASE-0266,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0267,DEV-0042,CASE-0267,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0268,DEV-0126,CASE-0268,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0269,DEV-0101,CASE-0269,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0270,DEV-0128,CASE-0270,Historical false positives were linked to scheduled QA stress tests.
+REC-0271,DEV-0018,CASE-0271,Executive devices frequently show off-hours file activity before travel.
+REC-0272,DEV-0076,CASE-0272,This device model often triggers benign network scans during backup jobs.
+REC-0273,DEV-0211,CASE-0273,Similar behavior has previously occurred during software updates.
+REC-0274,DEV-0096,CASE-0274,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0275,DEV-0031,CASE-0275,Similar behavior has previously occurred during software updates.
+REC-0276,DEV-0174,CASE-0276,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0277,DEV-0171,CASE-0277,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0278,DEV-0137,CASE-0278,This device model often triggers benign network scans during backup jobs.
+REC-0279,DEV-0115,CASE-0279,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0280,DEV-0200,CASE-0280,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0281,DEV-0038,CASE-0281,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0282,DEV-0099,CASE-0282,Internal pen-test activity can mimic external scanning patterns.
+REC-0283,DEV-0111,CASE-0283,Executive devices frequently show off-hours file activity before travel.
+REC-0284,DEV-0005,CASE-0284,Similar behavior has previously occurred during software updates.
+REC-0285,DEV-0158,CASE-0285,Internal pen-test activity can mimic external scanning patterns.
+REC-0286,DEV-0216,CASE-0286,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0287,DEV-0089,CASE-0287,This device model often triggers benign network scans during backup jobs.
+REC-0288,DEV-0104,CASE-0288,Internal pen-test activity can mimic external scanning patterns.
+REC-0289,DEV-0052,CASE-0289,Executive devices frequently show off-hours file activity before travel.
+REC-0290,DEV-0246,CASE-0290,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0291,DEV-0060,CASE-0291,Executive devices frequently show off-hours file activity before travel.
+REC-0292,DEV-0206,CASE-0292,Internal pen-test activity can mimic external scanning patterns.
+REC-0293,DEV-0061,CASE-0293,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0294,DEV-0190,CASE-0294,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0295,DEV-0208,CASE-0295,Executive devices frequently show off-hours file activity before travel.
+REC-0296,DEV-0006,CASE-0296,Internal pen-test activity can mimic external scanning patterns.
+REC-0297,DEV-0196,CASE-0297,Historical false positives were linked to scheduled QA stress tests.
+REC-0298,DEV-0225,CASE-0298,Historical false positives were linked to scheduled QA stress tests.
+REC-0299,DEV-0094,CASE-0299,Executive devices frequently show off-hours file activity before travel.
+REC-0300,DEV-0210,CASE-0300,Historical false positives were linked to scheduled QA stress tests.
+REC-0301,DEV-0231,CASE-0301,This device model often triggers benign network scans during backup jobs.
+REC-0302,DEV-0209,CASE-0302,Similar behavior has previously occurred during software updates.
+REC-0303,DEV-0124,CASE-0303,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0304,DEV-0063,CASE-0304,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0305,DEV-0038,CASE-0305,This device model often triggers benign network scans during backup jobs.
+REC-0306,DEV-0137,CASE-0306,Similar behavior has previously occurred during software updates.
+REC-0307,DEV-0194,CASE-0307,Historical false positives were linked to scheduled QA stress tests.
+REC-0308,DEV-0047,CASE-0308,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0309,DEV-0113,CASE-0309,This device model often triggers benign network scans during backup jobs.
+REC-0310,DEV-0047,CASE-0310,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0311,DEV-0096,CASE-0311,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0312,DEV-0084,CASE-0312,Executive devices frequently show off-hours file activity before travel.
+REC-0313,DEV-0217,CASE-0313,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0314,DEV-0081,CASE-0314,Similar behavior has previously occurred during software updates.
+REC-0315,DEV-0099,CASE-0315,Similar behavior has previously occurred during software updates.
+REC-0316,DEV-0212,CASE-0316,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0317,DEV-0084,CASE-0317,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0318,DEV-0171,CASE-0318,Executive devices frequently show off-hours file activity before travel.
+REC-0319,DEV-0137,CASE-0319,Historical false positives were linked to scheduled QA stress tests.
+REC-0320,DEV-0220,CASE-0320,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0321,DEV-0117,CASE-0321,This device model often triggers benign network scans during backup jobs.
+REC-0322,DEV-0233,CASE-0322,Internal pen-test activity can mimic external scanning patterns.
+REC-0323,DEV-0208,CASE-0323,Internal pen-test activity can mimic external scanning patterns.
+REC-0324,DEV-0074,CASE-0324,This device model often triggers benign network scans during backup jobs.
+REC-0325,DEV-0071,CASE-0325,This device model often triggers benign network scans during backup jobs.
+REC-0326,DEV-0099,CASE-0326,Historical false positives were linked to scheduled QA stress tests.
+REC-0327,DEV-0222,CASE-0327,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0328,DEV-0095,CASE-0328,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0329,DEV-0002,CASE-0329,Internal pen-test activity can mimic external scanning patterns.
+REC-0330,DEV-0113,CASE-0330,Executive devices frequently show off-hours file activity before travel.
+REC-0331,DEV-0150,CASE-0331,This device model often triggers benign network scans during backup jobs.
+REC-0332,DEV-0006,CASE-0332,Similar behavior has previously occurred during software updates.
+REC-0333,DEV-0078,CASE-0333,Similar behavior has previously occurred during software updates.
+REC-0334,DEV-0012,CASE-0334,Similar behavior has previously occurred during software updates.
+REC-0335,DEV-0059,CASE-0335,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0336,DEV-0197,CASE-0336,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0337,DEV-0026,CASE-0337,Historical false positives were linked to scheduled QA stress tests.
+REC-0338,DEV-0033,CASE-0338,This device model often triggers benign network scans during backup jobs.
+REC-0339,DEV-0188,CASE-0339,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0340,DEV-0087,CASE-0340,Similar behavior has previously occurred during software updates.
+REC-0341,DEV-0031,CASE-0341,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0342,DEV-0134,CASE-0342,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0343,DEV-0126,CASE-0343,Similar behavior has previously occurred during software updates.
+REC-0344,DEV-0089,CASE-0344,This device model often triggers benign network scans during backup jobs.
+REC-0345,DEV-0004,CASE-0345,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0346,DEV-0170,CASE-0346,Historical false positives were linked to scheduled QA stress tests.
+REC-0347,DEV-0037,CASE-0347,Executive devices frequently show off-hours file activity before travel.
+REC-0348,DEV-0178,CASE-0348,Executive devices frequently show off-hours file activity before travel.
+REC-0349,DEV-0188,CASE-0349,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0350,DEV-0217,CASE-0350,Similar behavior has previously occurred during software updates.
+REC-0351,DEV-0152,CASE-0351,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0352,DEV-0021,CASE-0352,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0353,DEV-0246,CASE-0353,Similar behavior has previously occurred during software updates.
+REC-0354,DEV-0133,CASE-0354,Internal pen-test activity can mimic external scanning patterns.
+REC-0355,DEV-0027,CASE-0355,This device model often triggers benign network scans during backup jobs.
+REC-0356,DEV-0190,CASE-0356,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0357,DEV-0094,CASE-0357,Similar behavior has previously occurred during software updates.
+REC-0358,DEV-0226,CASE-0358,Internal pen-test activity can mimic external scanning patterns.
+REC-0359,DEV-0214,CASE-0359,This device model often triggers benign network scans during backup jobs.
+REC-0360,DEV-0161,CASE-0360,Historical false positives were linked to scheduled QA stress tests.
+REC-0361,DEV-0039,CASE-0361,Historical false positives were linked to scheduled QA stress tests.
+REC-0362,DEV-0068,CASE-0362,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0363,DEV-0128,CASE-0363,Similar behavior has previously occurred during software updates.
+REC-0364,DEV-0031,CASE-0364,Historical false positives were linked to scheduled QA stress tests.
+REC-0365,DEV-0052,CASE-0365,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0366,DEV-0121,CASE-0366,This device model often triggers benign network scans during backup jobs.
+REC-0367,DEV-0070,CASE-0367,Executive devices frequently show off-hours file activity before travel.
+REC-0368,DEV-0109,CASE-0368,Internal pen-test activity can mimic external scanning patterns.
+REC-0369,DEV-0097,CASE-0369,Executive devices frequently show off-hours file activity before travel.
+REC-0370,DEV-0228,CASE-0370,Historical false positives were linked to scheduled QA stress tests.
+REC-0371,DEV-0238,CASE-0371,Internal pen-test activity can mimic external scanning patterns.
+REC-0372,DEV-0041,CASE-0372,This device model often triggers benign network scans during backup jobs.
+REC-0373,DEV-0146,CASE-0373,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0374,DEV-0107,CASE-0374,Executive devices frequently show off-hours file activity before travel.
+REC-0375,DEV-0194,CASE-0375,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0376,DEV-0152,CASE-0376,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0377,DEV-0090,CASE-0377,Executive devices frequently show off-hours file activity before travel.
+REC-0378,DEV-0013,CASE-0378,Executive devices frequently show off-hours file activity before travel.
+REC-0379,DEV-0084,CASE-0379,Internal pen-test activity can mimic external scanning patterns.
+REC-0380,DEV-0018,CASE-0380,Historical false positives were linked to scheduled QA stress tests.
+REC-0381,DEV-0192,CASE-0381,Internal pen-test activity can mimic external scanning patterns.
+REC-0382,DEV-0119,CASE-0382,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0383,DEV-0082,CASE-0383,This device model often triggers benign network scans during backup jobs.
+REC-0384,DEV-0228,CASE-0384,Similar behavior has previously occurred during software updates.
+REC-0385,DEV-0137,CASE-0385,This device model often triggers benign network scans during backup jobs.
+REC-0386,DEV-0085,CASE-0386,Internal pen-test activity can mimic external scanning patterns.
+REC-0387,DEV-0226,CASE-0387,Similar behavior has previously occurred during software updates.
+REC-0388,DEV-0110,CASE-0388,Internal pen-test activity can mimic external scanning patterns.
+REC-0389,DEV-0042,CASE-0389,Executive devices frequently show off-hours file activity before travel.
+REC-0390,DEV-0003,CASE-0390,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0391,DEV-0151,CASE-0391,This device model often triggers benign network scans during backup jobs.
+REC-0392,DEV-0240,CASE-0392,Internal pen-test activity can mimic external scanning patterns.
+REC-0393,DEV-0222,CASE-0393,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0394,DEV-0226,CASE-0394,This device model often triggers benign network scans during backup jobs.
+REC-0395,DEV-0121,CASE-0395,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0396,DEV-0009,CASE-0396,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0397,DEV-0098,CASE-0397,This device model often triggers benign network scans during backup jobs.
+REC-0398,DEV-0201,CASE-0398,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0399,DEV-0027,CASE-0399,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0400,DEV-0084,CASE-0400,Historical false positives were linked to scheduled QA stress tests.
+REC-0401,DEV-0109,CASE-0401,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0402,DEV-0128,CASE-0402,Executive devices frequently show off-hours file activity before travel.
+REC-0403,DEV-0147,CASE-0403,Historical false positives were linked to scheduled QA stress tests.
+REC-0404,DEV-0238,CASE-0404,Internal pen-test activity can mimic external scanning patterns.
+REC-0405,DEV-0021,CASE-0405,Historical false positives were linked to scheduled QA stress tests.
+REC-0406,DEV-0019,CASE-0406,This device model often triggers benign network scans during backup jobs.
+REC-0407,DEV-0081,CASE-0407,Executive devices frequently show off-hours file activity before travel.
+REC-0408,DEV-0211,CASE-0408,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0409,DEV-0065,CASE-0409,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0410,DEV-0072,CASE-0410,This device model often triggers benign network scans during backup jobs.
+REC-0411,DEV-0004,CASE-0411,Internal pen-test activity can mimic external scanning patterns.
+REC-0412,DEV-0106,CASE-0412,Similar behavior has previously occurred during software updates.
+REC-0413,DEV-0198,CASE-0413,This device model often triggers benign network scans during backup jobs.
+REC-0414,DEV-0076,CASE-0414,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0415,DEV-0187,CASE-0415,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0416,DEV-0249,CASE-0416,Internal pen-test activity can mimic external scanning patterns.
+REC-0417,DEV-0237,CASE-0417,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0418,DEV-0067,CASE-0418,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0419,DEV-0125,CASE-0419,This device model often triggers benign network scans during backup jobs.
+REC-0420,DEV-0231,CASE-0420,Similar behavior has previously occurred during software updates.
+REC-0421,DEV-0002,CASE-0421,This device model often triggers benign network scans during backup jobs.
+REC-0422,DEV-0053,CASE-0422,Internal pen-test activity can mimic external scanning patterns.
+REC-0423,DEV-0029,CASE-0423,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0424,DEV-0159,CASE-0424,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0425,DEV-0010,CASE-0425,Similar behavior has previously occurred during software updates.
+REC-0426,DEV-0123,CASE-0426,Executive devices frequently show off-hours file activity before travel.
+REC-0427,DEV-0217,CASE-0427,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0428,DEV-0094,CASE-0428,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0429,DEV-0179,CASE-0429,This device model often triggers benign network scans during backup jobs.
+REC-0430,DEV-0180,CASE-0430,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0431,DEV-0117,CASE-0431,Similar behavior has previously occurred during software updates.
+REC-0432,DEV-0059,CASE-0432,Internal pen-test activity can mimic external scanning patterns.
+REC-0433,DEV-0234,CASE-0433,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0434,DEV-0032,CASE-0434,Executive devices frequently show off-hours file activity before travel.
+REC-0435,DEV-0100,CASE-0435,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0436,DEV-0159,CASE-0436,Historical false positives were linked to scheduled QA stress tests.
+REC-0437,DEV-0132,CASE-0437,Similar behavior has previously occurred during software updates.
+REC-0438,DEV-0009,CASE-0438,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0439,DEV-0106,CASE-0439,Executive devices frequently show off-hours file activity before travel.
+REC-0440,DEV-0044,CASE-0440,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0441,DEV-0068,CASE-0441,This device model often triggers benign network scans during backup jobs.
+REC-0442,DEV-0106,CASE-0442,Historical false positives were linked to scheduled QA stress tests.
+REC-0443,DEV-0049,CASE-0443,Similar behavior has previously occurred during software updates.
+REC-0444,DEV-0008,CASE-0444,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0445,DEV-0188,CASE-0445,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0446,DEV-0022,CASE-0446,Executive devices frequently show off-hours file activity before travel.
+REC-0447,DEV-0046,CASE-0447,Historical false positives were linked to scheduled QA stress tests.
+REC-0448,DEV-0022,CASE-0448,Executive devices frequently show off-hours file activity before travel.
+REC-0449,DEV-0186,CASE-0449,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0450,DEV-0139,CASE-0450,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0451,DEV-0247,CASE-0451,Executive devices frequently show off-hours file activity before travel.
+REC-0452,DEV-0029,CASE-0452,Internal pen-test activity can mimic external scanning patterns.
+REC-0453,DEV-0247,CASE-0453,Executive devices frequently show off-hours file activity before travel.
+REC-0454,DEV-0099,CASE-0454,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0455,DEV-0103,CASE-0455,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0456,DEV-0051,CASE-0456,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0457,DEV-0212,CASE-0457,Historical false positives were linked to scheduled QA stress tests.
+REC-0458,DEV-0232,CASE-0458,Similar behavior has previously occurred during software updates.
+REC-0459,DEV-0004,CASE-0459,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0460,DEV-0142,CASE-0460,Internal pen-test activity can mimic external scanning patterns.
+REC-0461,DEV-0219,CASE-0461,Historical false positives were linked to scheduled QA stress tests.
+REC-0462,DEV-0241,CASE-0462,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0463,DEV-0001,CASE-0463,Executive devices frequently show off-hours file activity before travel.
+REC-0464,DEV-0240,CASE-0464,Internal pen-test activity can mimic external scanning patterns.
+REC-0465,DEV-0053,CASE-0465,Executive devices frequently show off-hours file activity before travel.
+REC-0466,DEV-0108,CASE-0466,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0467,DEV-0118,CASE-0467,This device model often triggers benign network scans during backup jobs.
+REC-0468,DEV-0086,CASE-0468,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0469,DEV-0095,CASE-0469,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0470,DEV-0238,CASE-0470,Internal pen-test activity can mimic external scanning patterns.
+REC-0471,DEV-0107,CASE-0471,Internal pen-test activity can mimic external scanning patterns.
+REC-0472,DEV-0200,CASE-0472,Historical false positives were linked to scheduled QA stress tests.
+REC-0473,DEV-0242,CASE-0473,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0474,DEV-0151,CASE-0474,Historical false positives were linked to scheduled QA stress tests.
+REC-0475,DEV-0068,CASE-0475,Similar behavior has previously occurred during software updates.
+REC-0476,DEV-0006,CASE-0476,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0477,DEV-0236,CASE-0477,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0478,DEV-0207,CASE-0478,Historical false positives were linked to scheduled QA stress tests.
+REC-0479,DEV-0038,CASE-0479,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0480,DEV-0186,CASE-0480,Historical false positives were linked to scheduled QA stress tests.
+REC-0481,DEV-0153,CASE-0481,This device model often triggers benign network scans during backup jobs.
+REC-0482,DEV-0077,CASE-0482,Executive devices frequently show off-hours file activity before travel.
+REC-0483,DEV-0240,CASE-0483,Executive devices frequently show off-hours file activity before travel.
+REC-0484,DEV-0223,CASE-0484,Internal pen-test activity can mimic external scanning patterns.
+REC-0485,DEV-0156,CASE-0485,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0486,DEV-0204,CASE-0486,Historical false positives were linked to scheduled QA stress tests.
+REC-0487,DEV-0166,CASE-0487,Historical false positives were linked to scheduled QA stress tests.
+REC-0488,DEV-0122,CASE-0488,Historical false positives were linked to scheduled QA stress tests.
+REC-0489,DEV-0148,CASE-0489,Historical false positives were linked to scheduled QA stress tests.
+REC-0490,DEV-0123,CASE-0490,Internal pen-test activity can mimic external scanning patterns.
+REC-0491,DEV-0128,CASE-0491,This device model often triggers benign network scans during backup jobs.
+REC-0492,DEV-0175,CASE-0492,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0493,DEV-0177,CASE-0493,This device model often triggers benign network scans during backup jobs.
+REC-0494,DEV-0122,CASE-0494,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0495,DEV-0075,CASE-0495,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0496,DEV-0172,CASE-0496,This device model often triggers benign network scans during backup jobs.
+REC-0497,DEV-0019,CASE-0497,This device model often triggers benign network scans during backup jobs.
+REC-0498,DEV-0052,CASE-0498,Executive devices frequently show off-hours file activity before travel.
+REC-0499,DEV-0006,CASE-0499,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0500,DEV-0220,CASE-0500,This device model often triggers benign network scans during backup jobs.
+REC-0501,DEV-0067,CASE-0501,Historical false positives were linked to scheduled QA stress tests.
+REC-0502,DEV-0203,CASE-0502,This device model often triggers benign network scans during backup jobs.
+REC-0503,DEV-0178,CASE-0503,Historical false positives were linked to scheduled QA stress tests.
+REC-0504,DEV-0011,CASE-0504,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0505,DEV-0130,CASE-0505,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0506,DEV-0104,CASE-0506,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0507,DEV-0127,CASE-0507,Executive devices frequently show off-hours file activity before travel.
+REC-0508,DEV-0080,CASE-0508,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0509,DEV-0234,CASE-0509,Internal pen-test activity can mimic external scanning patterns.
+REC-0510,DEV-0034,CASE-0510,Internal pen-test activity can mimic external scanning patterns.
+REC-0511,DEV-0211,CASE-0511,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0512,DEV-0030,CASE-0512,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0513,DEV-0035,CASE-0513,Executive devices frequently show off-hours file activity before travel.
+REC-0514,DEV-0119,CASE-0514,Historical false positives were linked to scheduled QA stress tests.
+REC-0515,DEV-0048,CASE-0515,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0516,DEV-0015,CASE-0516,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0517,DEV-0223,CASE-0517,Historical false positives were linked to scheduled QA stress tests.
+REC-0518,DEV-0178,CASE-0518,Historical false positives were linked to scheduled QA stress tests.
+REC-0519,DEV-0074,CASE-0519,Executive devices frequently show off-hours file activity before travel.
+REC-0520,DEV-0239,CASE-0520,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0521,DEV-0078,CASE-0521,This device model often triggers benign network scans during backup jobs.
+REC-0522,DEV-0022,CASE-0522,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0523,DEV-0182,CASE-0523,Similar behavior has previously occurred during software updates.
+REC-0524,DEV-0075,CASE-0524,This device model often triggers benign network scans during backup jobs.
+REC-0525,DEV-0186,CASE-0525,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0526,DEV-0094,CASE-0526,This device model often triggers benign network scans during backup jobs.
+REC-0527,DEV-0139,CASE-0527,Internal pen-test activity can mimic external scanning patterns.
+REC-0528,DEV-0028,CASE-0528,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0529,DEV-0008,CASE-0529,Internal pen-test activity can mimic external scanning patterns.
+REC-0530,DEV-0206,CASE-0530,Similar behavior has previously occurred during software updates.
+REC-0531,DEV-0150,CASE-0531,Historical false positives were linked to scheduled QA stress tests.
+REC-0532,DEV-0131,CASE-0532,This device model often triggers benign network scans during backup jobs.
+REC-0533,DEV-0227,CASE-0533,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0534,DEV-0051,CASE-0534,Executive devices frequently show off-hours file activity before travel.
+REC-0535,DEV-0100,CASE-0535,This device model often triggers benign network scans during backup jobs.
+REC-0536,DEV-0190,CASE-0536,Historical false positives were linked to scheduled QA stress tests.
+REC-0537,DEV-0014,CASE-0537,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0538,DEV-0068,CASE-0538,This device model often triggers benign network scans during backup jobs.
+REC-0539,DEV-0152,CASE-0539,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0540,DEV-0104,CASE-0540,Internal pen-test activity can mimic external scanning patterns.
+REC-0541,DEV-0101,CASE-0541,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0542,DEV-0242,CASE-0542,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0543,DEV-0095,CASE-0543,This device model often triggers benign network scans during backup jobs.
+REC-0544,DEV-0134,CASE-0544,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0545,DEV-0149,CASE-0545,Executive devices frequently show off-hours file activity before travel.
+REC-0546,DEV-0074,CASE-0546,Similar behavior has previously occurred during software updates.
+REC-0547,DEV-0165,CASE-0547,This device model often triggers benign network scans during backup jobs.
+REC-0548,DEV-0048,CASE-0548,Executive devices frequently show off-hours file activity before travel.
+REC-0549,DEV-0221,CASE-0549,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0550,DEV-0002,CASE-0550,Executive devices frequently show off-hours file activity before travel.
+REC-0551,DEV-0062,CASE-0551,Executive devices frequently show off-hours file activity before travel.
+REC-0552,DEV-0186,CASE-0552,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0553,DEV-0220,CASE-0553,Historical false positives were linked to scheduled QA stress tests.
+REC-0554,DEV-0049,CASE-0554,This device model often triggers benign network scans during backup jobs.
+REC-0555,DEV-0209,CASE-0555,Internal pen-test activity can mimic external scanning patterns.
+REC-0556,DEV-0126,CASE-0556,This device model often triggers benign network scans during backup jobs.
+REC-0557,DEV-0061,CASE-0557,This device model often triggers benign network scans during backup jobs.
+REC-0558,DEV-0117,CASE-0558,Internal pen-test activity can mimic external scanning patterns.
+REC-0559,DEV-0248,CASE-0559,Similar behavior has previously occurred during software updates.
+REC-0560,DEV-0126,CASE-0560,Executive devices frequently show off-hours file activity before travel.
+REC-0561,DEV-0242,CASE-0561,This device model often triggers benign network scans during backup jobs.
+REC-0562,DEV-0107,CASE-0562,Internal pen-test activity can mimic external scanning patterns.
+REC-0563,DEV-0055,CASE-0563,Internal pen-test activity can mimic external scanning patterns.
+REC-0564,DEV-0181,CASE-0564,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0565,DEV-0211,CASE-0565,Historical false positives were linked to scheduled QA stress tests.
+REC-0566,DEV-0229,CASE-0566,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0567,DEV-0078,CASE-0567,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0568,DEV-0138,CASE-0568,Similar behavior has previously occurred during software updates.
+REC-0569,DEV-0061,CASE-0569,Internal pen-test activity can mimic external scanning patterns.
+REC-0570,DEV-0161,CASE-0570,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0571,DEV-0031,CASE-0571,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0572,DEV-0130,CASE-0572,Historical false positives were linked to scheduled QA stress tests.
+REC-0573,DEV-0017,CASE-0573,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0574,DEV-0224,CASE-0574,Internal pen-test activity can mimic external scanning patterns.
+REC-0575,DEV-0080,CASE-0575,Internal pen-test activity can mimic external scanning patterns.
+REC-0576,DEV-0204,CASE-0576,Executive devices frequently show off-hours file activity before travel.
+REC-0577,DEV-0111,CASE-0577,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0578,DEV-0144,CASE-0578,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0579,DEV-0029,CASE-0579,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0580,DEV-0041,CASE-0580,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0581,DEV-0059,CASE-0581,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0582,DEV-0010,CASE-0582,Executive devices frequently show off-hours file activity before travel.
+REC-0583,DEV-0215,CASE-0583,This device model often triggers benign network scans during backup jobs.
+REC-0584,DEV-0003,CASE-0584,Internal pen-test activity can mimic external scanning patterns.
+REC-0585,DEV-0054,CASE-0585,Historical false positives were linked to scheduled QA stress tests.
+REC-0586,DEV-0077,CASE-0586,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0587,DEV-0090,CASE-0587,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0588,DEV-0116,CASE-0588,Internal pen-test activity can mimic external scanning patterns.
+REC-0589,DEV-0070,CASE-0589,Historical false positives were linked to scheduled QA stress tests.
+REC-0590,DEV-0065,CASE-0590,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0591,DEV-0175,CASE-0591,Similar behavior has previously occurred during software updates.
+REC-0592,DEV-0070,CASE-0592,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0593,DEV-0121,CASE-0593,Internal pen-test activity can mimic external scanning patterns.
+REC-0594,DEV-0071,CASE-0594,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0595,DEV-0175,CASE-0595,Similar behavior has previously occurred during software updates.
+REC-0596,DEV-0045,CASE-0596,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0597,DEV-0172,CASE-0597,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0598,DEV-0150,CASE-0598,This device model often triggers benign network scans during backup jobs.
+REC-0599,DEV-0112,CASE-0599,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0600,DEV-0083,CASE-0600,Internal pen-test activity can mimic external scanning patterns.
+REC-0601,DEV-0001,CASE-0601,Historical false positives were linked to scheduled QA stress tests.
+REC-0602,DEV-0245,CASE-0602,Historical false positives were linked to scheduled QA stress tests.
+REC-0603,DEV-0177,CASE-0603,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0604,DEV-0222,CASE-0604,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0605,DEV-0158,CASE-0605,Executive devices frequently show off-hours file activity before travel.
+REC-0606,DEV-0191,CASE-0606,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0607,DEV-0158,CASE-0607,Internal pen-test activity can mimic external scanning patterns.
+REC-0608,DEV-0236,CASE-0608,Internal pen-test activity can mimic external scanning patterns.
+REC-0609,DEV-0162,CASE-0609,Internal pen-test activity can mimic external scanning patterns.
+REC-0610,DEV-0012,CASE-0610,Internal pen-test activity can mimic external scanning patterns.
+REC-0611,DEV-0077,CASE-0611,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0612,DEV-0187,CASE-0612,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0613,DEV-0042,CASE-0613,Similar behavior has previously occurred during software updates.
+REC-0614,DEV-0154,CASE-0614,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0615,DEV-0250,CASE-0615,Historical false positives were linked to scheduled QA stress tests.
+REC-0616,DEV-0054,CASE-0616,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0617,DEV-0230,CASE-0617,Executive devices frequently show off-hours file activity before travel.
+REC-0618,DEV-0062,CASE-0618,Executive devices frequently show off-hours file activity before travel.
+REC-0619,DEV-0164,CASE-0619,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0620,DEV-0065,CASE-0620,Historical false positives were linked to scheduled QA stress tests.
+REC-0621,DEV-0056,CASE-0621,Historical false positives were linked to scheduled QA stress tests.
+REC-0622,DEV-0160,CASE-0622,Internal pen-test activity can mimic external scanning patterns.
+REC-0623,DEV-0056,CASE-0623,Historical false positives were linked to scheduled QA stress tests.
+REC-0624,DEV-0015,CASE-0624,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0625,DEV-0132,CASE-0625,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0626,DEV-0122,CASE-0626,This device model often triggers benign network scans during backup jobs.
+REC-0627,DEV-0204,CASE-0627,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0628,DEV-0237,CASE-0628,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0629,DEV-0164,CASE-0629,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0630,DEV-0044,CASE-0630,Internal pen-test activity can mimic external scanning patterns.
+REC-0631,DEV-0236,CASE-0631,Internal pen-test activity can mimic external scanning patterns.
+REC-0632,DEV-0245,CASE-0632,Similar behavior has previously occurred during software updates.
+REC-0633,DEV-0112,CASE-0633,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0634,DEV-0157,CASE-0634,This device model often triggers benign network scans during backup jobs.
+REC-0635,DEV-0221,CASE-0635,This device model often triggers benign network scans during backup jobs.
+REC-0636,DEV-0177,CASE-0636,Executive devices frequently show off-hours file activity before travel.
+REC-0637,DEV-0102,CASE-0637,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0638,DEV-0187,CASE-0638,This device model often triggers benign network scans during backup jobs.
+REC-0639,DEV-0111,CASE-0639,Executive devices frequently show off-hours file activity before travel.
+REC-0640,DEV-0228,CASE-0640,Similar behavior has previously occurred during software updates.
+REC-0641,DEV-0207,CASE-0641,Executive devices frequently show off-hours file activity before travel.
+REC-0642,DEV-0247,CASE-0642,Internal pen-test activity can mimic external scanning patterns.
+REC-0643,DEV-0097,CASE-0643,Similar behavior has previously occurred during software updates.
+REC-0644,DEV-0116,CASE-0644,Internal pen-test activity can mimic external scanning patterns.
+REC-0645,DEV-0208,CASE-0645,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0646,DEV-0125,CASE-0646,Internal pen-test activity can mimic external scanning patterns.
+REC-0647,DEV-0159,CASE-0647,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0648,DEV-0148,CASE-0648,Historical false positives were linked to scheduled QA stress tests.
+REC-0649,DEV-0021,CASE-0649,Historical false positives were linked to scheduled QA stress tests.
+REC-0650,DEV-0133,CASE-0650,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0651,DEV-0212,CASE-0651,Executive devices frequently show off-hours file activity before travel.
+REC-0652,DEV-0102,CASE-0652,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0653,DEV-0150,CASE-0653,Historical false positives were linked to scheduled QA stress tests.
+REC-0654,DEV-0029,CASE-0654,Internal pen-test activity can mimic external scanning patterns.
+REC-0655,DEV-0221,CASE-0655,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0656,DEV-0241,CASE-0656,Executive devices frequently show off-hours file activity before travel.
+REC-0657,DEV-0192,CASE-0657,This device model often triggers benign network scans during backup jobs.
+REC-0658,DEV-0211,CASE-0658,Internal pen-test activity can mimic external scanning patterns.
+REC-0659,DEV-0077,CASE-0659,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0660,DEV-0130,CASE-0660,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0661,DEV-0205,CASE-0661,Executive devices frequently show off-hours file activity before travel.
+REC-0662,DEV-0081,CASE-0662,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0663,DEV-0078,CASE-0663,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0664,DEV-0069,CASE-0664,Similar behavior has previously occurred during software updates.
+REC-0665,DEV-0092,CASE-0665,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0666,DEV-0090,CASE-0666,Historical false positives were linked to scheduled QA stress tests.
+REC-0667,DEV-0227,CASE-0667,Historical false positives were linked to scheduled QA stress tests.
+REC-0668,DEV-0232,CASE-0668,Historical false positives were linked to scheduled QA stress tests.
+REC-0669,DEV-0033,CASE-0669,Executive devices frequently show off-hours file activity before travel.
+REC-0670,DEV-0045,CASE-0670,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0671,DEV-0162,CASE-0671,Similar behavior has previously occurred during software updates.
+REC-0672,DEV-0145,CASE-0672,Historical false positives were linked to scheduled QA stress tests.
+REC-0673,DEV-0203,CASE-0673,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0674,DEV-0095,CASE-0674,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0675,DEV-0219,CASE-0675,This device model often triggers benign network scans during backup jobs.
+REC-0676,DEV-0123,CASE-0676,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0677,DEV-0224,CASE-0677,This device model often triggers benign network scans during backup jobs.
+REC-0678,DEV-0126,CASE-0678,Similar behavior has previously occurred during software updates.
+REC-0679,DEV-0057,CASE-0679,Historical false positives were linked to scheduled QA stress tests.
+REC-0680,DEV-0226,CASE-0680,Internal pen-test activity can mimic external scanning patterns.
+REC-0681,DEV-0068,CASE-0681,Internal pen-test activity can mimic external scanning patterns.
+REC-0682,DEV-0172,CASE-0682,This device model often triggers benign network scans during backup jobs.
+REC-0683,DEV-0242,CASE-0683,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0684,DEV-0013,CASE-0684,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0685,DEV-0178,CASE-0685,Internal pen-test activity can mimic external scanning patterns.
+REC-0686,DEV-0018,CASE-0686,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0687,DEV-0096,CASE-0687,This device model often triggers benign network scans during backup jobs.
+REC-0688,DEV-0009,CASE-0688,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0689,DEV-0047,CASE-0689,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0690,DEV-0057,CASE-0690,Historical false positives were linked to scheduled QA stress tests.
+REC-0691,DEV-0247,CASE-0691,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0692,DEV-0173,CASE-0692,Similar behavior has previously occurred during software updates.
+REC-0693,DEV-0156,CASE-0693,Historical false positives were linked to scheduled QA stress tests.
+REC-0694,DEV-0066,CASE-0694,Internal pen-test activity can mimic external scanning patterns.
+REC-0695,DEV-0017,CASE-0695,Executive devices frequently show off-hours file activity before travel.
+REC-0696,DEV-0165,CASE-0696,This device model often triggers benign network scans during backup jobs.
+REC-0697,DEV-0069,CASE-0697,Executive devices frequently show off-hours file activity before travel.
+REC-0698,DEV-0225,CASE-0698,Internal pen-test activity can mimic external scanning patterns.
+REC-0699,DEV-0233,CASE-0699,This device model often triggers benign network scans during backup jobs.
+REC-0700,DEV-0164,CASE-0700,Similar behavior has previously occurred during software updates.
+REC-0701,DEV-0134,CASE-0701,Historical false positives were linked to scheduled QA stress tests.
+REC-0702,DEV-0014,CASE-0702,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0703,DEV-0187,CASE-0703,Internal pen-test activity can mimic external scanning patterns.
+REC-0704,DEV-0228,CASE-0704,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0705,DEV-0174,CASE-0705,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0706,DEV-0096,CASE-0706,Historical false positives were linked to scheduled QA stress tests.
+REC-0707,DEV-0027,CASE-0707,This device model often triggers benign network scans during backup jobs.
+REC-0708,DEV-0128,CASE-0708,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0709,DEV-0057,CASE-0709,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0710,DEV-0042,CASE-0710,Executive devices frequently show off-hours file activity before travel.
+REC-0711,DEV-0207,CASE-0711,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0712,DEV-0242,CASE-0712,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0713,DEV-0156,CASE-0713,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0714,DEV-0029,CASE-0714,Internal pen-test activity can mimic external scanning patterns.
+REC-0715,DEV-0059,CASE-0715,Historical false positives were linked to scheduled QA stress tests.
+REC-0716,DEV-0078,CASE-0716,Historical false positives were linked to scheduled QA stress tests.
+REC-0717,DEV-0060,CASE-0717,This device model often triggers benign network scans during backup jobs.
+REC-0718,DEV-0004,CASE-0718,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0719,DEV-0122,CASE-0719,Internal pen-test activity can mimic external scanning patterns.
+REC-0720,DEV-0045,CASE-0720,Internal pen-test activity can mimic external scanning patterns.
+REC-0721,DEV-0110,CASE-0721,Internal pen-test activity can mimic external scanning patterns.
+REC-0722,DEV-0029,CASE-0722,Executive devices frequently show off-hours file activity before travel.
+REC-0723,DEV-0215,CASE-0723,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0724,DEV-0191,CASE-0724,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0725,DEV-0178,CASE-0725,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0726,DEV-0011,CASE-0726,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0727,DEV-0213,CASE-0727,This device model often triggers benign network scans during backup jobs.
+REC-0728,DEV-0062,CASE-0728,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0729,DEV-0113,CASE-0729,Internal pen-test activity can mimic external scanning patterns.
+REC-0730,DEV-0121,CASE-0730,Executive devices frequently show off-hours file activity before travel.
+REC-0731,DEV-0197,CASE-0731,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0732,DEV-0007,CASE-0732,Similar behavior has previously occurred during software updates.
+REC-0733,DEV-0021,CASE-0733,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0734,DEV-0214,CASE-0734,Internal pen-test activity can mimic external scanning patterns.
+REC-0735,DEV-0218,CASE-0735,Similar behavior has previously occurred during software updates.
+REC-0736,DEV-0104,CASE-0736,Executive devices frequently show off-hours file activity before travel.
+REC-0737,DEV-0145,CASE-0737,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0738,DEV-0200,CASE-0738,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0739,DEV-0229,CASE-0739,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0740,DEV-0242,CASE-0740,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0741,DEV-0119,CASE-0741,This device model often triggers benign network scans during backup jobs.
+REC-0742,DEV-0172,CASE-0742,Historical false positives were linked to scheduled QA stress tests.
+REC-0743,DEV-0045,CASE-0743,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0744,DEV-0025,CASE-0744,This device model often triggers benign network scans during backup jobs.
+REC-0745,DEV-0106,CASE-0745,Executive devices frequently show off-hours file activity before travel.
+REC-0746,DEV-0005,CASE-0746,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0747,DEV-0243,CASE-0747,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0748,DEV-0233,CASE-0748,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0749,DEV-0220,CASE-0749,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0750,DEV-0063,CASE-0750,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0751,DEV-0175,CASE-0751,Internal pen-test activity can mimic external scanning patterns.
+REC-0752,DEV-0249,CASE-0752,Similar behavior has previously occurred during software updates.
+REC-0753,DEV-0048,CASE-0753,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0754,DEV-0093,CASE-0754,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0755,DEV-0151,CASE-0755,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0756,DEV-0059,CASE-0756,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0757,DEV-0175,CASE-0757,This device model often triggers benign network scans during backup jobs.
+REC-0758,DEV-0155,CASE-0758,Internal pen-test activity can mimic external scanning patterns.
+REC-0759,DEV-0139,CASE-0759,Executive devices frequently show off-hours file activity before travel.
+REC-0760,DEV-0224,CASE-0760,Similar behavior has previously occurred during software updates.
+REC-0761,DEV-0067,CASE-0761,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0762,DEV-0152,CASE-0762,Executive devices frequently show off-hours file activity before travel.
+REC-0763,DEV-0066,CASE-0763,Internal pen-test activity can mimic external scanning patterns.
+REC-0764,DEV-0234,CASE-0764,Similar behavior has previously occurred during software updates.
+REC-0765,DEV-0110,CASE-0765,Similar behavior has previously occurred during software updates.
+REC-0766,DEV-0105,CASE-0766,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0767,DEV-0220,CASE-0767,Internal pen-test activity can mimic external scanning patterns.
+REC-0768,DEV-0184,CASE-0768,Similar behavior has previously occurred during software updates.
+REC-0769,DEV-0078,CASE-0769,Internal pen-test activity can mimic external scanning patterns.
+REC-0770,DEV-0201,CASE-0770,Internal pen-test activity can mimic external scanning patterns.
+REC-0771,DEV-0094,CASE-0771,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0772,DEV-0036,CASE-0772,This device model often triggers benign network scans during backup jobs.
+REC-0773,DEV-0023,CASE-0773,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0774,DEV-0049,CASE-0774,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0775,DEV-0008,CASE-0775,Executive devices frequently show off-hours file activity before travel.
+REC-0776,DEV-0083,CASE-0776,Historical false positives were linked to scheduled QA stress tests.
+REC-0777,DEV-0013,CASE-0777,Historical false positives were linked to scheduled QA stress tests.
+REC-0778,DEV-0016,CASE-0778,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0779,DEV-0219,CASE-0779,Internal pen-test activity can mimic external scanning patterns.
+REC-0780,DEV-0023,CASE-0780,Historical false positives were linked to scheduled QA stress tests.
+REC-0781,DEV-0195,CASE-0781,Executive devices frequently show off-hours file activity before travel.
+REC-0782,DEV-0184,CASE-0782,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0783,DEV-0121,CASE-0783,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0784,DEV-0094,CASE-0784,Executive devices frequently show off-hours file activity before travel.
+REC-0785,DEV-0131,CASE-0785,Similar behavior has previously occurred during software updates.
+REC-0786,DEV-0028,CASE-0786,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0787,DEV-0154,CASE-0787,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0788,DEV-0149,CASE-0788,Similar behavior has previously occurred during software updates.
+REC-0789,DEV-0124,CASE-0789,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0790,DEV-0207,CASE-0790,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0791,DEV-0228,CASE-0791,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0792,DEV-0098,CASE-0792,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0793,DEV-0157,CASE-0793,Similar behavior has previously occurred during software updates.
+REC-0794,DEV-0206,CASE-0794,Executive devices frequently show off-hours file activity before travel.
+REC-0795,DEV-0007,CASE-0795,Historical false positives were linked to scheduled QA stress tests.
+REC-0796,DEV-0101,CASE-0796,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0797,DEV-0117,CASE-0797,Internal pen-test activity can mimic external scanning patterns.
+REC-0798,DEV-0028,CASE-0798,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0799,DEV-0104,CASE-0799,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0800,DEV-0058,CASE-0800,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0801,DEV-0034,CASE-0801,This device model often triggers benign network scans during backup jobs.
+REC-0802,DEV-0038,CASE-0802,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0803,DEV-0045,CASE-0803,Internal pen-test activity can mimic external scanning patterns.
+REC-0804,DEV-0244,CASE-0804,Historical false positives were linked to scheduled QA stress tests.
+REC-0805,DEV-0063,CASE-0805,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0806,DEV-0216,CASE-0806,This device model often triggers benign network scans during backup jobs.
+REC-0807,DEV-0155,CASE-0807,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0808,DEV-0069,CASE-0808,Executive devices frequently show off-hours file activity before travel.
+REC-0809,DEV-0245,CASE-0809,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0810,DEV-0092,CASE-0810,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0811,DEV-0146,CASE-0811,Executive devices frequently show off-hours file activity before travel.
+REC-0812,DEV-0218,CASE-0812,This device model often triggers benign network scans during backup jobs.
+REC-0813,DEV-0089,CASE-0813,Similar behavior has previously occurred during software updates.
+REC-0814,DEV-0193,CASE-0814,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0815,DEV-0190,CASE-0815,Internal pen-test activity can mimic external scanning patterns.
+REC-0816,DEV-0145,CASE-0816,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0817,DEV-0037,CASE-0817,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0818,DEV-0170,CASE-0818,Executive devices frequently show off-hours file activity before travel.
+REC-0819,DEV-0073,CASE-0819,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0820,DEV-0239,CASE-0820,Internal pen-test activity can mimic external scanning patterns.
+REC-0821,DEV-0020,CASE-0821,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0822,DEV-0127,CASE-0822,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0823,DEV-0222,CASE-0823,Executive devices frequently show off-hours file activity before travel.
+REC-0824,DEV-0113,CASE-0824,Historical false positives were linked to scheduled QA stress tests.
+REC-0825,DEV-0076,CASE-0825,Executive devices frequently show off-hours file activity before travel.
+REC-0826,DEV-0051,CASE-0826,This device model often triggers benign network scans during backup jobs.
+REC-0827,DEV-0071,CASE-0827,Executive devices frequently show off-hours file activity before travel.
+REC-0828,DEV-0075,CASE-0828,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0829,DEV-0236,CASE-0829,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0830,DEV-0002,CASE-0830,Executive devices frequently show off-hours file activity before travel.
+REC-0831,DEV-0122,CASE-0831,Executive devices frequently show off-hours file activity before travel.
+REC-0832,DEV-0018,CASE-0832,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0833,DEV-0171,CASE-0833,Executive devices frequently show off-hours file activity before travel.
+REC-0834,DEV-0184,CASE-0834,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0835,DEV-0134,CASE-0835,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0836,DEV-0186,CASE-0836,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0837,DEV-0085,CASE-0837,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0838,DEV-0086,CASE-0838,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0839,DEV-0173,CASE-0839,This device model often triggers benign network scans during backup jobs.
+REC-0840,DEV-0015,CASE-0840,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0841,DEV-0164,CASE-0841,This device model often triggers benign network scans during backup jobs.
+REC-0842,DEV-0156,CASE-0842,This device model often triggers benign network scans during backup jobs.
+REC-0843,DEV-0068,CASE-0843,Internal pen-test activity can mimic external scanning patterns.
+REC-0844,DEV-0140,CASE-0844,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0845,DEV-0073,CASE-0845,Executive devices frequently show off-hours file activity before travel.
+REC-0846,DEV-0128,CASE-0846,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0847,DEV-0207,CASE-0847,Internal pen-test activity can mimic external scanning patterns.
+REC-0848,DEV-0247,CASE-0848,Historical false positives were linked to scheduled QA stress tests.
+REC-0849,DEV-0152,CASE-0849,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0850,DEV-0178,CASE-0850,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0851,DEV-0082,CASE-0851,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0852,DEV-0186,CASE-0852,Executive devices frequently show off-hours file activity before travel.
+REC-0853,DEV-0067,CASE-0853,This device model often triggers benign network scans during backup jobs.
+REC-0854,DEV-0071,CASE-0854,Similar behavior has previously occurred during software updates.
+REC-0855,DEV-0176,CASE-0855,Historical false positives were linked to scheduled QA stress tests.
+REC-0856,DEV-0020,CASE-0856,Internal pen-test activity can mimic external scanning patterns.
+REC-0857,DEV-0205,CASE-0857,Internal pen-test activity can mimic external scanning patterns.
+REC-0858,DEV-0136,CASE-0858,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0859,DEV-0113,CASE-0859,Internal pen-test activity can mimic external scanning patterns.
+REC-0860,DEV-0061,CASE-0860,Executive devices frequently show off-hours file activity before travel.
+REC-0861,DEV-0129,CASE-0861,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0862,DEV-0103,CASE-0862,Historical false positives were linked to scheduled QA stress tests.
+REC-0863,DEV-0136,CASE-0863,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0864,DEV-0018,CASE-0864,Similar behavior has previously occurred during software updates.
+REC-0865,DEV-0154,CASE-0865,Similar behavior has previously occurred during software updates.
+REC-0866,DEV-0190,CASE-0866,Internal pen-test activity can mimic external scanning patterns.
+REC-0867,DEV-0033,CASE-0867,Similar behavior has previously occurred during software updates.
+REC-0868,DEV-0246,CASE-0868,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0869,DEV-0079,CASE-0869,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0870,DEV-0028,CASE-0870,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0871,DEV-0079,CASE-0871,Internal pen-test activity can mimic external scanning patterns.
+REC-0872,DEV-0219,CASE-0872,Historical false positives were linked to scheduled QA stress tests.
+REC-0873,DEV-0241,CASE-0873,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0874,DEV-0244,CASE-0874,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0875,DEV-0248,CASE-0875,Similar behavior has previously occurred during software updates.
+REC-0876,DEV-0036,CASE-0876,Executive devices frequently show off-hours file activity before travel.
+REC-0877,DEV-0112,CASE-0877,Similar behavior has previously occurred during software updates.
+REC-0878,DEV-0003,CASE-0878,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0879,DEV-0186,CASE-0879,Similar behavior has previously occurred during software updates.
+REC-0880,DEV-0072,CASE-0880,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0881,DEV-0228,CASE-0881,Similar behavior has previously occurred during software updates.
+REC-0882,DEV-0087,CASE-0882,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0883,DEV-0001,CASE-0883,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0884,DEV-0074,CASE-0884,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0885,DEV-0058,CASE-0885,Internal pen-test activity can mimic external scanning patterns.
+REC-0886,DEV-0246,CASE-0886,Internal pen-test activity can mimic external scanning patterns.
+REC-0887,DEV-0057,CASE-0887,Executive devices frequently show off-hours file activity before travel.
+REC-0888,DEV-0150,CASE-0888,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0889,DEV-0205,CASE-0889,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0890,DEV-0031,CASE-0890,Internal pen-test activity can mimic external scanning patterns.
+REC-0891,DEV-0077,CASE-0891,Internal pen-test activity can mimic external scanning patterns.
+REC-0892,DEV-0032,CASE-0892,Executive devices frequently show off-hours file activity before travel.
+REC-0893,DEV-0051,CASE-0893,This device model often triggers benign network scans during backup jobs.
+REC-0894,DEV-0239,CASE-0894,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0895,DEV-0148,CASE-0895,This device model often triggers benign network scans during backup jobs.
+REC-0896,DEV-0145,CASE-0896,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0897,DEV-0180,CASE-0897,Internal pen-test activity can mimic external scanning patterns.
+REC-0898,DEV-0090,CASE-0898,Similar behavior has previously occurred during software updates.
+REC-0899,DEV-0153,CASE-0899,Historical false positives were linked to scheduled QA stress tests.
+REC-0900,DEV-0024,CASE-0900,Similar behavior has previously occurred during software updates.
+REC-0901,DEV-0090,CASE-0901,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0902,DEV-0205,CASE-0902,Executive devices frequently show off-hours file activity before travel.
+REC-0903,DEV-0137,CASE-0903,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0904,DEV-0019,CASE-0904,Similar behavior has previously occurred during software updates.
+REC-0905,DEV-0102,CASE-0905,This device model often triggers benign network scans during backup jobs.
+REC-0906,DEV-0100,CASE-0906,Internal pen-test activity can mimic external scanning patterns.
+REC-0907,DEV-0093,CASE-0907,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0908,DEV-0187,CASE-0908,Internal pen-test activity can mimic external scanning patterns.
+REC-0909,DEV-0198,CASE-0909,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0910,DEV-0188,CASE-0910,Internal pen-test activity can mimic external scanning patterns.
+REC-0911,DEV-0195,CASE-0911,Similar behavior has previously occurred during software updates.
+REC-0912,DEV-0048,CASE-0912,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0913,DEV-0003,CASE-0913,Similar behavior has previously occurred during software updates.
+REC-0914,DEV-0030,CASE-0914,Executive devices frequently show off-hours file activity before travel.
+REC-0915,DEV-0111,CASE-0915,Executive devices frequently show off-hours file activity before travel.
+REC-0916,DEV-0194,CASE-0916,Executive devices frequently show off-hours file activity before travel.
+REC-0917,DEV-0012,CASE-0917,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0918,DEV-0046,CASE-0918,Historical false positives were linked to scheduled QA stress tests.
+REC-0919,DEV-0142,CASE-0919,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0920,DEV-0045,CASE-0920,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0921,DEV-0152,CASE-0921,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0922,DEV-0106,CASE-0922,This device model often triggers benign network scans during backup jobs.
+REC-0923,DEV-0007,CASE-0923,This device model often triggers benign network scans during backup jobs.
+REC-0924,DEV-0013,CASE-0924,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0925,DEV-0055,CASE-0925,Similar behavior has previously occurred during software updates.
+REC-0926,DEV-0185,CASE-0926,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0927,DEV-0156,CASE-0927,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0928,DEV-0218,CASE-0928,Historical false positives were linked to scheduled QA stress tests.
+REC-0929,DEV-0089,CASE-0929,This device model often triggers benign network scans during backup jobs.
+REC-0930,DEV-0127,CASE-0930,This device model often triggers benign network scans during backup jobs.
+REC-0931,DEV-0172,CASE-0931,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0932,DEV-0149,CASE-0932,Internal pen-test activity can mimic external scanning patterns.
+REC-0933,DEV-0236,CASE-0933,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0934,DEV-0115,CASE-0934,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0935,DEV-0022,CASE-0935,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0936,DEV-0022,CASE-0936,Internal pen-test activity can mimic external scanning patterns.
+REC-0937,DEV-0115,CASE-0937,This device model often triggers benign network scans during backup jobs.
+REC-0938,DEV-0012,CASE-0938,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0939,DEV-0148,CASE-0939,This device model often triggers benign network scans during backup jobs.
+REC-0940,DEV-0116,CASE-0940,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0941,DEV-0176,CASE-0941,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0942,DEV-0119,CASE-0942,Internal pen-test activity can mimic external scanning patterns.
+REC-0943,DEV-0240,CASE-0943,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0944,DEV-0024,CASE-0944,Internal pen-test activity can mimic external scanning patterns.
+REC-0945,DEV-0023,CASE-0945,This device model often triggers benign network scans during backup jobs.
+REC-0946,DEV-0178,CASE-0946,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0947,DEV-0211,CASE-0947,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0948,DEV-0036,CASE-0948,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0949,DEV-0053,CASE-0949,Similar behavior has previously occurred during software updates.
+REC-0950,DEV-0115,CASE-0950,Internal pen-test activity can mimic external scanning patterns.
+REC-0951,DEV-0100,CASE-0951,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0952,DEV-0245,CASE-0952,This device model often triggers benign network scans during backup jobs.
+REC-0953,DEV-0141,CASE-0953,This device model often triggers benign network scans during backup jobs.
+REC-0954,DEV-0038,CASE-0954,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0955,DEV-0072,CASE-0955,This device model often triggers benign network scans during backup jobs.
+REC-0956,DEV-0136,CASE-0956,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0957,DEV-0248,CASE-0957,Historical false positives were linked to scheduled QA stress tests.
+REC-0958,DEV-0113,CASE-0958,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0959,DEV-0001,CASE-0959,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0960,DEV-0042,CASE-0960,This device model often triggers benign network scans during backup jobs.
+REC-0961,DEV-0052,CASE-0961,Historical false positives were linked to scheduled QA stress tests.
+REC-0962,DEV-0189,CASE-0962,Similar behavior has previously occurred during software updates.
+REC-0963,DEV-0163,CASE-0963,Similar behavior has previously occurred during software updates.
+REC-0964,DEV-0034,CASE-0964,Internal pen-test activity can mimic external scanning patterns.
+REC-0965,DEV-0003,CASE-0965,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0966,DEV-0128,CASE-0966,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0967,DEV-0099,CASE-0967,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0968,DEV-0177,CASE-0968,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0969,DEV-0181,CASE-0969,Historical false positives were linked to scheduled QA stress tests.
+REC-0970,DEV-0145,CASE-0970,Similar behavior has previously occurred during software updates.
+REC-0971,DEV-0149,CASE-0971,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0972,DEV-0097,CASE-0972,Executive devices frequently show off-hours file activity before travel.
+REC-0973,DEV-0027,CASE-0973,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0974,DEV-0118,CASE-0974,Similar behavior has previously occurred during software updates.
+REC-0975,DEV-0180,CASE-0975,Internal pen-test activity can mimic external scanning patterns.
+REC-0976,DEV-0053,CASE-0976,Executive devices frequently show off-hours file activity before travel.
+REC-0977,DEV-0150,CASE-0977,Internal pen-test activity can mimic external scanning patterns.
+REC-0978,DEV-0090,CASE-0978,Internal pen-test activity can mimic external scanning patterns.
+REC-0979,DEV-0058,CASE-0979,Historical false positives were linked to scheduled QA stress tests.
+REC-0980,DEV-0207,CASE-0980,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0981,DEV-0138,CASE-0981,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0982,DEV-0023,CASE-0982,Executive devices frequently show off-hours file activity before travel.
+REC-0983,DEV-0200,CASE-0983,Similar behavior has previously occurred during software updates.
+REC-0984,DEV-0230,CASE-0984,This device model often triggers benign network scans during backup jobs.
+REC-0985,DEV-0002,CASE-0985,Executive devices frequently show off-hours file activity before travel.
+REC-0986,DEV-0249,CASE-0986,Similar behavior has previously occurred during software updates.
+REC-0987,DEV-0236,CASE-0987,Staging servers routinely generate burst traffic during nightly test runs.
+REC-0988,DEV-0116,CASE-0988,Internal pen-test activity can mimic external scanning patterns.
+REC-0989,DEV-0041,CASE-0989,This device model often triggers benign network scans during backup jobs.
+REC-0990,DEV-0082,CASE-0990,Historical false positives were linked to scheduled QA stress tests.
+REC-0991,DEV-0033,CASE-0991,Patch deployment windows correlate with elevated endpoint telemetry noise.
+REC-0992,DEV-0182,CASE-0992,Historical false positives were linked to scheduled QA stress tests.
+REC-0993,DEV-0015,CASE-0993,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0994,DEV-0135,CASE-0994,Historical false positives were linked to scheduled QA stress tests.
+REC-0995,DEV-0099,CASE-0995,Finance remote logins may reflect approved work-from-new-location policy.
+REC-0996,DEV-0129,CASE-0996,Historical false positives were linked to scheduled QA stress tests.
+REC-0997,DEV-0100,CASE-0997,Historical false positives were linked to scheduled QA stress tests.
+REC-0998,DEV-0021,CASE-0998,Historical false positives were linked to scheduled QA stress tests.
+REC-0999,DEV-0134,CASE-0999,Finance remote logins may reflect approved work-from-new-location policy.
+REC-1000,DEV-0242,CASE-1000,Staging servers routinely generate burst traffic during nightly test runs.
