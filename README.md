@@ -6,17 +6,17 @@ TrustLens AI is an enterprise-grade platform designed to improve trust in AI-gen
 
 ---
 
-## Live Demo
+## 🚀 Live Demo
 
-🔗 **Application:** YOUR_DEPLOYED_LINK
+**Application:**  
+https://trustlens-ai-three.vercel.app/
 
-📂 **GitHub Repository:** https://github.com/sathvika32427/trustlens-ai
-
-🎥 **Demo Video (Optional):** YOUR_VIDEO_LINK
+**GitHub Repository:**  
+https://github.com/sathvika32427/trustlens-ai
 
 ---
 
-## Problem Statement
+## 📌 Problem Statement
 
 Enterprise AI systems generate recommendations such as:
 
@@ -27,18 +27,20 @@ Enterprise AI systems generate recommendations such as:
 
 However, users often hesitate to act because they cannot understand:
 
-- Why AI made the recommendation
+- Why the AI made the recommendation
 - What evidence was used
 - How confident the AI is
 - What limitations exist
 - What alternatives were considered
-- How human decisions are recorded
+- How decisions are recorded
 
 This lack of transparency reduces trust, slows decision-making, and creates accountability concerns.
 
+TrustLens AI solves this challenge by creating a human-centered interface that makes AI recommendations understandable, reviewable, and auditable.
+
 ---
 
-## Solution
+## 💡 Solution
 
 TrustLens AI transforms AI recommendations into transparent, explainable, and auditable decisions.
 
@@ -53,7 +55,7 @@ The platform enables users to:
 
 ---
 
-## Key Features
+## ✨ Key Features
 
 ### AI Decision Explorer
 
@@ -75,8 +77,6 @@ Includes:
 ### Evidence Timeline
 
 Displays the sequence of events that led to an AI recommendation.
-
-Example:
 
 ```text
 Failed Login Attempts
@@ -101,13 +101,13 @@ Instead of confusing probability percentages, TrustLens AI uses understandable c
 - Review Recommended
 - Low Confidence
 
-Each level includes a human-readable explanation.
+Each confidence level includes a human-readable explanation.
 
 ---
 
 ### Data Source Attribution
 
-Shows exactly what information contributed to the recommendation.
+Shows exactly what information contributed to a recommendation.
 
 Examples:
 
@@ -119,7 +119,7 @@ Examples:
 
 ---
 
-### What AI Might Not Know
+### AI Limitation Awareness
 
 A dedicated transparency section highlighting:
 
@@ -142,8 +142,6 @@ Examples:
 - Deploy Patch
 - Restrict Network Access
 - Quarantine Device
-
-Users can compare risks, benefits, and expected outcomes before approving a recommendation.
 
 ---
 
@@ -203,7 +201,7 @@ Provides visibility into:
 
 ---
 
-## Innovation Highlights
+## 🚀 Innovation Highlights
 
 ### Explain Like I'm Non-Technical
 
@@ -218,8 +216,6 @@ Making AI recommendations understandable for both technical and non-technical st
 
 ### AI Decision Tree
 
-Visual representation of recommendation generation.
-
 ```text
 Evidence
 ↓
@@ -233,8 +229,6 @@ Human Review
 ---
 
 ### Multi-Agent Transparency
-
-Displays how multiple AI agents contribute to a final recommendation.
 
 ```text
 Detection Agent
@@ -267,7 +261,7 @@ Human Reviewer
 
 ---
 
-## User Roles
+## 👥 User Roles
 
 ### IT Administrator
 
@@ -290,7 +284,7 @@ Human Reviewer
 
 ---
 
-## Application Modules
+## 🏗 Application Modules
 
 ### Dashboard
 
@@ -301,7 +295,7 @@ Centralized overview of:
 - Active Recommendations
 - Human Review Queue
 
-### Decision Explorer
+### Recommendation Portal
 
 Deep explanation of every AI recommendation.
 
@@ -309,7 +303,7 @@ Deep explanation of every AI recommendation.
 
 Compare multiple mitigation strategies and outcomes.
 
-### Audit Center
+### Audit & Compliance
 
 Track all AI and human actions.
 
@@ -323,7 +317,7 @@ Generate comprehensive incident documentation.
 
 ---
 
-## Technology Stack
+## 🛠 Technology Stack
 
 ### Frontend
 
@@ -334,39 +328,117 @@ Generate comprehensive incident documentation.
 - Framer Motion
 - Lucide React
 
-### Design Principles
+### Deployment
 
-- Transparency First
-- Human-Centered AI
-- Explainable Recommendations
-- Enterprise Accessibility
-- Trust-Oriented UX
+- Vercel
 
 ---
 
-## Architecture Flow
+## 📂 Project Structure
 
 ```text
-Employee Device
-↓
-Device Monitoring Agent
-↓
-Telemetry Collection
-↓
-Risk Analysis Engine
-↓
-Recommendation Engine
-↓
-TrustLens Dashboard
-↓
-Human Review
-↓
-Final Decision
+trustlens-ai/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   ├── data/
+│   ├── assets/
+│   ├── utils/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+└── README.md
 ```
 
 ---
 
-## Demo Flow
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sathvika32427/trustlens-ai.git
+```
+
+Move into the project directory:
+
+```bash
+cd trustlens-ai
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Running Locally
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+The application will automatically reload when changes are made.
+
+---
+
+## 📦 Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🏛 Architecture Flow
+
+```text
+Employee Device
+        ↓
+Telemetry Collection
+        ↓
+Risk Analysis Engine
+        ↓
+AI Recommendation Engine
+        ↓
+TrustLens Transparency Layer
+        ↓
+Human Review Interface
+        ↓
+Final Decision
+        ↓
+Audit Logging
+```
+
+---
+
+## 🎯 Demo Flow
 
 1. Open Dashboard
 2. Review Pending Recommendation
@@ -381,7 +453,7 @@ Final Decision
 
 ---
 
-## Future Enhancements
+## 🔮 Future Enhancements
 
 - Real-Time Telemetry Integration
 - Enterprise Authentication
@@ -393,7 +465,7 @@ Final Decision
 
 ---
 
-## Impact
+## 📈 Impact
 
 TrustLens AI helps organizations:
 
@@ -406,9 +478,9 @@ TrustLens AI helps organizations:
 
 ---
 
-## Team
+## 👨‍💻 Team
 
-**Team Name:** YOUR_TEAM_NAME
+**Team Name:** AI Mavericks
 
 **Hackathon:** Dell Hackathon 2026
 
@@ -416,6 +488,6 @@ TrustLens AI helps organizations:
 
 ---
 
-## License
+## 📜 License
 
-This project is developed for educational and hackathon purposes.
+This project was developed for educational, research, and hackathon purposes.
