@@ -1,17 +1,21 @@
 # TrustLens AI
 
-### Transparent & Trustworthy AI Decision Intelligence Platform
+## Transparent & Trustworthy AI Decision Intelligence Platform
 
-TrustLens AI is an enterprise-grade platform designed to improve trust in AI-generated recommendations through transparency, explainability, accountability, and human oversight.
+TrustLens AI is an enterprise-grade platform designed to improve trust in AI-generated recommendations through transparency, explainability, accountability, historical reliability, and human oversight.
+
+The platform transforms AI recommendations from a black-box experience into a transparent, explainable, and auditable workflow suitable for enterprise environments.
 
 ---
 
 ## 🚀 Live Demo
 
-**Application:**  
+### Application
+
 https://trustlens-ai-three.vercel.app/
 
-**GitHub Repository:**  
+### GitHub Repository
+
 https://github.com/sathvika32427/trustlens-ai
 
 ---
@@ -30,8 +34,10 @@ However, users often hesitate to act because they cannot understand:
 - Why the AI made the recommendation
 - What evidence was used
 - How confident the AI is
+- How reliable the AI has been historically
 - What limitations exist
 - What alternatives were considered
+- What impact the action may have
 - How decisions are recorded
 
 This lack of transparency reduces trust, slows decision-making, and creates accountability concerns.
@@ -42,22 +48,25 @@ TrustLens AI solves this challenge by creating a human-centered interface that m
 
 ## 💡 Solution
 
-TrustLens AI transforms AI recommendations into transparent, explainable, and auditable decisions.
+TrustLens AI transforms AI recommendations into transparent, explainable, accountable, and trustworthy decisions.
 
 The platform enables users to:
 
 - Understand AI reasoning
 - Review supporting evidence
 - Assess confidence levels
+- Review historical reliability
 - Explore alternative actions
+- Evaluate business impact
+- Learn from previous outcomes
 - Identify AI limitations
 - Maintain human control over critical decisions
 
 ---
 
-## ✨ Key Features
+# ✨ Core Features
 
-### AI Decision Explorer
+## AI Decision Explorer
 
 Provides complete visibility into AI-generated recommendations.
 
@@ -74,25 +83,25 @@ Includes:
 
 ---
 
-### Evidence Timeline
+## Evidence Timeline
 
 Displays the sequence of events that led to an AI recommendation.
 
 ```text
 Failed Login Attempts
-↓
+        ↓
 Patch Compliance Violation
-↓
+        ↓
 Malware Detection
-↓
+        ↓
 Suspicious Network Activity
-↓
+        ↓
 AI Recommendation Generated
 ```
 
 ---
 
-### Confidence Explanation
+## Confidence Explanation
 
 Instead of confusing probability percentages, TrustLens AI uses understandable confidence levels:
 
@@ -105,7 +114,7 @@ Each confidence level includes a human-readable explanation.
 
 ---
 
-### Data Source Attribution
+## Data Source Attribution
 
 Shows exactly what information contributed to a recommendation.
 
@@ -119,20 +128,20 @@ Examples:
 
 ---
 
-### AI Limitation Awareness
+## AI Limitation Awareness
 
-A dedicated transparency section highlighting:
+Highlights situations where the AI may be less reliable.
+
+Examples:
 
 - Missing telemetry
 - Limited historical data
 - Offline periods
 - Unknown device states
 
-This helps users understand AI limitations before taking action.
-
 ---
 
-### Alternative Recommendation Analysis
+## Alternative Recommendation Analysis
 
 Compares multiple actions and explains tradeoffs.
 
@@ -145,7 +154,7 @@ Examples:
 
 ---
 
-### Human-in-the-Loop Controls
+## Human-in-the-Loop Controls
 
 Every recommendation requires human review.
 
@@ -160,7 +169,202 @@ Humans always remain in control of critical decisions.
 
 ---
 
-### Audit & Accountability Center
+# 🧠 Advanced Trust Intelligence Features
+
+## Trust Ledger
+
+Provides historical reliability information alongside confidence scores.
+
+Includes:
+
+- Correct Recommendations
+- Incorrect Recommendations
+- Historical Reliability Score
+- Known Weaknesses
+- Trust Trend Analysis
+
+Example:
+
+```text
+Correct Recommendations: 47
+Incorrect Recommendations: 3
+
+Known Weaknesses:
+- Over-flags Linux devices
+- Less reliable on previously unseen device models
+```
+
+---
+
+## Impact Preview
+
+Shows consequences before users take action.
+
+### If Approved
+
+- Threat contained
+- Device isolated
+- Risk reduced
+- Temporary user access restrictions
+
+### If Dismissed
+
+- Potential malware spread
+- Increased security exposure
+- Business impact escalation
+
+---
+
+## Adaptive Approval Gate
+
+Approval requirements dynamically adjust based on risk level.
+
+### Low Risk
+
+- One-click approval
+
+### Medium Risk
+
+- Evidence review required
+
+### High Risk
+
+- Evidence review required
+- Impact review required
+
+### Critical Risk
+
+- Evidence review required
+- Impact review required
+- Written justification required
+
+---
+
+## Counter Consideration Panel
+
+Provides alternative explanations alongside recommendations.
+
+Example:
+
+```text
+Recommendation:
+Quarantine Device
+
+Counter Consideration:
+Similar behavior has previously occurred during software updates.
+```
+
+---
+
+## Outcome Learning
+
+Tracks outcomes:
+
+- Recommendation Correct
+- Recommendation Incorrect
+- False Positive
+- False Negative
+
+Continuously improves trust assessments.
+
+---
+
+## AI Incident Cards
+
+Automatically generated when recommendations fail.
+
+Includes:
+
+- Incident Summary
+- Root Cause
+- Safeguard Failure
+- Corrective Action
+- Lessons Learned
+
+---
+
+## Similar Cases Explorer
+
+Displays historical recommendations and outcomes similar to the current case.
+
+Includes:
+
+- Previous incidents
+- Actions taken
+- Success rates
+- Resolution outcomes
+
+---
+
+## Trust Timeline
+
+Visualizes trust evolution over time.
+
+Tracks:
+
+- Monthly Trust Index
+- Reliability Trends
+- Outcome Performance
+- Confidence Trends
+
+---
+
+## Evidence Weighting
+
+Shows contribution of evidence to AI recommendations.
+
+Example:
+
+```text
+Malware Signature → 45%
+Failed Logins → 30%
+Network Activity → 15%
+Patch Violations → 10%
+```
+
+---
+
+## Trust Breakdown
+
+Explains how Trust Index scores are calculated.
+
+Factors:
+
+- Accuracy
+- Approval Rate
+- Outcome Success
+- False Positive Rate
+
+---
+
+## AI Health Dashboard
+
+Tracks:
+
+- Daily Recommendations
+- Accuracy
+- False Positives
+- Trust Index
+- Incident Trends
+- Reliability Metrics
+
+---
+
+## Business Impact Analysis
+
+Measures organizational impact of recommendations.
+
+Includes:
+
+- Affected Users
+- Downtime Estimates
+- Risk Reduction Percentage
+- Business Impact Level
+- Operational Impact Assessment
+
+---
+
+## 🔍 Audit & Accountability Center
 
 Tracks:
 
@@ -174,90 +378,43 @@ Providing complete accountability and governance.
 
 ---
 
-### AI Incident Reports
-
-Generates detailed incident reports containing:
-
-- Incident Summary
-- Recommendation Details
-- Evidence Used
-- Confidence Explanation
-- Human Response
-- Root Cause Analysis
-- Lessons Learned
-- Final Outcome
-
----
-
-### Trust Analytics
-
-Provides visibility into:
-
-- Recommendation Acceptance Rate
-- Human Override Rate
-- Escalation Trends
-- Confidence Distribution
-- Trust Score Trends
-
----
-
 ## 🚀 Innovation Highlights
 
-### Explain Like I'm Non-Technical
+### Historical Trust Intelligence
 
-Allows users to switch between:
+Trust Ledger provides historical AI reliability rather than relying solely on confidence scores.
+
+### Human-Centered Explainability
+
+Recommendations are presented in:
 
 - Technical View
 - Simplified View
 
-Making AI recommendations understandable for both technical and non-technical stakeholders.
+### Adaptive Governance
 
----
+Approval workflows dynamically adjust based on:
 
-### AI Decision Tree
+- Risk
+- Confidence
+- Historical Reliability
+- Business Impact
 
-```text
-Evidence
-↓
-Risk Assessment
-↓
-Recommendation
-↓
-Human Review
-```
+### Counter Consideration Framework
 
----
+Encourages users to critically evaluate recommendations.
 
-### Multi-Agent Transparency
+### Continuous Outcome Learning
 
-```text
-Detection Agent
-↓
-Analysis Agent
-↓
-Recommendation Agent
-↓
-Human Reviewer
-```
+Improves AI trust through organizational memory and feedback.
 
----
+### Transparent Failure Reporting
 
-### Privacy Transparency Panel
+AI Incident Cards document failures, lessons learned, and corrective actions.
 
-#### Data Used
+### Enterprise Trust Analytics
 
-- Security Logs
-- Device Telemetry
-- Patch Records
-- Network Activity
-
-#### Data NOT Used
-
-- Passwords
-- Personal Messages
-- Photos
-- Banking Information
-- Private Files
+Trust Timeline, Trust Breakdown, and AI Health dashboards provide complete visibility into AI performance.
 
 ---
 
@@ -299,21 +456,21 @@ Centralized overview of:
 
 Deep explanation of every AI recommendation.
 
-### Alternative Analysis
-
-Compare multiple mitigation strategies and outcomes.
-
-### Audit & Compliance
-
-Track all AI and human actions.
-
 ### Trust Analytics
 
 Monitor trust trends and recommendation performance.
 
+### Audit Center
+
+Track all AI and human actions.
+
 ### Incident Reports
 
 Generate comprehensive incident documentation.
+
+### AI Health
+
+Monitor AI system reliability and performance.
 
 ---
 
@@ -340,7 +497,6 @@ Generate comprehensive incident documentation.
 trustlens-ai/
 │
 ├── public/
-│
 ├── src/
 │   ├── components/
 │   ├── pages/
@@ -368,7 +524,7 @@ Clone the repository:
 git clone https://github.com/sathvika32427/trustlens-ai.git
 ```
 
-Move into the project directory:
+Move into project directory:
 
 ```bash
 cd trustlens-ai
@@ -384,7 +540,7 @@ npm install
 
 ## ▶️ Running Locally
 
-Start the development server:
+Start development server:
 
 ```bash
 npm run dev
@@ -396,19 +552,19 @@ Open:
 http://localhost:5173
 ```
 
-The application will automatically reload when changes are made.
+The application automatically reloads when changes are made.
 
 ---
 
 ## 📦 Production Build
 
-Create a production build:
+Create build:
 
 ```bash
 npm run build
 ```
 
-Preview the production build:
+Preview production build:
 
 ```bash
 npm run preview
@@ -429,9 +585,15 @@ AI Recommendation Engine
         ↓
 TrustLens Transparency Layer
         ↓
+Trust Ledger
+        ↓
+Impact Analysis
+        ↓
 Human Review Interface
         ↓
 Final Decision
+        ↓
+Outcome Learning
         ↓
 Audit Logging
 ```
@@ -444,12 +606,13 @@ Audit Logging
 2. Review Pending Recommendation
 3. Explore Evidence Timeline
 4. Understand Confidence Explanation
-5. Review Data Sources
-6. Examine AI Limitations
-7. Compare Alternative Actions
-8. Approve or Override Recommendation
-9. Review Audit Trail
-10. Generate Incident Report
+5. Review Trust Ledger
+6. Analyze Impact Preview
+7. Review Counter Consideration
+8. Compare Similar Cases
+9. Approve or Override Recommendation
+10. Review Audit Trail
+11. Generate AI Incident Report
 
 ---
 
@@ -461,7 +624,8 @@ Audit Logging
 - Explainable AI APIs
 - Predictive Trust Scoring
 - Governance Policy Engine
-- Role-Based Governance Controls
+- Advanced AI Monitoring
+- Multi-Agent Collaboration
 
 ---
 
@@ -469,11 +633,15 @@ Audit Logging
 
 TrustLens AI helps organizations:
 
-- Improve trust in AI systems
+- Build trust in AI systems
 - Increase transparency
-- Reduce decision uncertainty
+- Improve explainability
+- Reduce automation bias
 - Strengthen accountability
+- Improve governance and compliance
 - Support responsible AI adoption
+- Enable informed decision-making
+- Learn continuously from outcomes
 - Keep humans in control of critical decisions
 
 ---
@@ -482,7 +650,7 @@ TrustLens AI helps organizations:
 
 **Team Name:** AI Mavericks
 
-**Hackathon:** Dell Hackathon 2026
+**Hackathon:** Dell AI Future Minds Hackathon 2026
 
 **Theme:** Transparent & Trustworthy AI Agent Interfaces
 
@@ -490,4 +658,4 @@ TrustLens AI helps organizations:
 
 ## 📜 License
 
-This project was developed for educational, research, and hackathon purposes.
+This project was developed for educational, research, innovation, and hackathon purposes.
