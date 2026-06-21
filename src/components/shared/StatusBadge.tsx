@@ -7,11 +7,19 @@ const MAP: Record<RecommendationStatus | "Approved" | "Overridden" | "Escalated"
   Pending: "tl-badge-pending",
 };
 
+const LABELS: Record<string, string> = {
+  Approved: "🟢 Approved",
+  Overridden: "🔴 Overridden",
+  Escalated: "🟠 Escalated",
+  Pending: "🟡 Pending Review",
+};
+
 export default function StatusBadge({
   status,
 }: {
   status: RecommendationStatus | "Approved" | "Overridden" | "Escalated" | "Pending";
 }) {
-  const label = status === "Pending" ? "Pending Review" : status;
+  const label = LABELS[status] ?? status;
   return <span className={MAP[status] ?? "tl-badge-pending"}>{label}</span>;
 }
+

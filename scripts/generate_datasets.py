@@ -432,6 +432,249 @@ def gen_business_impact(recs: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+
+def gen_data_sources(recs: pd.DataFrame) -> pd.DataFrame:
+    pool = [
+        {
+            "name": "Device Telemetry",
+            "type": "Endpoint Agent",
+            "desc": "Real-time process, memory, and registry events from local device agent.",
+            "collected": "Process creation flags, DLL injection traces, registry modification events"
+        },
+        {
+            "name": "Security Logs",
+            "type": "SIEM Stream",
+            "desc": "Aggregated operating system and active security services events.",
+            "collected": "Event ID 4624 (successful login), privilege service requests, firewall logs"
+        },
+        {
+            "name": "Network Activity",
+            "type": "NetFlow Collector",
+            "desc": "Metadata for ingress/egress connections and internal network hops.",
+            "collected": "Connection durations, data transferred (bytes), destination ports"
+        },
+        {
+            "name": "Patch Compliance Records",
+            "type": "Systems Management",
+            "desc": "Compliance matrix listing applied vs pending software/security patches.",
+            "collected": "KB patch IDs, installation date, OS build version numbers"
+        },
+        {
+            "name": "Endpoint Detection Systems",
+            "type": "EDR Engine",
+            "desc": "Automated endpoint threat analysis, behavior tracking, and detection warnings.",
+            "collected": "Heuristic trigger scores, suspicious command-line execution patterns"
+        },
+        {
+            "name": "Threat Intelligence Feeds",
+            "type": "External Threat Intel",
+            "desc": "Reputation tracking database for bad IPs, domains, and known hash blocks.",
+            "collected": "Bad actor infrastructure IPs, malicious DNS names, hash signatures"
+        },
+        {
+            "name": "Authentication Events",
+            "type": "Identity Provider",
+            "desc": "Sign-in requests, MFA status, authentication tokens, and access evaluations.",
+            "collected": "Failed login status, geo-location velocity alerts, MFA approval logs"
+        },
+        {
+            "name": "Historical Incident Records",
+            "type": "Incident Registry",
+            "desc": "Database archives of past organizational threats and remediation histories.",
+            "collected": "Similar dev box compromise records, past false positive incident resolutions"
+        },
+        {
+            "name": "Malware Detection Engine",
+            "type": "Antivirus Scanner",
+            "desc": "Active file scanner matching signatures against global virus databases.",
+            "collected": "File hash signatures, virus definition release dates, quarantine status"
+        },
+        {
+            "name": "Network Anomaly Detection",
+            "type": "IDS/IPS System",
+            "desc": "Deep packet analysis searching for payload abnormalities and network threats.",
+            "collected": "Suspected port scans, unexpected SMB payloads, DNS tunnel signatures"
+        }
+    ]
+    rows = []
+    source_idx = 1
+    for _, r in recs.iterrows():
+        # Choose 3 to 5 sources
+        n_sources = np.random.randint(3, 6)
+        chosen = np.random.choice(pool, size=n_sources, replace=False)
+        rec_time = datetime.strptime(r["timestamp"], "%Y-%m-%d %H:%M")
+        for c in chosen:
+            # last_updated is 2 to 59 minutes before the recommendation
+            updated_time = rec_time - timedelta(minutes=int(np.random.randint(2, 60)))
+            trust_lvl = np.random.choice(["Very High", "High", "Moderate", "Low"], p=[0.35, 0.45, 0.15, 0.05])
+            rows.append({
+                "source_id": f"SRC-{source_idx:05d}",
+                "recommendation_id": r["recommendation_id"],
+                "source_name": c["name"],
+                "source_type": c["type"],
+                "trust_level": trust_lvl,
+                "last_updated": updated_time.strftime("%Y-%m-%d %H:%M"),
+                "description": c["desc"],
+                "data_collected": c["collected"]
+            })
+            source_idx += 1
+    return pd.DataFrame(rows)
+
+
+def gen_limitations(recs: pd.DataFrame) -> pd.DataFrame:
+    limits_pool = [
+        {
+            "limitation": "Missing telemetry data",
+            "severity": "High",
+            "impact": "Device telemetry unavailable for last 6 hours; security health checks degraded."
+        },
+        {
+            "limitation": "Offline endpoints",
+            "severity": "Medium",
+            "impact": "Host is currently unreachable over VPN; cannot run live diagnostics."
+        },
+        {
+            "limitation": "Incomplete logs",
+            "severity": "Medium",
+            "impact": "Active Directory auth logs delayed; cannot cross-verify session continuity."
+        },
+        {
+            "limitation": "Limited historical examples",
+            "severity": "Low",
+            "impact": "Rare incident type; pattern not seen in the last 180 days."
+        },
+        {
+            "limitation": "New device models",
+            "severity": "Low",
+            "impact": "Model behavior baseline not fully trained; using general device profiles."
+        },
+        {
+            "limitation": "Delayed event ingestion",
+            "severity": "Medium",
+            "impact": "SIEM log pipeline experiencing a 15-minute queue latency."
+        },
+        {
+            "limitation": "Sparse threat intelligence",
+            "severity": "Low",
+            "impact": "IP address reputation has not been categorized by secondary feeds."
+        },
+        {
+            "limitation": "Unknown device states",
+            "severity": "Medium",
+            "impact": "Device state unclear due to parallel endpoint configuration changes."
+        }
+    ]
+    rows = []
+    limit_idx = 1
+    for _, r in recs.iterrows():
+        # High confidence recs have 0 or 1 limitation
+        # Moderate or low confidence recs have 1 or 2 limitations
+        conf = r["confidence"]
+        if conf == "High Confidence":
+            n_limits = np.random.choice([0, 1], p=[0.6, 0.4])
+        elif conf == "Moderate Confidence":
+            n_limits = np.random.choice([1, 2], p=[0.7, 0.3])
+        else:
+            n_limits = np.random.choice([1, 2], p=[0.4, 0.6])
+
+        if n_limits > 0:
+            chosen = np.random.choice(limits_pool, size=n_limits, replace=False)
+            for c in chosen:
+                rows.append({
+                    "limitation_id": f"LIM-{limit_idx:05d}",
+                    "recommendation_id": r["recommendation_id"],
+                    "limitation": c["limitation"],
+                    "severity": c["severity"],
+                    "impact": c["impact"]
+                })
+                limit_idx += 1
+    return pd.DataFrame(rows)
+
+
+def gen_reasoning_chain(recs: pd.DataFrame) -> pd.DataFrame:
+    rows = []
+    
+    # We will generate steps 1 to 7 for each recommendation
+    for _, r in recs.iterrows():
+        rec_id = r["recommendation_id"]
+        action = r["action"]
+        dev_name = r["device_name"]
+        dept = r["department"]
+        sev = r["severity"]
+        conf = r["confidence"]
+        score = r["confidence_score"]
+
+        # Step 1: Evidence Collected
+        step_1_text = f"Collected telemetry indicating anomalous {action.lower()} triggers on {dev_name}. "
+        if action == "Quarantine Device":
+            step_1_text += "Detected potential ransomware signature matching active ransomware hashes, coupled with 3+ failed MFA attempts."
+        elif action == "Deploy Security Patch":
+            step_1_text += "Discovered out-of-date library CVE-2024-4321 on core runtime environment, leaving server open to remote code execution."
+        elif action == "Restrict Network Access":
+            step_1_text += "Detected persistent outbound connection bursts to blacklisted external IPs in unauthorized region."
+        else:
+            step_1_text += f"Observed suspicious credential enumeration behavior originating from {dev_name} targeting internal active directory."
+
+        # Step 2: Evidence Weighting
+        w1 = int(np.random.randint(45, 65))
+        w2 = int(np.random.randint(15, 30))
+        w3 = 100 - w1 - w2
+        step_2_text = f"Weighted primary alert signals: Primary indicator ({action}) assigned {w1}% weight, secondary audit log anomaly assigned {w2}% weight, and device state profiling assigned {w3}% weight."
+
+        # Step 3: Risk Assessment
+        step_3_text = f"Calculated system risk profile as {sev}. "
+        if sev == "Critical":
+            step_3_text += f"Threat poses immediate systemic compromise risk to {dept} subnetwork. Rapid containment is mandatory."
+        elif sev == "High":
+            step_3_text += f"Threat displays active lateral traversal indicators. Failure to remediate exposes key {dept} nodes."
+        elif sev == "Medium":
+            step_3_text += f"Vulnerability exposed, but network constraints limit spread risk. Moderate operational impact."
+        else:
+            step_3_text += "Low vulnerability exposure. Local containment is stable; recommend scheduling standard resolution."
+
+        # Step 4: Historical Similar Cases
+        cases_count = np.random.randint(12, 110)
+        correct_count = int(cases_count * np.random.uniform(0.85, 0.98))
+        accuracy_pct = round((correct_count / cases_count) * 100, 1)
+        step_4_text = f"Evaluated {cases_count} historical similar cases in organization. Of those, {correct_count} cases were resolved correctly by taking action {action} (historical precision: {accuracy_pct}%)."
+
+        # Step 5: Confidence Explanation
+        step_5_text = f"Determined {conf} score of {score}%. "
+        if conf == "High Confidence":
+            step_5_text += "High confidence is driven by concurrent alerts across EDR agents, SIEM flows, and threat intelligence directories."
+        elif conf == "Moderate Confidence":
+            step_5_text += "Moderate confidence due to partial data logs or recently updated OS models with sparse historic telemetry."
+        else:
+            step_5_text += "Review recommended. Alert confidence is constrained by device agent offline status and low-level data ingest latencies."
+
+        # Step 6: Trust Ledger Analysis
+        step_6_text = f"Queried corporate trust ledger. AI model's historical reliability score for {action} currently registers at 91.4% accuracy across corporate {dept} endpoints."
+
+        # Step 7: Business Impact Assessment
+        downtime = round(np.random.uniform(0.5, 4.0), 1)
+        step_7_text = f"Predicted business impact: temporary isolation of {dev_name} will result in ~{downtime} hours workflow downtime for {dept}. Risk reduction of 95%+ outweighs operational drag."
+
+        steps = [
+            (1, "Evidence Collected", step_1_text, w1),
+            (2, "Evidence Weighting", step_2_text, w2),
+            (3, "Risk Assessment", step_3_text, 0),
+            (4, "Historical Similar Cases", step_4_text, 0),
+            (5, "Confidence Explanation", step_5_text, 0),
+            (6, "Trust Ledger Analysis", step_6_text, 0),
+            (7, "Business Impact Assessment", step_7_text, 0)
+        ]
+
+        for num, title, txt, weight in steps:
+            rows.append({
+                "recommendation_id": rec_id,
+                "step_number": num,
+                "reasoning_step": f"{title}: {txt}",
+                "evidence_weight": weight
+            })
+
+    return pd.DataFrame(rows)
+
+
 def export_df(df: pd.DataFrame, name: str) -> None:
     path = DATA_DIR / f"{name}.csv"
     df.to_csv(path, index=False)
@@ -459,6 +702,9 @@ def main() -> None:
         "recommendation_aging": gen_recommendation_aging(recs),
         "ai_health": gen_ai_health(365),
         "business_impact": gen_business_impact(recs),
+        "data_sources": gen_data_sources(recs),
+        "limitations": gen_limitations(recs),
+        "reasoning_chain": gen_reasoning_chain(recs),
     }
     for name, df in datasets.items():
         export_df(df, name)
@@ -474,6 +720,7 @@ def main() -> None:
     meta_path.write_text(json.dumps(meta, indent=2))
     shutil.copy(meta_path, PUBLIC_DATA_DIR / "manifest.json")
     print(f"\nDone. Exported to {DATA_DIR} and {PUBLIC_DATA_DIR}")
+
 
 
 if __name__ == "__main__":

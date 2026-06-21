@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T09:08:53.020065Z",
+  "generated_at": "2026-06-21T12:46:22.082816Z",
   "files": [
     "recommendations",
     "trust_ledger",
@@ -15,7 +15,10 @@
     "feedback",
     "recommendation_aging",
     "ai_health",
-    "business_impact"
+    "business_impact",
+    "data_sources",
+    "limitations",
+    "reasoning_chain"
   ],
   "relationship_keys": [
     "recommendation_id",

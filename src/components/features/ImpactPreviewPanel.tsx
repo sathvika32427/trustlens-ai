@@ -7,10 +7,10 @@ export default function ImpactPreviewPanel({ impact, onClick }: { impact?: Impac
   return (
     <div 
       onClick={onClick}
-      className={`tl-panel ${onClick ? "tl-panel-interactive" : ""}`}
+      className={`tl-panel border-[var(--tl-dell-blue)]/40 shadow-[0_0_20px_rgba(29,161,242,0.08)] ${onClick ? "tl-panel-interactive cursor-pointer" : ""}`}
     >
-      <h3 className="tl-panel-title">Impact Preview</h3>
-      <p className="mb-4 text-sm text-[var(--tl-text-muted)]">
+      <h3 className="tl-panel-title">🏢 Impact Preview</h3>
+      <p className="mb-4 text-xs text-[var(--tl-text-muted)]">
         Understand trade-offs before acting on this recommendation.
       </p>
       <div className="grid gap-4 lg:grid-cols-2">

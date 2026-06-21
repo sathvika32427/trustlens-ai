@@ -39,10 +39,17 @@ export default function AuditCenter() {
         <div className="space-y-4">
           {filtered.map((record) => {
             const outcome = outcomeMap.get(record.recommendation_id);
+            const recId = record.recommendation_id;
+            const sources = data?.dataSources.filter((s) => s.recommendation_id === recId) ?? [];
+            const limitations = data?.limitations.filter((l) => l.recommendation_id === recId) ?? [];
+            const reasoning = data?.reasoningChain.filter((r) => r.recommendation_id === recId).sort((a, b) => a.step_number - b.step_number) ?? [];
+
             return (
               <article key={record.id} className="tl-panel">
                 <div className="flex justify-between border-b border-[var(--tl-border)] pb-3">
-                  <span className="font-mono text-sm text-[var(--tl-text-muted)]">{record.id}</span>
+                  <span className="font-mono text-sm text-[var(--tl-text-muted)]">
+                    {record.id} (Ref: {record.recommendation_id})
+                  </span>
                   <StatusBadge status={record.decision} />
                 </div>
                 <div className="mt-4 grid gap-4 sm:grid-cols-2">
@@ -52,6 +59,34 @@ export default function AuditCenter() {
                   <Field label="Outcome" value={outcome?.outcome_description || record.outcome} />
                   <Field label="Timestamp" value={record.timestamp} />
                   <Field label="Reviewer" value={`${record.reviewer} · ${record.reviewer_role}`} />
+                </div>
+
+                <div className="mt-4 rounded-xl border border-[var(--tl-border)] bg-[var(--tl-bg-main)] p-4 space-y-2">
+                  <span className="tl-field-label">AI Explainability & Data Quality Context</span>
+                  <div className="text-xs space-y-1.5">
+                    <div>
+                      <span className="font-bold text-white">Sources Attributed: </span>
+                      <span className="text-[var(--tl-text-secondary)]">
+                        {sources.length > 0 
+                          ? sources.map((s) => `${s.source_name} (${s.trust_level} Trust)`).join(" · ")
+                          : "No data sources indexed."}
+                      </span>
+                    </div>
+                    {limitations.length > 0 && (
+                      <div className="text-[var(--tl-warning)]">
+                        <span className="font-bold">Flagged Telemetry Gaps: </span>
+                        <span>
+                          {limitations.map((l) => `${l.limitation} (${l.severity} Impact)`).join(" · ")}
+                        </span>
+                      </div>
+                    )}
+                    {reasoning.length > 0 && (
+                      <div className="text-[var(--tl-text-muted)] italic pt-1 border-t border-[var(--tl-border)]/30">
+                        <span className="font-bold text-white not-italic">Core Reasoning Step: </span>
+                        "{reasoning[0].reasoning_step.split(": ")[1] || reasoning[0].reasoning_step}"
+                      </div>
+                    )}
+                  </div>
                 </div>
               </article>
             );

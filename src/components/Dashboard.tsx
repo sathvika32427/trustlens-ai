@@ -9,6 +9,7 @@ import {
   History,
   ChevronRight,
   Activity,
+  AlertTriangle,
 } from "lucide-react";
 import { Role, RecommendationRow } from "../types/datasets";
 import { useAppData } from "../context/AppDataContext";
@@ -124,9 +125,11 @@ function AdminView({
             </p>
             <div className="space-y-2">
               {queue.length === 0 ? (
-                <p className="py-8 text-center text-sm text-[var(--tl-text-muted)] border border-[var(--tl-border)] border-dashed rounded-xl">
-                  No Active Recommendations.
-                </p>
+                <div className="flex flex-col items-center justify-center py-10 px-4 border border-[var(--tl-border)] border-dashed rounded-xl bg-slate-900/10">
+                  <Shield className="h-9 w-9 text-[var(--tl-text-muted)] opacity-35 mb-2.5 animate-pulse" />
+                  <p className="text-xs font-bold text-white">No Active Recommendations</p>
+                  <p className="text-[10px] text-[var(--tl-text-muted)] mt-1">Your endpoints are fully audited, compliant, and verified.</p>
+                </div>
               ) : (
                 queue.map((rec) => (
                   <RecommendationSummaryRow key={rec.recommendation_id} recommendation={rec} onOpen={onOpen} />
@@ -140,6 +143,8 @@ function AdminView({
               <Row label="Outcome Success" value={`${metrics.outcomeSuccessRate}%`} />
               <Row label="False Positive Rate" value={`${metrics.falsePositiveRate}%`} />
               <Row label="Feedback Avg" value={metrics.avgFeedbackRating.toFixed(2)} />
+              <Row label="Data Feeds Utilized" value={String(new Set(compliance.dataSources.map((s) => s.source_name)).size)} />
+              <Row label="Active Telemetry Gaps" value={String(compliance.limitations.length)} warn={compliance.limitations.length > 5} />
             </Widget>
             <Widget title="Override & Escalation" icon={Gavel}>
               <Row label="Override Rate" value={`${overrideRate}%`} />
@@ -170,6 +175,10 @@ function AnalystView({
   const critical = recommendations.filter((r) => r.severity === "Critical").length;
   const high = recommendations.filter((r) => r.severity === "High").length;
   const queue = recommendations.filter((r) => r.status === "Pending").slice(0, 15);
+  
+  const compliance = useAppData().data!;
+  const analystLimitations = compliance.limitations.filter((l) => recommendations.some((r) => r.recommendation_id === l.recommendation_id));
+  const highLimCount = analystLimitations.filter((l) => l.severity === "High").length;
 
   return (
     <div className="flex-1 overflow-y-auto">
@@ -179,6 +188,17 @@ function AnalystView({
         subtitle="Threat analysis, evidence timelines, similar cases, and outcome learning."
       />
       <div className="mx-auto max-w-7xl space-y-6 px-5 py-6 lg:px-8">
+        {highLimCount > 0 && (
+          <div className="flex items-start gap-3 rounded-xl border border-[var(--tl-warning)]/20 bg-[var(--tl-warning)]/5 p-4 text-[var(--tl-warning)]">
+            <AlertTriangle className="h-5 w-5 shrink-0 mt-0.5" />
+            <div className="text-xs">
+              <span className="font-bold text-white text-sm">Attention Required:</span>
+              <p className="mt-1 text-[var(--tl-text-secondary)] leading-relaxed">
+                {highLimCount} active investigation items have <strong className="text-white">High Severity Telemetry Gaps</strong> (e.g. offline endpoints or missing log syncs). Manual review is highly recommended.
+              </p>
+            </div>
+          </div>
+        )}
         <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
           <MiniKpi label="Active Threats" value={recommendations.length} />
           <MiniKpi label="Critical" value={critical} accent="danger" />
@@ -192,9 +212,11 @@ function AnalystView({
           </h2>
           <div className="mt-4 space-y-2">
             {queue.length === 0 ? (
-              <p className="py-8 text-center text-sm text-[var(--tl-text-muted)] border border-[var(--tl-border)] border-dashed rounded-xl">
-                No Active Recommendations.
-              </p>
+              <div className="flex flex-col items-center justify-center py-10 px-4 border border-[var(--tl-border)] border-dashed rounded-xl bg-slate-900/10">
+                <Shield className="h-9 w-9 text-[var(--tl-text-muted)] opacity-35 mb-2.5 animate-pulse" />
+                <p className="text-xs font-bold text-white">No Active Recommendations</p>
+                <p className="text-[10px] text-[var(--tl-text-muted)] mt-1">Your endpoints are fully audited, compliant, and verified.</p>
+              </div>
             ) : (
               queue.map((rec) => (
                 <RecommendationSummaryRow key={rec.recommendation_id} recommendation={rec} onOpen={onOpen} />
@@ -250,9 +272,11 @@ function EmployeeView({
         <section className="tl-panel">
           <h2 className="tl-panel-title">My Recommendations</h2>
           {recommendations.length === 0 ? (
-            <p className="py-8 text-center text-sm text-[var(--tl-text-muted)] border border-[var(--tl-border)] border-dashed rounded-xl">
-              No Active Recommendations.
-            </p>
+            <div className="flex flex-col items-center justify-center py-10 px-4 border border-[var(--tl-border)] border-dashed rounded-xl bg-slate-900/10">
+              <Shield className="h-9 w-9 text-[var(--tl-text-muted)] opacity-35 mb-2.5 animate-pulse" />
+              <p className="text-xs font-bold text-white">No Active Recommendations</p>
+              <p className="text-[10px] text-[var(--tl-text-muted)] mt-1">Your endpoints are fully audited, compliant, and verified.</p>
+            </div>
           ) : (
             recommendations.map((rec) => (
               <RecommendationSummaryRow key={rec.recommendation_id} recommendation={rec} onOpen={onOpen} />

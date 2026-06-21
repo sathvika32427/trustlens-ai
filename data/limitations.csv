@@ -1,0 +1,1088 @@
+limitation_id,recommendation_id,limitation,severity,impact
+LIM-00001,REC-0001,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00002,REC-0002,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00003,REC-0002,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00004,REC-0003,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00005,REC-0005,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00006,REC-0005,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00007,REC-0006,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00008,REC-0006,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00009,REC-0007,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00010,REC-0008,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00011,REC-0009,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00012,REC-0010,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00013,REC-0010,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00014,REC-0011,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00015,REC-0012,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00016,REC-0013,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00017,REC-0014,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00018,REC-0015,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00019,REC-0017,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00020,REC-0018,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00021,REC-0020,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00022,REC-0020,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00023,REC-0021,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00024,REC-0022,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00025,REC-0022,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00026,REC-0023,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00027,REC-0023,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00028,REC-0024,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00029,REC-0026,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00030,REC-0027,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00031,REC-0027,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00032,REC-0029,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00033,REC-0029,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00034,REC-0030,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00035,REC-0030,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00036,REC-0031,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00037,REC-0031,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00038,REC-0032,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00039,REC-0032,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00040,REC-0033,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00041,REC-0033,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00042,REC-0034,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00043,REC-0034,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00044,REC-0035,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00045,REC-0036,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00046,REC-0037,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00047,REC-0037,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00048,REC-0038,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00049,REC-0038,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00050,REC-0039,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00051,REC-0039,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00052,REC-0040,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00053,REC-0041,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00054,REC-0042,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00055,REC-0043,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00056,REC-0044,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00057,REC-0044,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00058,REC-0045,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00059,REC-0046,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00060,REC-0047,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00061,REC-0047,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00062,REC-0048,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00063,REC-0048,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00064,REC-0049,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00065,REC-0054,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00066,REC-0056,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00067,REC-0057,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00068,REC-0059,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00069,REC-0059,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00070,REC-0060,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00071,REC-0061,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00072,REC-0062,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00073,REC-0064,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00074,REC-0065,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00075,REC-0066,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00076,REC-0067,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00077,REC-0069,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00078,REC-0070,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00079,REC-0072,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00080,REC-0073,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00081,REC-0074,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00082,REC-0074,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00083,REC-0076,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00084,REC-0077,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00085,REC-0078,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00086,REC-0078,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00087,REC-0079,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00088,REC-0080,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00089,REC-0080,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00090,REC-0081,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00091,REC-0082,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00092,REC-0083,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00093,REC-0083,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00094,REC-0084,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00095,REC-0084,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00096,REC-0085,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00097,REC-0086,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00098,REC-0086,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00099,REC-0089,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00100,REC-0089,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00101,REC-0090,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00102,REC-0090,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00103,REC-0091,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00104,REC-0092,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00105,REC-0093,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00106,REC-0093,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00107,REC-0094,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00108,REC-0094,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00109,REC-0095,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00110,REC-0096,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00111,REC-0097,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00112,REC-0098,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00113,REC-0098,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00114,REC-0100,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00115,REC-0100,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00116,REC-0101,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00117,REC-0102,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00118,REC-0103,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00119,REC-0105,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00120,REC-0106,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00121,REC-0107,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00122,REC-0108,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00123,REC-0109,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00124,REC-0110,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00125,REC-0110,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00126,REC-0111,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00127,REC-0111,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00128,REC-0112,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00129,REC-0113,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00130,REC-0114,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00131,REC-0115,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00132,REC-0115,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00133,REC-0116,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00134,REC-0116,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00135,REC-0118,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00136,REC-0118,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00137,REC-0119,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00138,REC-0120,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00139,REC-0122,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00140,REC-0123,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00141,REC-0124,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00142,REC-0125,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00143,REC-0126,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00144,REC-0126,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00145,REC-0127,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00146,REC-0128,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00147,REC-0130,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00148,REC-0131,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00149,REC-0132,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00150,REC-0133,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00151,REC-0134,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00152,REC-0135,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00153,REC-0136,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00154,REC-0136,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00155,REC-0137,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00156,REC-0137,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00157,REC-0138,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00158,REC-0138,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00159,REC-0139,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00160,REC-0140,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00161,REC-0141,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00162,REC-0145,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00163,REC-0146,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00164,REC-0146,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00165,REC-0147,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00166,REC-0148,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00167,REC-0149,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00168,REC-0149,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00169,REC-0150,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00170,REC-0151,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00171,REC-0152,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00172,REC-0153,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00173,REC-0153,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00174,REC-0154,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00175,REC-0154,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00176,REC-0156,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00177,REC-0158,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00178,REC-0158,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00179,REC-0159,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00180,REC-0159,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00181,REC-0160,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00182,REC-0160,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00183,REC-0161,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00184,REC-0162,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00185,REC-0163,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00186,REC-0163,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00187,REC-0164,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00188,REC-0166,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00189,REC-0166,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00190,REC-0167,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00191,REC-0167,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00192,REC-0168,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00193,REC-0168,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00194,REC-0169,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00195,REC-0170,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00196,REC-0171,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00197,REC-0174,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00198,REC-0175,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00199,REC-0176,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00200,REC-0176,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00201,REC-0177,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00202,REC-0177,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00203,REC-0178,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00204,REC-0179,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00205,REC-0179,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00206,REC-0180,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00207,REC-0180,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00208,REC-0181,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00209,REC-0182,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00210,REC-0182,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00211,REC-0183,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00212,REC-0184,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00213,REC-0185,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00214,REC-0185,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00215,REC-0186,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00216,REC-0187,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00217,REC-0188,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00218,REC-0188,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00219,REC-0189,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00220,REC-0190,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00221,REC-0190,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00222,REC-0192,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00223,REC-0193,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00224,REC-0193,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00225,REC-0194,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00226,REC-0195,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00227,REC-0195,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00228,REC-0196,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00229,REC-0196,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00230,REC-0198,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00231,REC-0199,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00232,REC-0200,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00233,REC-0201,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00234,REC-0201,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00235,REC-0202,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00236,REC-0202,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00237,REC-0206,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00238,REC-0206,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00239,REC-0207,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00240,REC-0208,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00241,REC-0208,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00242,REC-0209,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00243,REC-0210,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00244,REC-0210,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00245,REC-0211,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00246,REC-0212,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00247,REC-0212,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00248,REC-0213,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00249,REC-0214,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00250,REC-0215,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00251,REC-0215,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00252,REC-0216,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00253,REC-0216,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00254,REC-0217,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00255,REC-0218,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00256,REC-0218,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00257,REC-0220,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00258,REC-0221,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00259,REC-0221,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00260,REC-0222,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00261,REC-0223,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00262,REC-0224,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00263,REC-0224,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00264,REC-0225,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00265,REC-0225,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00266,REC-0226,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00267,REC-0227,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00268,REC-0227,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00269,REC-0229,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00270,REC-0231,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00271,REC-0233,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00272,REC-0233,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00273,REC-0234,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00274,REC-0234,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00275,REC-0235,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00276,REC-0237,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00277,REC-0237,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00278,REC-0238,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00279,REC-0239,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00280,REC-0240,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00281,REC-0247,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00282,REC-0248,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00283,REC-0249,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00284,REC-0249,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00285,REC-0251,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00286,REC-0251,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00287,REC-0252,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00288,REC-0253,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00289,REC-0253,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00290,REC-0254,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00291,REC-0254,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00292,REC-0255,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00293,REC-0257,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00294,REC-0257,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00295,REC-0258,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00296,REC-0259,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00297,REC-0260,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00298,REC-0260,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00299,REC-0261,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00300,REC-0262,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00301,REC-0263,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00302,REC-0263,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00303,REC-0264,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00304,REC-0266,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00305,REC-0266,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00306,REC-0268,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00307,REC-0269,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00308,REC-0269,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00309,REC-0270,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00310,REC-0270,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00311,REC-0271,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00312,REC-0272,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00313,REC-0272,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00314,REC-0273,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00315,REC-0274,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00316,REC-0274,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00317,REC-0275,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00318,REC-0276,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00319,REC-0281,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00320,REC-0283,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00321,REC-0284,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00322,REC-0285,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00323,REC-0286,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00324,REC-0286,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00325,REC-0287,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00326,REC-0288,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00327,REC-0289,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00328,REC-0291,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00329,REC-0291,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00330,REC-0292,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00331,REC-0293,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00332,REC-0293,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00333,REC-0295,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00334,REC-0296,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00335,REC-0296,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00336,REC-0297,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00337,REC-0298,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00338,REC-0302,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00339,REC-0302,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00340,REC-0303,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00341,REC-0304,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00342,REC-0305,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00343,REC-0305,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00344,REC-0306,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00345,REC-0307,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00346,REC-0307,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00347,REC-0308,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00348,REC-0308,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00349,REC-0309,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00350,REC-0310,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00351,REC-0311,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00352,REC-0311,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00353,REC-0312,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00354,REC-0313,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00355,REC-0313,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00356,REC-0314,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00357,REC-0314,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00358,REC-0317,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00359,REC-0320,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00360,REC-0320,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00361,REC-0321,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00362,REC-0321,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00363,REC-0323,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00364,REC-0324,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00365,REC-0325,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00366,REC-0325,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00367,REC-0326,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00368,REC-0326,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00369,REC-0327,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00370,REC-0329,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00371,REC-0330,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00372,REC-0331,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00373,REC-0331,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00374,REC-0332,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00375,REC-0332,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00376,REC-0334,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00377,REC-0335,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00378,REC-0337,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00379,REC-0338,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00380,REC-0338,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00381,REC-0340,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00382,REC-0341,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00383,REC-0341,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00384,REC-0342,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00385,REC-0343,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00386,REC-0344,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00387,REC-0345,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00388,REC-0347,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00389,REC-0351,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00390,REC-0353,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00391,REC-0353,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00392,REC-0354,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00393,REC-0355,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00394,REC-0356,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00395,REC-0357,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00396,REC-0357,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00397,REC-0360,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00398,REC-0361,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00399,REC-0362,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00400,REC-0362,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00401,REC-0364,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00402,REC-0364,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00403,REC-0365,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00404,REC-0366,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00405,REC-0366,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00406,REC-0367,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00407,REC-0367,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00408,REC-0369,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00409,REC-0369,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00410,REC-0371,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00411,REC-0373,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00412,REC-0373,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00413,REC-0374,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00414,REC-0375,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00415,REC-0375,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00416,REC-0376,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00417,REC-0377,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00418,REC-0378,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00419,REC-0379,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00420,REC-0379,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00421,REC-0380,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00422,REC-0380,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00423,REC-0381,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00424,REC-0381,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00425,REC-0382,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00426,REC-0382,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00427,REC-0383,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00428,REC-0384,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00429,REC-0385,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00430,REC-0386,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00431,REC-0387,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00432,REC-0388,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00433,REC-0388,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00434,REC-0389,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00435,REC-0389,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00436,REC-0390,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00437,REC-0391,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00438,REC-0392,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00439,REC-0392,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00440,REC-0393,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00441,REC-0394,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00442,REC-0394,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00443,REC-0396,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00444,REC-0397,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00445,REC-0399,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00446,REC-0400,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00447,REC-0400,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00448,REC-0402,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00449,REC-0404,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00450,REC-0405,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00451,REC-0408,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00452,REC-0409,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00453,REC-0409,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00454,REC-0410,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00455,REC-0410,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00456,REC-0411,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00457,REC-0413,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00458,REC-0413,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00459,REC-0415,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00460,REC-0417,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00461,REC-0417,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00462,REC-0418,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00463,REC-0419,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00464,REC-0421,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00465,REC-0422,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00466,REC-0424,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00467,REC-0424,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00468,REC-0425,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00469,REC-0425,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00470,REC-0427,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00471,REC-0428,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00472,REC-0428,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00473,REC-0429,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00474,REC-0430,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00475,REC-0431,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00476,REC-0432,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00477,REC-0433,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00478,REC-0433,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00479,REC-0434,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00480,REC-0435,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00481,REC-0435,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00482,REC-0436,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00483,REC-0437,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00484,REC-0437,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00485,REC-0440,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00486,REC-0442,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00487,REC-0442,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00488,REC-0443,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00489,REC-0444,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00490,REC-0445,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00491,REC-0445,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00492,REC-0447,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00493,REC-0448,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00494,REC-0448,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00495,REC-0449,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00496,REC-0450,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00497,REC-0451,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00498,REC-0451,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00499,REC-0452,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00500,REC-0453,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00501,REC-0453,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00502,REC-0454,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00503,REC-0456,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00504,REC-0457,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00505,REC-0460,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00506,REC-0461,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00507,REC-0462,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00508,REC-0463,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00509,REC-0463,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00510,REC-0464,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00511,REC-0464,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00512,REC-0465,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00513,REC-0466,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00514,REC-0467,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00515,REC-0467,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00516,REC-0468,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00517,REC-0469,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00518,REC-0471,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00519,REC-0472,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00520,REC-0472,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00521,REC-0473,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00522,REC-0475,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00523,REC-0477,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00524,REC-0477,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00525,REC-0478,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00526,REC-0478,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00527,REC-0479,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00528,REC-0480,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00529,REC-0481,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00530,REC-0481,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00531,REC-0482,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00532,REC-0482,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00533,REC-0483,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00534,REC-0483,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00535,REC-0485,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00536,REC-0486,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00537,REC-0486,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00538,REC-0489,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00539,REC-0490,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00540,REC-0491,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00541,REC-0492,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00542,REC-0497,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00543,REC-0499,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00544,REC-0500,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00545,REC-0501,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00546,REC-0501,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00547,REC-0502,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00548,REC-0502,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00549,REC-0504,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00550,REC-0504,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00551,REC-0505,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00552,REC-0505,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00553,REC-0506,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00554,REC-0507,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00555,REC-0508,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00556,REC-0508,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00557,REC-0509,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00558,REC-0510,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00559,REC-0513,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00560,REC-0514,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00561,REC-0515,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00562,REC-0515,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00563,REC-0516,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00564,REC-0520,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00565,REC-0520,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00566,REC-0521,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00567,REC-0521,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00568,REC-0522,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00569,REC-0522,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00570,REC-0523,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00571,REC-0524,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00572,REC-0525,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00573,REC-0526,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00574,REC-0527,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00575,REC-0527,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00576,REC-0528,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00577,REC-0529,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00578,REC-0530,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00579,REC-0531,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00580,REC-0531,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00581,REC-0532,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00582,REC-0532,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00583,REC-0534,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00584,REC-0535,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00585,REC-0536,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00586,REC-0537,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00587,REC-0538,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00588,REC-0539,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00589,REC-0540,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00590,REC-0540,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00591,REC-0541,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00592,REC-0541,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00593,REC-0542,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00594,REC-0543,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00595,REC-0544,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00596,REC-0546,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00597,REC-0547,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00598,REC-0547,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00599,REC-0548,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00600,REC-0548,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00601,REC-0550,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00602,REC-0550,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00603,REC-0551,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00604,REC-0552,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00605,REC-0552,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00606,REC-0553,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00607,REC-0555,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00608,REC-0555,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00609,REC-0556,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00610,REC-0558,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00611,REC-0559,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00612,REC-0559,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00613,REC-0560,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00614,REC-0563,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00615,REC-0564,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00616,REC-0564,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00617,REC-0566,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00618,REC-0566,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00619,REC-0567,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00620,REC-0568,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00621,REC-0570,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00622,REC-0575,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00623,REC-0576,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00624,REC-0577,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00625,REC-0577,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00626,REC-0578,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00627,REC-0578,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00628,REC-0579,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00629,REC-0579,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00630,REC-0581,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00631,REC-0584,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00632,REC-0584,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00633,REC-0585,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00634,REC-0585,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00635,REC-0586,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00636,REC-0586,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00637,REC-0587,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00638,REC-0587,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00639,REC-0588,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00640,REC-0589,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00641,REC-0590,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00642,REC-0591,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00643,REC-0592,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00644,REC-0592,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00645,REC-0593,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00646,REC-0594,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00647,REC-0594,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00648,REC-0595,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00649,REC-0597,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00650,REC-0600,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00651,REC-0600,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00652,REC-0601,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00653,REC-0603,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00654,REC-0604,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00655,REC-0606,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00656,REC-0608,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00657,REC-0608,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00658,REC-0610,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00659,REC-0611,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00660,REC-0612,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00661,REC-0614,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00662,REC-0615,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00663,REC-0615,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00664,REC-0617,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00665,REC-0618,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00666,REC-0619,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00667,REC-0619,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00668,REC-0620,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00669,REC-0621,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00670,REC-0621,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00671,REC-0622,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00672,REC-0623,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00673,REC-0623,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00674,REC-0624,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00675,REC-0624,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00676,REC-0626,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00677,REC-0627,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00678,REC-0629,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00679,REC-0630,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00680,REC-0630,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00681,REC-0631,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00682,REC-0632,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00683,REC-0635,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00684,REC-0635,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00685,REC-0636,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00686,REC-0638,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00687,REC-0638,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00688,REC-0639,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00689,REC-0639,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00690,REC-0640,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00691,REC-0640,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00692,REC-0641,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00693,REC-0642,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00694,REC-0642,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00695,REC-0644,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00696,REC-0646,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00697,REC-0646,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00698,REC-0647,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00699,REC-0647,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00700,REC-0648,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00701,REC-0648,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00702,REC-0649,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00703,REC-0649,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00704,REC-0652,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00705,REC-0654,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00706,REC-0655,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00707,REC-0655,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00708,REC-0656,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00709,REC-0657,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00710,REC-0659,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00711,REC-0659,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00712,REC-0660,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00713,REC-0661,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00714,REC-0662,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00715,REC-0667,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00716,REC-0668,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00717,REC-0669,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00718,REC-0670,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00719,REC-0670,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00720,REC-0671,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00721,REC-0672,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00722,REC-0673,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00723,REC-0673,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00724,REC-0674,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00725,REC-0674,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00726,REC-0675,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00727,REC-0676,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00728,REC-0676,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00729,REC-0677,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00730,REC-0677,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00731,REC-0678,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00732,REC-0679,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00733,REC-0680,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00734,REC-0680,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00735,REC-0682,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00736,REC-0682,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00737,REC-0683,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00738,REC-0683,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00739,REC-0684,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00740,REC-0686,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00741,REC-0687,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00742,REC-0690,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00743,REC-0691,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00744,REC-0691,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00745,REC-0692,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00746,REC-0692,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00747,REC-0693,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00748,REC-0695,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00749,REC-0695,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00750,REC-0696,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00751,REC-0697,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00752,REC-0698,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00753,REC-0698,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00754,REC-0700,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00755,REC-0702,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00756,REC-0703,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00757,REC-0704,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00758,REC-0705,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00759,REC-0706,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00760,REC-0707,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00761,REC-0709,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00762,REC-0709,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00763,REC-0710,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00764,REC-0710,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00765,REC-0711,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00766,REC-0711,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00767,REC-0712,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00768,REC-0714,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00769,REC-0714,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00770,REC-0715,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00771,REC-0716,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00772,REC-0716,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00773,REC-0717,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00774,REC-0717,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00775,REC-0718,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00776,REC-0720,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00777,REC-0722,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00778,REC-0724,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00779,REC-0725,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00780,REC-0725,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00781,REC-0726,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00782,REC-0727,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00783,REC-0728,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00784,REC-0729,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00785,REC-0730,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00786,REC-0731,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00787,REC-0732,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00788,REC-0732,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00789,REC-0733,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00790,REC-0733,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00791,REC-0734,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00792,REC-0735,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00793,REC-0735,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00794,REC-0736,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00795,REC-0738,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00796,REC-0739,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00797,REC-0739,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00798,REC-0740,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00799,REC-0741,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00800,REC-0742,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00801,REC-0742,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00802,REC-0743,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00803,REC-0743,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00804,REC-0744,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00805,REC-0744,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00806,REC-0745,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00807,REC-0747,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00808,REC-0748,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00809,REC-0748,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00810,REC-0749,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00811,REC-0751,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00812,REC-0751,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00813,REC-0753,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00814,REC-0753,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00815,REC-0754,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00816,REC-0754,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00817,REC-0755,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00818,REC-0758,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00819,REC-0758,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00820,REC-0759,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00821,REC-0760,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00822,REC-0760,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00823,REC-0761,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00824,REC-0761,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00825,REC-0762,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00826,REC-0763,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00827,REC-0763,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00828,REC-0764,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00829,REC-0765,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00830,REC-0766,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00831,REC-0766,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00832,REC-0767,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00833,REC-0768,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00834,REC-0769,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00835,REC-0769,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00836,REC-0770,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00837,REC-0770,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00838,REC-0771,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00839,REC-0772,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00840,REC-0772,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00841,REC-0773,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00842,REC-0775,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00843,REC-0776,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00844,REC-0777,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00845,REC-0778,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00846,REC-0778,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00847,REC-0779,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00848,REC-0779,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00849,REC-0780,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00850,REC-0780,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00851,REC-0782,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00852,REC-0783,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00853,REC-0784,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00854,REC-0785,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00855,REC-0785,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00856,REC-0786,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00857,REC-0788,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00858,REC-0789,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00859,REC-0790,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00860,REC-0791,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00861,REC-0794,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00862,REC-0794,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00863,REC-0795,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00864,REC-0797,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00865,REC-0798,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00866,REC-0798,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00867,REC-0800,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00868,REC-0801,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00869,REC-0804,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00870,REC-0805,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00871,REC-0805,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00872,REC-0806,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00873,REC-0806,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00874,REC-0807,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00875,REC-0808,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00876,REC-0808,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00877,REC-0809,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00878,REC-0809,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00879,REC-0810,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00880,REC-0811,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00881,REC-0811,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00882,REC-0814,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00883,REC-0816,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00884,REC-0817,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00885,REC-0818,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00886,REC-0819,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00887,REC-0819,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00888,REC-0822,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00889,REC-0823,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00890,REC-0824,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00891,REC-0824,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00892,REC-0825,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00893,REC-0826,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00894,REC-0827,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00895,REC-0827,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00896,REC-0828,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00897,REC-0829,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00898,REC-0831,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00899,REC-0831,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00900,REC-0832,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00901,REC-0832,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00902,REC-0833,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00903,REC-0833,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00904,REC-0835,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00905,REC-0835,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00906,REC-0836,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00907,REC-0837,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00908,REC-0838,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00909,REC-0839,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00910,REC-0841,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00911,REC-0841,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00912,REC-0842,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00913,REC-0842,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00914,REC-0843,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00915,REC-0844,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00916,REC-0844,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00917,REC-0845,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00918,REC-0845,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00919,REC-0846,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00920,REC-0847,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00921,REC-0847,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00922,REC-0848,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00923,REC-0849,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00924,REC-0850,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00925,REC-0850,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00926,REC-0851,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00927,REC-0852,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00928,REC-0852,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00929,REC-0853,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00930,REC-0853,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00931,REC-0854,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00932,REC-0855,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00933,REC-0856,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00934,REC-0857,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00935,REC-0858,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00936,REC-0858,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00937,REC-0859,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00938,REC-0860,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00939,REC-0861,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00940,REC-0862,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00941,REC-0862,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00942,REC-0863,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00943,REC-0864,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00944,REC-0864,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00945,REC-0865,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00946,REC-0866,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00947,REC-0867,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00948,REC-0868,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00949,REC-0870,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00950,REC-0870,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00951,REC-0871,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00952,REC-0872,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00953,REC-0872,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00954,REC-0873,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00955,REC-0874,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00956,REC-0875,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00957,REC-0875,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00958,REC-0876,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00959,REC-0877,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00960,REC-0879,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00961,REC-0880,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00962,REC-0881,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00963,REC-0881,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00964,REC-0883,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00965,REC-0883,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00966,REC-0884,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00967,REC-0885,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00968,REC-0885,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00969,REC-0886,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00970,REC-0888,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00971,REC-0888,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00972,REC-0890,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00973,REC-0893,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00974,REC-0893,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00975,REC-0895,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00976,REC-0896,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00977,REC-0897,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00978,REC-0899,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00979,REC-0899,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00980,REC-0900,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00981,REC-0901,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00982,REC-0904,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00983,REC-0904,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00984,REC-0905,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-00985,REC-0906,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-00986,REC-0906,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00987,REC-0908,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-00988,REC-0908,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00989,REC-0909,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00990,REC-0910,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00991,REC-0911,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00992,REC-0911,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00993,REC-0912,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-00994,REC-0915,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-00995,REC-0916,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00996,REC-0917,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-00997,REC-0917,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-00998,REC-0918,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-00999,REC-0919,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01000,REC-0920,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01001,REC-0921,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-01002,REC-0922,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01003,REC-0922,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-01004,REC-0923,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01005,REC-0923,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01006,REC-0925,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01007,REC-0925,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01008,REC-0926,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01009,REC-0927,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01010,REC-0929,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01011,REC-0931,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01012,REC-0933,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01013,REC-0933,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-01014,REC-0934,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01015,REC-0935,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01016,REC-0936,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-01017,REC-0938,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01018,REC-0939,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01019,REC-0939,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01020,REC-0940,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01021,REC-0941,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01022,REC-0941,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01023,REC-0943,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01024,REC-0945,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01025,REC-0945,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-01026,REC-0947,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01027,REC-0947,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-01028,REC-0949,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01029,REC-0951,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01030,REC-0951,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01031,REC-0952,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-01032,REC-0952,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-01033,REC-0953,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01034,REC-0953,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01035,REC-0954,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01036,REC-0954,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01037,REC-0955,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01038,REC-0955,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01039,REC-0956,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01040,REC-0956,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01041,REC-0957,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01042,REC-0957,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01043,REC-0958,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-01044,REC-0960,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01045,REC-0961,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-01046,REC-0963,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-01047,REC-0965,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01048,REC-0965,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01049,REC-0966,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01050,REC-0966,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-01051,REC-0967,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01052,REC-0969,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-01053,REC-0970,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01054,REC-0970,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01055,REC-0971,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01056,REC-0972,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01057,REC-0975,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01058,REC-0975,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-01059,REC-0976,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01060,REC-0976,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01061,REC-0977,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-01062,REC-0977,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01063,REC-0978,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-01064,REC-0978,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.
+LIM-01065,REC-0979,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01066,REC-0981,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01067,REC-0981,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-01068,REC-0982,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01069,REC-0982,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01070,REC-0983,Missing telemetry data,High,Device telemetry unavailable for last 6 hours; security health checks degraded.
+LIM-01071,REC-0985,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01072,REC-0985,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-01073,REC-0986,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01074,REC-0987,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01075,REC-0987,Offline endpoints,Medium,Host is currently unreachable over VPN; cannot run live diagnostics.
+LIM-01076,REC-0989,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01077,REC-0990,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01078,REC-0991,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01079,REC-0992,Unknown device states,Medium,Device state unclear due to parallel endpoint configuration changes.
+LIM-01080,REC-0993,New device models,Low,Model behavior baseline not fully trained; using general device profiles.
+LIM-01081,REC-0993,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01082,REC-0995,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01083,REC-0996,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01084,REC-0996,Sparse threat intelligence,Low,IP address reputation has not been categorized by secondary feeds.
+LIM-01085,REC-0997,Incomplete logs,Medium,Active Directory auth logs delayed; cannot cross-verify session continuity.
+LIM-01086,REC-1000,Limited historical examples,Low,Rare incident type; pattern not seen in the last 180 days.
+LIM-01087,REC-1000,Delayed event ingestion,Medium,SIEM log pipeline experiencing a 15-minute queue latency.

@@ -17,40 +17,72 @@ export default function TrustBreakdownPanel({ breakdown }: { breakdown?: TrustBr
     },
   ];
 
+  const radius = 30;
+  const circumference = 2 * Math.PI * radius;
+  const offset = circumference - (breakdown.trust_index / 100) * circumference;
+
   return (
     <>
       <div 
         onClick={() => setShowModal(true)}
         className="tl-panel tl-panel-interactive"
       >
-        <h3 className="tl-panel-title">Trust Breakdown</h3>
-        <p className="mb-2 text-sm text-[var(--tl-text-muted)]">
-          Trust Index is not a black box — weighted components shown below.
-        </p>
-        <p className="mb-4 font-display text-4xl font-bold text-[var(--tl-dell-blue-light)]">
-          {breakdown.trust_index}%
-        </p>
+        <div className="flex items-center gap-5 mb-4">
+          <div className="relative h-16 w-16 flex items-center justify-center shrink-0">
+            <svg className="h-full w-full transform -rotate-90">
+              <circle
+                cx="32"
+                cy="32"
+                r={radius}
+                className="stroke-slate-800"
+                strokeWidth="5"
+                fill="transparent"
+              />
+              <circle
+                cx="32"
+                cy="32"
+                r={radius}
+                className="stroke-[var(--tl-dell-blue-light)] transition-all duration-1000 ease-out"
+                strokeWidth="5"
+                fill="transparent"
+                strokeDasharray={circumference}
+                strokeDashoffset={offset}
+                strokeLinecap="round"
+              />
+            </svg>
+            <span className="absolute font-display font-bold text-white text-xs">
+              {Math.round(breakdown.trust_index)}%
+            </span>
+          </div>
+          <div>
+            <h3 className="tl-panel-title">🛡️ Trust Breakdown</h3>
+            <p className="text-xs text-[var(--tl-text-muted)]">
+              Weighted governance components computed across organization logs.
+            </p>
+          </div>
+        </div>
+
         <div className="space-y-3">
           {components.map((c) => (
             <div key={c.label}>
-              <div className="mb-1 flex justify-between text-sm">
+              <div className="mb-1 flex justify-between text-xs font-semibold">
                 <span className="text-[var(--tl-text-secondary)]">
                   {c.label}{" "}
                   <span className="text-[var(--tl-text-muted)]">(×{c.weight})</span>
                 </span>
-                <span className="font-bold text-white">{c.value.toFixed(1)}%</span>
+                <span className="text-white">{c.value.toFixed(1)}%</span>
               </div>
-              <div className="h-2 overflow-hidden rounded-full bg-[var(--tl-bg-elevated)]">
+              <div className="h-1.5 overflow-hidden rounded-full bg-[var(--tl-bg-elevated)] border border-slate-700/40">
                 <div
-                  className="h-full rounded-full bg-[var(--tl-dell-blue)]"
+                  className="h-full rounded-full bg-[var(--tl-dell-blue)] animate-progress"
                   style={{ width: `${c.value}%` }}
                 />
               </div>
             </div>
           ))}
         </div>
-        <p className="mt-4 rounded-lg bg-[var(--tl-bg-elevated)] p-3 font-mono text-xs text-[var(--tl-text-muted)]">
-          Trust Index = (Accuracy × {breakdown.weight_accuracy}) + (Approval ×{" "}
+        <p className="mt-4 rounded-lg bg-[var(--tl-bg-elevated)]/50 p-2.5 font-mono text-[10px] leading-relaxed text-[var(--tl-text-muted)] border border-[var(--tl-border)]/30">
+          Composite Index = (Accuracy × {breakdown.weight_accuracy}) + (Approval ×{" "}
           {breakdown.weight_approval_rate}) + (Outcome × {breakdown.weight_outcome_success}) + ((100
           − FP) × {breakdown.weight_false_positive_inverse})
         </p>

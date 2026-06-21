@@ -193,6 +193,9 @@ export interface RecommendationBundle {
   feedback: FeedbackRow[];
   aging?: RecommendationAgingRow;
   businessImpact?: BusinessImpactRow;
+  dataSources: DataSourceRow[];
+  limitations: LimitationRow[];
+  reasoningChain: ReasoningChainRow[];
 }
 
 export interface TrustLensDatasets {
@@ -212,7 +215,37 @@ export interface TrustLensDatasets {
   recommendationAging: RecommendationAgingRow[];
   aiHealth: AIHealthRow[];
   businessImpact: BusinessImpactRow[];
+  dataSources: DataSourceRow[];
+  limitations: LimitationRow[];
+  reasoningChain: ReasoningChainRow[];
 }
+
+export interface DataSourceRow {
+  source_id: string;
+  recommendation_id: string;
+  source_name: string;
+  source_type: string;
+  trust_level: string;
+  last_updated: string;
+  description: string;
+  data_collected: string;
+}
+
+export interface LimitationRow {
+  limitation_id: string;
+  recommendation_id: string;
+  limitation: string;
+  severity: "Low" | "Medium" | "High";
+  impact: string;
+}
+
+export interface ReasoningChainRow {
+  recommendation_id: string;
+  step_number: number;
+  reasoning_step: string;
+  evidence_weight: number;
+}
+
 
 export type DecisionType = "Approved" | "Overridden" | "Escalated";
 

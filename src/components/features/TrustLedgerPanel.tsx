@@ -19,25 +19,31 @@ export default function TrustLedgerPanel({ recommendation, ledger, onClick }: Pr
 
   const weaknesses = ledger.known_weaknesses.split("; ").filter(Boolean);
 
+  const getConfidenceLabel = (conf: string) => {
+    if (conf === "High Confidence") return "🟢 High Confidence";
+    if (conf === "Moderate Confidence") return "🟡 Moderate Confidence";
+    return "🔴 Review Required";
+  };
+
   return (
     <div 
       onClick={onClick}
-      className={`tl-panel border-[var(--tl-dell-blue)]/30 ${onClick ? "tl-panel-interactive" : ""}`}
+      className={`tl-panel border-[var(--tl-dell-blue)]/50 shadow-[0_0_20px_rgba(0,118,206,0.1)] ${onClick ? "tl-panel-interactive cursor-pointer" : ""}`}
     >
       <div className="mb-4 flex items-center justify-between gap-4">
         <h3 className="tl-panel-title flex items-center gap-2">
           <Shield className="h-5 w-5 text-[var(--tl-dell-blue)]" />
-          Trust Ledger
+          🛡️ Trust Ledger
         </h3>
         <div className="flex flex-wrap items-center gap-3">
           <div className="relative group rounded-lg bg-[var(--tl-bg-elevated)] px-4 py-2 text-center cursor-help">
             <p className="text-[10px] font-bold uppercase tracking-wider text-[var(--tl-text-muted)]">
               Confidence
             </p>
-            <p className="text-lg font-bold text-[var(--tl-dell-blue-light)]">
-              {recommendation.confidence}
+            <p className="text-xs font-bold text-white mt-1">
+              {getConfidenceLabel(recommendation.confidence)}
             </p>
-            <p className="text-xs text-[var(--tl-text-muted)]">{recommendation.confidence_score}%</p>
+            <p className="text-[10px] text-[var(--tl-text-muted)]">{recommendation.confidence_score}%</p>
 
             {/* AI Explanation Tooltip */}
             <div className="absolute bottom-full left-1/2 mb-2 w-48 -translate-x-1/2 scale-95 rounded-xl border border-[var(--tl-border)] bg-slate-900/95 p-3 text-left text-xs text-[var(--tl-text-secondary)] shadow-2xl transition-all duration-150 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto">

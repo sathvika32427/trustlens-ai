@@ -10,12 +10,34 @@ import {
 import { TrustTimelineRow } from "../../types/datasets";
 
 export default function TrustTimelineChart({ data }: { data: TrustTimelineRow[] }) {
+  const lastScore = data[data.length - 1]?.trust_score ?? 0;
+  const prevScore = data[data.length - 2]?.trust_score ?? 0;
+  const diff = lastScore - prevScore;
+  
+  let trendArrow = "➡ Stable";
+  let trendClass = "text-[var(--tl-text-muted)]";
+  
+  if (diff > 0.1) {
+    trendArrow = "⬆ Increasing";
+    trendClass = "text-[var(--tl-success)]";
+  } else if (diff < -0.1) {
+    trendArrow = "⬇ Decreasing";
+    trendClass = "text-[var(--tl-danger)]";
+  }
+
   return (
     <div className="tl-panel">
-      <h3 className="tl-panel-title">Trust Timeline</h3>
-      <p className="mb-4 text-sm text-[var(--tl-text-muted)]">
-        Monthly trust score evolution over 36 months.
-      </p>
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--tl-border)]/40 pb-3 mb-4">
+        <div>
+          <h3 className="tl-panel-title">📈 Trust Timeline</h3>
+          <p className="text-xs text-[var(--tl-text-muted)]">
+            Monthly trust score evolution over 36 months.
+          </p>
+        </div>
+        <div className={`rounded-xl border border-slate-700/60 bg-slate-800/80 px-2.5 py-1 text-xs font-bold ${trendClass}`}>
+          {trendArrow}
+        </div>
+      </div>
       <div className="h-72 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={data} margin={{ top: 8, right: 8, left: 0, bottom: 0 }}>
@@ -52,10 +74,13 @@ export default function TrustTimelineChart({ data }: { data: TrustTimelineRow[] 
       </div>
       <div className="mt-3 flex flex-wrap gap-4 text-xs text-[var(--tl-text-muted)]">
         <span>
-          Latest: <strong className="text-white">{data[data.length - 1]?.trust_score}%</strong>
+          Latest: <strong className="text-white">{lastScore}%</strong>
         </span>
         <span>
           Start: <strong className="text-white">{data[0]?.trust_score}%</strong>
+        </span>
+        <span>
+          Shift: <strong className={trendClass}>{diff > 0 ? "+" : ""}{diff.toFixed(2)}% vs last month</strong>
         </span>
       </div>
     </div>

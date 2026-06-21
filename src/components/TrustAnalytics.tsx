@@ -4,6 +4,7 @@ import TrustBreakdownPanel from "./features/TrustBreakdownPanel";
 import HumanFeedbackAnalytics from "./features/HumanFeedbackPanel";
 import OutcomeLearningPanel from "./features/OutcomeLearningPanel";
 import KpiSection from "./shared/KpiSection";
+import DataReliabilityLimitationsPanel from "./features/DataReliabilityLimitationsPanel";
 
 export default function TrustAnalytics() {
   const { data, orgMetrics, feedbackAnalytics, outcomeStats, selectedId, indexes } = useAppData();
@@ -39,6 +40,7 @@ export default function TrustAnalytics() {
           <TrustTimelineChart data={data.trustTimeline} />
           <TrustBreakdownPanel breakdown={{ ...aggregateBreakdown, trust_index: orgMetrics.trustIndex }} />
         </div>
+        <DataReliabilityLimitationsPanel dataSources={data.dataSources} limitations={data.limitations} />
         <TrustBreakdownPanel breakdown={sampleBreakdown} />
         <HumanFeedbackAnalytics
           average={feedbackAnalytics.average}
@@ -50,3 +52,4 @@ export default function TrustAnalytics() {
     </div>
   );
 }
+

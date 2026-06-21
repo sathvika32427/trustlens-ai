@@ -15,6 +15,9 @@ import BusinessImpactScore from "./features/BusinessImpactScore";
 import RecommendationAgingIndicator from "./features/RecommendationAgingIndicator";
 import StatusBadge from "./shared/StatusBadge";
 import Modal from "./Modal";
+import WhyAiRecommendedThis from "./features/WhyAiRecommendedThis";
+import DataSourceAttribution from "./features/DataSourceAttribution";
+import AILimitationAwareness from "./features/AILimitationAwareness";
 import { CheckCircle2, XCircle, ArrowUpRight } from "lucide-react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 
@@ -82,13 +85,9 @@ export default function RecommendationExplorer({ activeRole, bundle, onDecision,
         <OutcomeLearningPanel outcome={bundle.outcome} ledger={bundle.trustLedger} outcomeStats={outcomeStats ?? {}} />
         <AIIncidentCardPanel incidents={bundle.incidents} onIncidentClick={(inc) => setActiveIncident(inc)} />
 
-        <section className="tl-panel">
-          <h3 className="tl-panel-title">Why AI Recommended This</h3>
-          <p className="leading-relaxed text-[var(--tl-text-secondary)]">{rec.reasoning}</p>
-          <p className="mt-4 text-sm text-[var(--tl-text-muted)]">
-            <strong className="text-white">Data sources:</strong> {rec.data_source_attribution}
-          </p>
-        </section>
+        <WhyAiRecommendedThis recommendation={rec} reasoningChain={bundle.reasoningChain} />
+        <DataSourceAttribution sources={bundle.dataSources} />
+        <AILimitationAwareness limitations={bundle.limitations} confidence={rec.confidence} />
 
         {roleConfig.canDecide && (
           <>

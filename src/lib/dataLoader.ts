@@ -18,6 +18,9 @@ import {
   TrustLedgerRow,
   TrustLensDatasets,
   TrustTimelineRow,
+  DataSourceRow,
+  LimitationRow,
+  ReasoningChainRow,
 } from "../types/datasets";
 
 const DATA_BASE = "/data";
@@ -36,6 +39,14 @@ async function loadCsv<T>(file: string): Promise<T[]> {
     console.warn(`CSV parse warnings for ${file}:`, parsed.errors.slice(0, 3));
   }
   return parsed.data;
+}
+
+function normalizeReasoningChain(rows: ReasoningChainRow[]): ReasoningChainRow[] {
+  return rows.map((r) => ({
+    ...r,
+    step_number: Number(r.step_number),
+    evidence_weight: Number(r.evidence_weight),
+  }));
 }
 
 function normalizeRecommendations(rows: RecommendationRow[]): RecommendationRow[] {
@@ -143,6 +154,9 @@ export async function loadAllDatasets(): Promise<TrustLensDatasets> {
     recommendationAging,
     aiHealth,
     businessImpact,
+    dataSources,
+    limitations,
+    reasoningChain,
   ] = await Promise.all([
     loadCsv<RecommendationRow>("recommendations"),
     loadCsv<TrustLedgerRow>("trust_ledger"),
@@ -159,6 +173,9 @@ export async function loadAllDatasets(): Promise<TrustLensDatasets> {
     loadCsv<RecommendationAgingRow>("recommendation_aging"),
     loadCsv<AIHealthRow>("ai_health"),
     loadCsv<BusinessImpactRow>("business_impact"),
+    loadCsv<DataSourceRow>("data_sources"),
+    loadCsv<LimitationRow>("limitations"),
+    loadCsv<ReasoningChainRow>("reasoning_chain"),
   ]);
 
   return {
@@ -178,6 +195,9 @@ export async function loadAllDatasets(): Promise<TrustLensDatasets> {
     recommendationAging: normalizeAging(recommendationAging),
     aiHealth: normalizeHealth(aiHealth),
     businessImpact: normalizeBusiness(businessImpact),
+    dataSources,
+    limitations,
+    reasoningChain: normalizeReasoningChain(reasoningChain),
   };
 }
 
@@ -213,6 +233,9 @@ export function buildIndexes(data: TrustLensDatasets) {
     feedback: groupByRecId(data.feedback),
     aging: byRecId(data.recommendationAging),
     businessImpact: byRecId(data.businessImpact),
+    dataSources: groupByRecId(data.dataSources),
+    limitations: groupByRecId(data.limitations),
+    reasoningChain: groupByRecId(data.reasoningChain),
   };
 }
 
@@ -238,6 +261,9 @@ export function getRecommendationBundle(
     feedback: indexes.feedback.get(recommendationId) ?? [],
     aging: indexes.aging.get(recommendationId),
     businessImpact: indexes.businessImpact.get(recommendationId),
+    dataSources: indexes.dataSources.get(recommendationId) ?? [],
+    limitations: indexes.limitations.get(recommendationId) ?? [],
+    reasoningChain: (indexes.reasoningChain.get(recommendationId) ?? []).sort((a, b) => a.step_number - b.step_number),
   };
 }
 
