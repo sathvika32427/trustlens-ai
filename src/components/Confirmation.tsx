@@ -7,11 +7,12 @@ import {
   ClipboardList,
   Sparkles,
 } from "lucide-react";
-import { ConfirmationState, DecisionType } from "../types";
-import { getDeviceById } from "../data";
+import { ConfirmationState, DecisionType, Role } from "../types";
+import { getRoleConfig } from "../roleConfig";
 
 interface ConfirmationProps {
   confirmation: ConfirmationState;
+  activeRole: Role;
   onBackToDashboard: () => void;
   onViewActivityLog: () => void;
 }
@@ -42,13 +43,15 @@ const decisionConfig: Record<
 
 export default function Confirmation({
   confirmation,
+  activeRole,
   onBackToDashboard,
   onViewActivityLog,
 }: ConfirmationProps) {
-  const { decision, recommendation, notes } = confirmation;
-  const device = getDeviceById(recommendation.deviceId);
+  const { decision, notes } = confirmation;
   const config = decisionConfig[decision];
   const Icon = config.icon;
+  const roleConfig = getRoleConfig(activeRole);
+  const auditLabel = roleConfig.canAccessAuditCenter ? "Audit Center" : "Activity Log";
 
   return (
     <div className="mesh-bg flex flex-1 items-center justify-center overflow-y-auto p-6">
@@ -72,17 +75,10 @@ export default function Confirmation({
         </div>
 
         <div className="space-y-3 px-8 py-6">
-          {[
-            ["Recommendation", recommendation.action],
-            ["Device", device?.name ?? recommendation.deviceId],
-            ["Your Decision", decision],
-            ["Confidence", recommendation.confidence],
-          ].map(([label, value]) => (
-            <div key={label} className="flex justify-between text-sm">
-              <span className="text-slate-500">{label}</span>
-              <span className="font-semibold text-slate-900">{value}</span>
-            </div>
-          ))}
+          <div className="flex justify-between text-sm">
+            <span className="text-slate-500">Decision recorded</span>
+            <span className="font-semibold text-slate-900">{decision}</span>
+          </div>
           {notes && (
             <div className="rounded-xl bg-slate-50 p-3 text-sm">
               <span className="text-slate-500">Notes</span>
@@ -108,7 +104,7 @@ export default function Confirmation({
             className={`flex flex-1 items-center justify-center gap-2 rounded-xl bg-gradient-to-r ${config.gradient} px-4 py-3 text-sm font-bold text-white shadow-lg`}
           >
             <ClipboardList className="h-4 w-4" />
-            Activity Log
+            {auditLabel}
           </button>
         </div>
       </motion.div>

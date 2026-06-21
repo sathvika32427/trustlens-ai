@@ -1,51 +1,61 @@
 import { useState } from "react";
-import { motion } from "motion/react";
 import { Search, ClipboardList, Filter } from "lucide-react";
-import { AuditRecord } from "../types";
-import { getConfidenceStyles } from "../data";
+import { motion } from "motion/react";
+import { AIRecommendation, AuditRecord, Role } from "../types";
+import { computeDecisionMetrics, filterAuditRecordsForRole } from "../utils/metrics";
+import DecisionMetricsBar from "./shared/DecisionMetricsBar";
+import StatusBadge from "./shared/StatusBadge";
 
 interface AuditFeedProps {
   auditRecords: AuditRecord[];
+  recommendations: AIRecommendation[];
+  activeRole: Role;
 }
 
-export default function AuditFeed({ auditRecords }: AuditFeedProps) {
+export default function AuditFeed({
+  auditRecords,
+  recommendations,
+  activeRole,
+}: AuditFeedProps) {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState<"All" | "Approved" | "Overridden" | "Escalated">("All");
 
-  const filtered = auditRecords.filter((record) => {
+  const scopedRecords = filterAuditRecordsForRole(activeRole, auditRecords);
+  const metrics = computeDecisionMetrics(recommendations, auditRecords);
+
+  const filtered = scopedRecords.filter((record) => {
     const q = search.toLowerCase();
     const matchesSearch =
       record.deviceName.toLowerCase().includes(q) ||
       record.action.toLowerCase().includes(q) ||
       record.decision.toLowerCase().includes(q) ||
       record.reviewer.toLowerCase().includes(q) ||
-      record.notes.toLowerCase().includes(q) ||
-      record.aiReasoning.toLowerCase().includes(q);
+      record.outcome.toLowerCase().includes(q);
     const matchesFilter = filter === "All" || record.decision === filter;
     return matchesSearch && matchesFilter;
   });
 
-  const decisionStyles: Record<string, string> = {
-    Approved: "bg-emerald-100 text-emerald-700 border-emerald-200",
-    Overridden: "bg-amber-100 text-amber-700 border-amber-200",
-    Escalated: "bg-purple-100 text-purple-700 border-purple-200",
-  };
-
   return (
     <div className="mesh-bg flex-1 overflow-y-auto">
-      <div className="border-b border-slate-200/60 bg-white/60 px-6 py-8 backdrop-blur-sm lg:px-10">
-        <div className="flex items-center gap-2 text-sm font-semibold text-blue-600">
-          <ClipboardList className="h-4 w-4" />
-          Audit Trail
+      <div className="border-b border-slate-200/60 bg-white/70 px-5 py-6 backdrop-blur-sm lg:px-8">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-center gap-2 text-sm font-semibold text-blue-600">
+            <ClipboardList className="h-4 w-4" />
+            Activity Log
+          </div>
+          <h1 className="mt-2 font-display text-3xl font-bold text-slate-900 lg:text-4xl">
+            Decision Activity
+          </h1>
+          <p className="mt-2 max-w-2xl text-base text-slate-600">
+            Searchable record of AI recommendations and human decisions across your scope.
+          </p>
         </div>
-        <h1 className="mt-2 font-display text-3xl font-bold text-slate-900">Activity Log</h1>
-        <p className="mt-2 max-w-2xl text-slate-600">
-          Searchable record of past AI recommendations, their reasoning, and what humans decided.
-        </p>
       </div>
 
-      <div className="mx-auto max-w-4xl px-6 py-8 lg:px-10">
-        <div className="mb-6 flex flex-col gap-3 sm:flex-row">
+      <div className="mx-auto max-w-5xl space-y-6 px-5 py-6 lg:px-8">
+        <DecisionMetricsBar metrics={metrics} />
+
+        <div className="flex flex-col gap-3 sm:flex-row">
           <div className="relative flex-1">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
             <input
@@ -61,11 +71,12 @@ export default function AuditFeed({ auditRecords }: AuditFeedProps) {
             {(["All", "Approved", "Overridden", "Escalated"] as const).map((f) => (
               <button
                 key={f}
+                type="button"
                 onClick={() => setFilter(f)}
                 className={`rounded-lg px-3 py-2 text-xs font-bold transition ${
                   filter === f
                     ? "bg-blue-600 text-white shadow-md"
-                    : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50"
+                    : "border border-slate-200 bg-white text-slate-600 hover:bg-slate-50"
                 }`}
               >
                 {f}
@@ -79,62 +90,40 @@ export default function AuditFeed({ auditRecords }: AuditFeedProps) {
             <p className="py-16 text-center text-slate-400">No matching records found.</p>
           )}
 
-          {filtered.map((record, i) => {
-            const confStyles = getConfidenceStyles(record.confidence);
-            return (
-              <motion.article
-                key={record.id}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.05 }}
-                className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md shadow-slate-100/60"
-              >
-                <div className={`h-0.5 bg-gradient-to-r ${confStyles.gradient}`} />
-                <div className="p-5">
-                  <div className="flex flex-wrap items-start justify-between gap-3">
-                    <div>
-                      <p className="font-mono text-xs text-slate-400">{record.id}</p>
-                      <h3 className="mt-1 font-bold text-slate-900">{record.deviceName}</h3>
-                      <p className="text-sm text-slate-500">Action: {record.action}</p>
-                    </div>
-                    <span
-                      className={`rounded-full border px-3 py-1 text-xs font-bold ${decisionStyles[record.decision]}`}
-                    >
-                      {record.decision}
-                    </span>
-                  </div>
-
-                  <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
-                    <div className="rounded-xl bg-blue-50/50 p-3 text-sm">
-                      <p className="text-[10px] font-bold uppercase tracking-wider text-blue-600">
-                        AI Reasoning
-                      </p>
-                      <p className="mt-1 text-slate-700">{record.aiReasoning}</p>
-                    </div>
-                    <div className="rounded-xl bg-slate-50 p-3 text-sm">
-                      <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
-                        Human Decision Notes
-                      </p>
-                      <p className="mt-1 text-slate-700">{record.notes}</p>
-                    </div>
-                  </div>
-
-                  <div className="mt-3 flex flex-wrap items-center gap-3 border-t border-slate-100 pt-3 text-xs text-slate-500">
-                    <span
-                      className={`rounded-full border px-2 py-0.5 font-semibold ${confStyles.bg} ${confStyles.text} ${confStyles.border}`}
-                    >
-                      {record.confidence}
-                    </span>
-                    <span>{record.reviewer} · {record.reviewerRole}</span>
-                    <span>·</span>
-                    <span>{record.timestamp}</span>
-                  </div>
+          {filtered.map((record, i) => (
+            <motion.article
+              key={record.id}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: i * 0.04 }}
+              className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
+            >
+              <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 px-5 py-3">
+                <div>
+                  <span className="font-mono text-xs text-slate-400">{record.id}</span>
+                  <p className="font-semibold text-slate-900">{record.deviceName}</p>
                 </div>
-              </motion.article>
-            );
-          })}
+                <StatusBadge status={record.decision} />
+              </div>
+              <div className="grid gap-3 p-5 sm:grid-cols-2">
+                <Field label="AI Recommendation" value={record.action} />
+                <Field label="Human Decision" value={record.decision} />
+                <Field label="Outcome" value={record.outcome} />
+                <Field label="Reviewer" value={`${record.reviewer} · ${record.timestamp}`} />
+              </div>
+            </motion.article>
+          ))}
         </div>
       </div>
+    </div>
+  );
+}
+
+function Field({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded-xl bg-slate-50 p-3">
+      <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">{label}</p>
+      <p className="mt-1 text-sm font-medium text-slate-800">{value}</p>
     </div>
   );
 }

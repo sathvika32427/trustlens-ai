@@ -6,6 +6,7 @@ import {
   ConfidenceLevel,
   AuditRecord,
   Role,
+  EmployeeNotification,
 } from "./types";
 
 export const mockDevices: DeviceInfo[] = [
@@ -504,6 +505,7 @@ export const mockAuditHistory: AuditRecord[] = [
     reviewerRole: Role.IT_ADMIN,
     decision: "Approved",
     notes: "Confirmed malware was active. Approved quarantine immediately.",
+    outcome: "Threat contained — device remediated successfully",
     timestamp: "Jun 20, 2026 10:14 AM",
   },
   {
@@ -521,6 +523,7 @@ export const mockAuditHistory: AuditRecord[] = [
     overrideReason: "False Positive — Internal Test",
     notes:
       "Traffic was from scheduled stress tests by the QA team. No malware found.",
+    outcome: "No threat detected — internal QA activity confirmed",
     timestamp: "Jun 20, 2026 9:30 AM",
   },
   {
@@ -536,6 +539,7 @@ export const mockAuditHistory: AuditRecord[] = [
     reviewerRole: Role.IT_ADMIN,
     decision: "Approved",
     notes: "Scheduled patch deployment for after work hours.",
+    outcome: "Patch deployed — vulnerability closed",
     timestamp: "Jun 19, 2026 4:45 PM",
   },
   {
@@ -552,6 +556,7 @@ export const mockAuditHistory: AuditRecord[] = [
     decision: "Escalated",
     notes:
       "Escalated to Finance Controller to verify whether the database access was authorized.",
+    outcome: "Under senior review — access temporarily restricted",
     timestamp: "Jun 19, 2026 11:15 AM",
   },
   {
@@ -568,9 +573,62 @@ export const mockAuditHistory: AuditRecord[] = [
     decision: "Escalated",
     notes:
       "CISO notified. CEO confirmed scheduled backup before flight — no action needed.",
+    outcome: "No threat detected — authorized executive backup",
     timestamp: "Jun 18, 2026 8:00 AM",
   },
+  {
+    id: "AUD-9016",
+    deviceId: "DEV-143",
+    deviceName: "DEV-143-CORP-LTP",
+    action: "Quarantine Device",
+    aiReasoning:
+      "Multiple failed logins and suspicious outbound traffic detected on employee laptop.",
+    severity: Severity.HIGH,
+    confidence: ConfidenceLevel.HIGH,
+    reviewer: "Priya Sharma",
+    reviewerRole: Role.SECURITY_ANALYST,
+    decision: "Escalated",
+    notes: "Contacting employee to verify activity before quarantine.",
+    outcome: "Under review — awaiting employee verification",
+    timestamp: "Jun 19, 2026 3:20 PM",
+  },
 ];
+
+export const mockNotifications: EmployeeNotification[] = [
+  {
+    id: "NTF-001",
+    title: "Security review on your device",
+    message:
+      "IT is reviewing an AI recommendation for DEV-143-CORP-LTP. You may be asked to use a backup laptop.",
+    timestamp: "Jun 20, 2026 9:50 AM",
+    read: false,
+    type: "warning",
+  },
+  {
+    id: "NTF-002",
+    title: "Patch reminder",
+    message: "Your device is missing a critical security update. IT may schedule maintenance.",
+    timestamp: "Jun 19, 2026 2:00 PM",
+    read: true,
+    type: "info",
+  },
+  {
+    id: "NTF-003",
+    title: "Action required: verify login",
+    message: "Please confirm recent login activity when contacted by the security team.",
+    timestamp: "Jun 18, 2026 11:00 AM",
+    read: false,
+    type: "action",
+  },
+];
+
+export const complianceMetrics = {
+  soc2Compliance: 98,
+  patchCompliance: 94,
+  auditCoverage: 100,
+  policyViolations: 3,
+  lastAudit: "Jun 15, 2026",
+};
 
 export function getDeviceById(id: string): DeviceInfo | undefined {
   return mockDevices.find((d) => d.id === id);

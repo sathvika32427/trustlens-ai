@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import Sidebar from "./components/Sidebar";
 import Dashboard from "./components/Dashboard";
-import RecommendationDetail from "./components/RecommendationDetail";
-import Alternatives from "./components/Alternatives";
+import RecommendationExplorer from "./components/RecommendationExplorer";
 import AuditFeed from "./components/AuditFeed";
+import AuditCenter from "./components/AuditCenter";
+import TrustAnalytics from "./components/TrustAnalytics";
+import Notifications from "./components/Notifications";
 import Confirmation from "./components/Confirmation";
 import WelcomeTour from "./components/WelcomeTour";
 import {
@@ -14,11 +16,15 @@ import {
   ConfirmationState,
 } from "./types";
 import { mockRecommendations, mockAuditHistory, getDeviceById } from "./data";
+import { getReviewerName, getRoleConfig } from "./roleConfig";
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState("dashboard");
   const [activeRole, setActiveRole] = useState<Role>(Role.IT_ADMIN);
-  const [selectedRec, setSelectedRec] = useState<AIRecommendation>(mockRecommendations[0]);
+  const [recommendations, setRecommendations] = useState<AIRecommendation[]>(
+    () => structuredClone(mockRecommendations),
+  );
+  const [selectedRec, setSelectedRec] = useState<AIRecommendation>(recommendations[0]);
   const [auditRecords, setAuditRecords] = useState<AuditRecord[]>(mockAuditHistory);
   const [confirmation, setConfirmation] = useState<ConfirmationState | null>(null);
   const [showWelcome, setShowWelcome] = useState(false);
@@ -32,7 +38,16 @@ export default function App() {
   }, []);
 
   const handleDecision = (decision: DecisionType, notes?: string, overrideReason?: string) => {
+    const roleConfig = getRoleConfig(activeRole);
+    if (!roleConfig.canDecide) return;
+
     const device = getDeviceById(selectedRec.deviceId);
+    const outcomeMap: Record<DecisionType, string> = {
+      Approved: "Action executed — threat response initiated",
+      Overridden: "No threat detected — AI recommendation rejected",
+      Escalated: "Under senior review — pending manual verification",
+    };
+
     const newRecord: AuditRecord = {
       id: `AUD-${Math.floor(1000 + Math.random() * 9000)}`,
       deviceId: selectedRec.deviceId,
@@ -41,12 +56,7 @@ export default function App() {
       aiReasoning: selectedRec.reasoning,
       severity: selectedRec.severity,
       confidence: selectedRec.confidence,
-      reviewer:
-        activeRole === Role.IT_ADMIN
-          ? "Alex Morgan"
-          : activeRole === Role.SECURITY_ANALYST
-            ? "Priya Sharma"
-            : "Stakeholder View",
+      reviewer: getReviewerName(activeRole),
       reviewerRole: activeRole,
       decision,
       overrideReason,
@@ -57,18 +67,23 @@ export default function App() {
           : decision === "Escalated"
             ? "Escalated to senior admin for manual review."
             : "Recommendation overridden."),
+      outcome: outcomeMap[decision],
       timestamp: new Date().toLocaleString(),
     };
 
-    selectedRec.status =
+    const newStatus =
       decision === "Approved"
         ? "Approved"
         : decision === "Overridden"
           ? "Overridden"
           : "Escalated";
 
+    setRecommendations((prev) =>
+      prev.map((r) => (r.id === selectedRec.id ? { ...r, status: newStatus } : r)),
+    );
+    setSelectedRec((prev) => ({ ...prev, status: newStatus }));
     setAuditRecords((prev) => [newRecord, ...prev]);
-    setConfirmation({ decision, recommendation: selectedRec, notes });
+    setConfirmation({ decision, recommendation: { ...selectedRec, status: newStatus }, notes });
     setCurrentTab("confirmation");
   };
 
@@ -78,45 +93,57 @@ export default function App() {
         return (
           <Dashboard
             activeRole={activeRole}
+            recommendations={recommendations}
+            auditRecords={auditRecords}
             setSelectedRec={setSelectedRec}
             setCurrentTab={setCurrentTab}
           />
         );
-      case "details":
+      case "explorer":
         return (
-          <RecommendationDetail
+          <RecommendationExplorer
             activeRole={activeRole}
             selectedRec={selectedRec}
+            auditRecords={auditRecords}
             onDecision={handleDecision}
-            setCurrentTab={setCurrentTab}
             onBack={() => setCurrentTab("dashboard")}
           />
         );
-      case "alternatives":
+      case "trust":
         return (
-          <Alternatives
-            selectedRec={selectedRec}
-            onBack={() => setCurrentTab("details")}
+          <TrustAnalytics recommendations={recommendations} auditRecords={auditRecords} />
+        );
+      case "audit-center":
+        return <AuditCenter auditRecords={auditRecords} />;
+      case "audit":
+        return (
+          <AuditFeed
+            auditRecords={auditRecords}
+            recommendations={recommendations}
+            activeRole={activeRole}
           />
         );
-      case "audit":
-        return <AuditFeed auditRecords={auditRecords} />;
+      case "notifications":
+        return <Notifications />;
       case "confirmation":
         return confirmation ? (
           <Confirmation
             confirmation={confirmation}
+            activeRole={activeRole}
             onBackToDashboard={() => {
               setConfirmation(null);
               setCurrentTab("dashboard");
             }}
             onViewActivityLog={() => {
               setConfirmation(null);
-              setCurrentTab("audit");
+              setCurrentTab(getRoleConfig(activeRole).canAccessAuditCenter ? "audit-center" : "audit");
             }}
           />
         ) : (
           <Dashboard
             activeRole={activeRole}
+            recommendations={recommendations}
+            auditRecords={auditRecords}
             setSelectedRec={setSelectedRec}
             setCurrentTab={setCurrentTab}
           />
@@ -125,6 +152,8 @@ export default function App() {
         return (
           <Dashboard
             activeRole={activeRole}
+            recommendations={recommendations}
+            auditRecords={auditRecords}
             setSelectedRec={setSelectedRec}
             setCurrentTab={setCurrentTab}
           />
@@ -144,9 +173,9 @@ export default function App() {
         {currentTab !== "confirmation" && (
           <header className="flex h-12 shrink-0 items-center justify-between border-b border-slate-200/80 bg-white/80 px-6 backdrop-blur-md">
             <span className="text-xs font-medium text-slate-500">
-              Fleet endpoint management · Simulated AI recommendations
+              Enterprise AI governance · Human-in-the-loop decisions
             </span>
-            <span className="max-w-[180px] truncate rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 px-3 py-1 text-[11px] font-bold text-white shadow-sm">
+            <span className="max-w-[200px] truncate rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 px-3 py-1 text-[11px] font-bold text-white shadow-sm">
               {activeRole}
             </span>
           </header>

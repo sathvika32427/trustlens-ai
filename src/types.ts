@@ -1,27 +1,27 @@
 export enum Role {
   IT_ADMIN = "IT Administrator",
   SECURITY_ANALYST = "Security Analyst",
-  STAKEHOLDER = "Non-Technical Stakeholder"
+  EMPLOYEE = "Employee",
 }
 
 export enum ConfidenceLevel {
   HIGH = "High Confidence",
   MODERATE = "Moderate Confidence",
   REVIEW_RECOMMENDED = "Review Recommended",
-  LOW = "Low Confidence"
+  LOW = "Low Confidence",
 }
 
 export enum Severity {
   CRITICAL = "Critical",
   HIGH = "High",
   MEDIUM = "Medium",
-  LOW = "Low"
+  LOW = "Low",
 }
 
 export enum DeviceStatus {
   HIGH_RISK = "High Risk",
   WARNING = "Warning",
-  SECURE = "Secure"
+  SECURE = "Secure",
 }
 
 export interface DeviceInfo {
@@ -89,7 +89,17 @@ export interface AuditRecord {
   decision: "Approved" | "Overridden" | "Escalated";
   overrideReason?: string;
   notes: string;
+  outcome: string;
   timestamp: string;
+}
+
+export interface EmployeeNotification {
+  id: string;
+  title: string;
+  message: string;
+  timestamp: string;
+  read: boolean;
+  type: "info" | "warning" | "action";
 }
 
 export type DecisionType = "Approved" | "Overridden" | "Escalated";
@@ -98,4 +108,27 @@ export interface ConfirmationState {
   decision: DecisionType;
   recommendation: AIRecommendation;
   notes?: string;
+}
+
+export interface DecisionMetrics {
+  total: number;
+  approved: number;
+  overridden: number;
+  escalated: number;
+  pending: number;
+  trends: {
+    approved: number;
+    overridden: number;
+    escalated: number;
+    pending: number;
+  };
+}
+
+export interface TrustMetrics {
+  approvalRate: number;
+  overrideRate: number;
+  escalationRate: number;
+  successfulOutcomes: number;
+  falsePositiveRate: number;
+  trustIndex: number;
 }

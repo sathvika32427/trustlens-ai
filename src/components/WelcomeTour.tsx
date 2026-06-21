@@ -36,9 +36,8 @@ export default function WelcomeTour({ open, onClose }: WelcomeTourProps) {
       }
     >
       <p className="text-slate-600 leading-relaxed">
-        You&apos;re managing a fleet of 500–5,000 endpoints. The AI recommends actions like
-        quarantines and patches — but <strong>you always decide</strong>. Every recommendation
-        includes five mandatory transparency elements:
+        TrustLens AI helps your organization govern AI security recommendations with full
+        transparency. Switch personas in the sidebar to see role-specific dashboards.
       </p>
       <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
         {elements.map(({ icon: Icon, label, color }) => (
@@ -54,8 +53,8 @@ export default function WelcomeTour({ open, onClose }: WelcomeTourProps) {
         ))}
       </div>
       <div className="mt-5 rounded-xl border border-blue-100 bg-blue-50/50 p-4 text-sm text-blue-800">
-        <strong>Tip:</strong> Click any recommendation card, then use the five action buttons
-        at the bottom — Approve, Override, Ask Why, See Alternatives, and Escalate.
+        <strong>Tip:</strong> Dashboards show summary metrics only. Open the Recommendation
+        Explorer for full reasoning, evidence, alternatives, and human review controls.
       </div>
     </Modal>
   );
